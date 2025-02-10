@@ -29,7 +29,7 @@
 
   $(function() {
     typed.typed({
-      strings: ["Researcher. Educator. Roamer"],
+      strings: ["Researcher. Educator. Engineer"],
       typeSpeed: 70,
       loop: true,
       showCursor: false
