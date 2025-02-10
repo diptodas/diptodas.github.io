@@ -70,8 +70,8 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #38a0bd;
-  /* color: #2D7F95; */
+  /* color: #38a0bd; */
+  color: #2D7F95;
 }
 
 
@@ -158,7 +158,8 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
   /*background-color: #38a0bd !important;*/
-  background-color: #2D7F95 !important;
+  /* background-color: #2D7F95 !important; */
+  background-color: #1E3765;
 }
 
 .text-primary {
