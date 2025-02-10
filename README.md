@@ -1,3 +1,2 @@
 # diptodas.github.io
-# diptodas.github.io
-# diptodas.github.io
+template from # [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
