@@ -369,3 +369,29 @@ body { padding-top: 0 !important; }
 /* body {
   padding-bottom: 0px;
 } */
+
+/* Consistent horizontal padding for navbar and page sections */
+.container,
+.container-fluid,
+.resume-section {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 1450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Optional: make navbar container match content width */
+.navbar .container {
+  max-width: 1450px;
+}
+
+/* Adjust scroll spacing for anchored sections */
+.resume-section {
+  scroll-margin-top: 80px;
+}
+
+.navbar-nav .nav-link {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
