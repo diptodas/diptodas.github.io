@@ -90,6 +90,9 @@ h2 {
   text-decoration: underline;
 }
 
+#pub-filters .form-label { font-weight: 600; }
+#pub-filters select { font-size: 0.95rem; }
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
