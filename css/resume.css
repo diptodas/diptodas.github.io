@@ -75,26 +75,26 @@ h2 {
 }
 
 
-#sideNav .navbar-nav .nav-item .nav-link {
+/* #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
   color: #FFFFFF;
   text-decoration: none;
-}
+} */
 
-#sideNav .navbar-nav .show > .nav-link,
+/* #sideNav .navbar-nav .show > .nav-link,
 #sideNav .navbar-nav .active > .nav-link,
 #sideNav .navbar-nav .nav-link.show,
 #sideNav .navbar-nav .nav-link.active {
   font-size: 125%;
   text-decoration: underline;
-}
+} */
 
 #pub-filters .form-label { font-weight: 600; }
 #pub-filters select { font-size: 0.95rem; }
 
 @media (min-width: 992px) {
-  #sideNav {
+  /* #sideNav {
     text-align: center;
     position: fixed;
     top: 0;
@@ -130,7 +130,7 @@ h2 {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
-  }
+  } */
 }
 
 section.resume-section {
@@ -152,12 +152,12 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
-}
+} */
 
 .bg-primary {
   /*background-color: #38a0bd !important;*/
@@ -286,3 +286,86 @@ a:hover, a:focus, a:active {
     color: white;
   }*/
 }
+
+/* --- Top navbar layout overrides --- */
+body {
+  padding-top: 70px;            /* space for fixed-top navbar */
+}
+
+/* remove leftover side-nav gutter on desktop */
+@media (min-width: 992px) {
+  body { padding-left: 0 !important; }
+}
+
+/* optional: if #sideNav rules are still present, neutralize them */
+#sideNav { width: auto !important; position: static !important; }
+
+/* Top navbar layout fixes (was side-nav before) */
+body { padding-top: 56px; }                  /* prevent content hiding under fixed-top */
+@media (min-width: 992px) { body { padding-top: 72px; } }
+
+/* Stop full-viewport sections & vertical centering from creating big gaps */
+.resume-section { min-height: auto; }
+.resume-section .my-auto { 
+  margin-top: 0 !important; 
+  margin-bottom: 0 !important; 
+}
+
+/* Optional: tighten the first section even more */
+#about { padding-top: 1.5rem; }
+
+/* Stop the old hero behavior cold */
+#about.resume-section { 
+  min-height: 0 !important;
+  padding-top: 1.25rem !important;    /* tweak as you like */
+}
+#about.d-flex { display: block !important; }  /* in case HTML cache still has d-flex */
+#about .my-auto { margin: 0 !important; }
+
+/* Remove any global top padding that was added for fixed-top nav */
+body { padding-top: 0 !important; }
+
+/* Make anchor jumps play nicely with a fixed navbar (no need for body padding) */
+[id] { scroll-margin-top: 72px; }             /* desktop navbar height */
+@media (max-width: 991.98px){ 
+  [id] { scroll-margin-top: 56px; }           /* mobile navbar height */
+}
+
+/* Ensure no rogue top margin on the first heading */
+#about h1 { margin-top: 40px !important; }
+
+/* Navbar links default to white */
+.navbar .nav-link {
+  color: white !important;
+  font-weight: 400; /* normal */
+  transition: font-weight 0.2s ease;
+}
+
+/* Hover state */
+.navbar .nav-link:hover {
+  color: #f8f9fa !important; /* slight lighter shade */
+}
+
+/* Active link: bold text */
+.navbar .nav-link.active {
+  font-weight: 700 !important;
+  color: #ffffff !important;
+}
+
+.footer {
+  padding: 1rem;
+}
+
+/* Only fixed when the page bottom/last section is reached */
+/* .footer.fixed-at-bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+
+/* Adjust padding so content isn't hidden behind footer */
+/* body {
+  padding-bottom: 0px;
+} */
