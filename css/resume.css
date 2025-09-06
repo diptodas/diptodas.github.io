@@ -1,6 +1,6 @@
 body {
-  /*font-family: 'Open Sans', serif;*/
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Sarala', sans-serif; /* Montserrat */
   font-size: 0.97rem;
   padding-top: 54px;
   color: #242526;
@@ -24,7 +24,6 @@ h4,
 h5,
 h6 {
   font-family: 'Saira Extra Condensed', serif;
-  /*font-family: 'Raleway', sans-serif;*/
   font-weight: 700;
   text-transform: uppercase;
   color: #1a1b1c;
@@ -43,7 +42,6 @@ h2 {
   text-transform: uppercase;
   font-weight: 500;
   font-family: 'Saira Extra Condensed', serif;
-  /*font-family: 'Raleway', sans-serif;*/
   font-size: 1.35rem;
 }
 
@@ -395,3 +393,11 @@ body { padding-top: 0 !important; }
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
+
+.bn-name {
+    font-size: 1em;        /* smaller than the main name */
+    font-weight: normal;     /* lighter so it doesn’t compete */
+    margin-left: 0.3em;      /* a little space after your name */
+    color: #444;             /* softer color, optional */
+    font-family: "Noto Sans Bengali", "SiyamRupali", sans-serif;
+  }
