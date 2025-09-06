@@ -417,5 +417,5 @@ body { padding-top: 0 !important; }
 
 .name-audio {
   display: block;
-  margin: 0.5rem 0.5rem; /* adjust space above/below */
+  margin: 0.5rem 0; /* adjust space above/below */
 }
