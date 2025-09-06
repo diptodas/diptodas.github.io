@@ -395,14 +395,18 @@ body { padding-top: 0 !important; }
 }
 
 .bn-name {
-    font-size: 1em;        /* smaller than the main name */
-    font-weight: normal;     /* lighter so it doesn’t compete */
-    margin-left: 0.3em;      /* a little space after your name */
-    margin-top: 0.5rem;
-    display: inline-block;
-    color: #444;             /* softer color, optional */
-    font-family: "Noto Sans Bengali", "SiyamRupali", sans-serif;
-  }
+  font-size: 1em;        /* smaller than the main name */
+  font-weight: normal;     /* lighter so it doesn’t compete */
+  margin-left: 0.3em;      /* a little space after your name */
+  margin-top: 0.5rem;
+  display: inline-block;
+  color: #444;             /* softer color, optional */
+  font-family: "Noto Sans Bengali", "SiyamRupali", sans-serif;
+}
+
+.phd {
+  font-size: 0.5em;
+}
 
 .icon-link {
   text-decoration: none;
@@ -418,4 +422,35 @@ body { padding-top: 0 !important; }
 .name-audio {
   display: block;
   margin: 0.5rem 0; /* adjust space above/below */
+}
+
+.typed-cursor {
+  display: inline-block;
+  width: 2px;                  /* thin vertical line */
+  height: 0.9em;                 /* match text line height */
+  position: relative;
+  background-color: #000;       /* vertical bar color */
+  animation: blink 1s infinite; /* blink effect */
+}
+
+.typed-cursor::before,
+.typed-cursor::after {
+  content: '';
+  position: absolute;
+  left: -2px;                  /* extend a bit wider than the bar */
+  width: 6px;                  /* length of cap */
+  height: 2px;                 /* thickness of cap */
+  background-color: #000;
+}
+
+.typed-cursor::before {
+  top: 0;                      /* top cap */
+}
+.typed-cursor::after {
+  bottom: 0;                   /* bottom cap */
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
 }
