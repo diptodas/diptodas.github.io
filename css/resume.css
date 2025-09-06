@@ -398,6 +398,24 @@ body { padding-top: 0 !important; }
     font-size: 1em;        /* smaller than the main name */
     font-weight: normal;     /* lighter so it doesn’t compete */
     margin-left: 0.3em;      /* a little space after your name */
+    margin-top: 0.5rem;
+    display: inline-block;
     color: #444;             /* softer color, optional */
     font-family: "Noto Sans Bengali", "SiyamRupali", sans-serif;
   }
+
+.icon-link {
+  text-decoration: none;
+  color: inherit; /* keeps text same color as icons */
+}
+
+.icon-label {
+  font-size: 0.8rem;
+  margin-top: 4px;
+  display: block;
+}
+
+.name-audio {
+  display: block;
+  margin: 0.5rem 0.5rem; /* adjust space above/below */
+}
