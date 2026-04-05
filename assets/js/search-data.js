@@ -30,16 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "This is the CV in plain text. You can also download it from the button above.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -58,21 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -440,16 +419,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-papers-on-identity-bias-in-nlp-tools-got-accepted-at-chi-2024",
+          title: 'Papers on identity bias in NLP tools got accepted at CHI 2024!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-got-a-travel-grant-from-cu-boulder-gpsg",
+          title: 'Got a travel grant from CU Boulder GPSG.',
           description: "",
           section: "News",},{id: "news-papers-on-religious-minority-communities-experiences-with-fear-on-social-media-got-accepted-at-cscw-2024",
           title: 'Papers on religious minority communities’ experiences with fear on social media got accepted...',
@@ -459,6 +433,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-got-excellence-awards-for-teaching-and-contributions-to-diversity-equity-and-inclusion-from-cu-boulder-gpsg",
           title: 'Got Excellence Awards for Teaching and Contributions to Diversity, Equity, and Inclusion from...',
+          description: "",
+          section: "News",},{id: "news-the-atlantic-has-recently-quoted-me-in-an-article-about-quora",
+          title: 'The Atlantic has recently quoted me in an article about Quora.',
           description: "",
           section: "News",},{id: "news-the-prothom-alo-bangladesh-s-most-circulated-daily-has-featured-me-in-an-article",
           title: 'The Prothom Alo (Bangladesh’s most circulated daily) has featured me in an article....',
