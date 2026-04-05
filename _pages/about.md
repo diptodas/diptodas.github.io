@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: I am currently on the job market for 2025-26, seeking opportunities as a Tenure-Track Assistant Professor.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Room# 5175, Bahen Centre for Information Technology, <br>
+    40 Saint George Street, <br>
+    Toronto, ON M5S 2E4, Canada</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a postdoctoral fellow in the [Department of Computer Science](https://web.cs.toronto.edu) (also affiliated with the [iSchool](https://ischool.utoronto.ca/)) at the [University of Toronto](https://www.utoronto.ca/), where I work with [Dr. Syed Ishtiaque Ahmed](https://www.ishtiaque.net/) and [Dr. Shion Guha](https://shionguha.ca/). My research examines the sociotechnical impacts and bias of algorithmic systems and AI infrastructures—including language models, moderation tools, and platform algorithms—to better understand how they shape discourse, civic identity, and access to information, particularly in low-resource and Global South contexts. My goal is to advance theory and inform the design of accountable, context-aware, and responsible algorithmic systems. Drawing on my training in computer science, information science, and human-computer interaction, I take a mixed-methods and participatory approach to study algorithmic bias, governance policy, and ethics. My research spans three interconnected streams: **_(1) Algorithmic fairness and bias in sociotechnical systems, (2) Culture, discourse, and power in global digital platforms, and (3) Community-driven approaches to interactive and ethical AI)_**. My work has been published in top computing venues, such as **ACM CHI and ACM CSCW**, among others, and has received multiple Best Paper Honorable Mention Awards. My work and practice have been featured in prominent press and media outlets, such as the Atlantic, Prothom Alo, ACM Crossroads, and Princeton University Press. My research has been supported by competitive funding from the Institute for Pandemics and the National Science Foundation.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before beginning my postdoctoral work, I completed my PhD and MS in Information Science from the [University of Colorado Boulder](https://www.colorado.edu/), where I worked with [Dr. Bryan Semaan](https://www.colorado.edu/faculty/semaan/). Previously, I obtained an MS in Computer Science from [Missouri State University](https://www.missouristate.edu/) and a BSEngg in Computer Science and Engineering from [Bangladesh University of Engineering & Technology](http://www.buet.ac.bd/). I also have experience with independent industry consulting and over seven years of teaching experience across universities in the US, Canada, and Bangladesh.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my free time, I find joy in sharing meaningful moments with friends and family and studying mythologies. I also enjoy sketching and photography, often capturing moments from my travels. Cooking is another passion of mine as a way to experience different cultures.
