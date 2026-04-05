@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-01-09
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+The Atlantic has recently quoted me in an [article](https://www.theatlantic.com/technology/archive/2024/01/quora-tragedy-answer-websites/677062/) about Quora.
