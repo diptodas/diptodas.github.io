@@ -11,10 +11,105 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
-{% include bib_search.liquid %}
+<!-- {% include bib_search.liquid %} -->
+
+<!-- FILTER UI -->
+<div id="pub-filters" class="mb-4">
+  <div class="row g-2 align-items-end">
+    <div class="col-12 col-md-5">
+      <label for="filterType" class="form-label mb-1">Paper type</label>
+      <select id="filterType" class="form-control">
+        <option value="">All types</option>
+        <option value="full">Full Paper (Journal/Conference Proceeding)</option>
+        <option value="short">Short Paper (Poster/Note/Doctoral Consortium)</option>
+        <option value="workshop">Workshop Organization Proposal</option>
+        <option value="unarchived">Position Paper (unarchived)</option>
+      </select>
+    </div>
+
+    <div class="col-12 col-md-5">
+      <label for="filterMethods" class="form-label mb-1">Methods/Domains</label>
+      <select id="filterMethods" class="form-control">
+        <option value="">All methods</option>
+        <option value="audit">Audit</option>
+        <option value="cv">Computer Vision</option>
+        <option value="dataset">Dataset</option>
+        <option value="design">Design</option>
+        <option value="ethnography">Ethnography</option>
+        <option value="interview">Interview</option>
+        <option value="mldl">Machine Learning/Deep Learning</option>
+        <option value="nlp">Natural Language Processing</option>
+        <option value="online">Online Platforms</option>
+        <option value="qual">Qualitative Empirical</option>
+        <option value="quant">Quantitative Empirical</option>
+        <option value="survey">Survey</option>
+        <option value="theory">Theory / Conceptual</option>
+        <option value="tool">Tool Development</option>
+      </select>
+    </div>
+
+    <div class="col-12 col-md-2">
+      <button id="clearFilters" class="btn btn-outline-secondary w-100">Clear</button>
+    </div>
+  </div>
+
+  <small id="pub-stats" class="text-muted d-block mt-2"></small>
+</div>
 
 <div class="publications">
 
 {% bibliography %}
 
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const typeFilter = document.getElementById("filterType");
+  const methodsFilter = document.getElementById("filterMethods");
+  const clearBtn = document.getElementById("clearFilters");
+  const stats = document.getElementById("pub-stats");
+
+  const pubs = Array.from(document.querySelectorAll(".pub-entry"));
+
+  function applyFilters() {
+    const typeVal = (typeFilter?.value || "").toLowerCase();
+    const methodVal = (methodsFilter?.value || "").toLowerCase();
+
+    let visibleCount = 0;
+
+    pubs.forEach(pub => {
+      const pubType = (pub.dataset.type || "").toLowerCase().trim();
+      const pubMethods = (pub.dataset.methods || "")
+        .toLowerCase()
+        .split(",")
+        .map(x => x.trim())
+        .filter(Boolean);
+
+      const matchesType = !typeVal || pubType === typeVal;
+      const matchesMethod = !methodVal || pubMethods.includes(methodVal);
+
+      const show = matchesType && matchesMethod;
+      pub.style.display = show ? "" : "none";
+
+      if (show) visibleCount++;
+    });
+
+    if (stats) {
+      stats.textContent = `${visibleCount} publication${visibleCount === 1 ? "" : "s"} shown`;
+    }
+  }
+
+  if (typeFilter) typeFilter.addEventListener("change", applyFilters);
+  if (methodsFilter) methodsFilter.addEventListener("change", applyFilters);
+
+  if (clearBtn) {
+    clearBtn.addEventListener("click", function () {
+      if (typeFilter) typeFilter.value = "";
+      if (methodsFilter) methodsFilter.value = "";
+      applyFilters();
+    });
+  }
+
+  applyFilters();
+});
+</script>
