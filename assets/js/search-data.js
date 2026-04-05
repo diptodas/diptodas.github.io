@@ -451,6 +451,30 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
+          section: "News",},{id: "news-papers-on-religious-minority-communities-experiences-with-fear-on-social-media-got-accepted-at-cscw-2024",
+          title: 'Papers on religious minority communities’ experiences with fear on social media got accepted...',
+          description: "",
+          section: "News",},{id: "news-got-award-of-excellence-for-outstanding-research-from-cu-boulder-info",
+          title: 'Got Award of Excellence for Outstanding Research from CU Boulder INFO!',
+          description: "",
+          section: "News",},{id: "news-got-excellence-awards-for-teaching-and-contributions-to-diversity-equity-and-inclusion-from-cu-boulder-gpsg",
+          title: 'Got Excellence Awards for Teaching and Contributions to Diversity, Equity, and Inclusion from...',
+          description: "",
+          section: "News",},{id: "news-the-prothom-alo-bangladesh-s-most-circulated-daily-has-featured-me-in-an-article",
+          title: 'The Prothom Alo (Bangladesh’s most circulated daily) has featured me in an article....',
+          description: "",
+          section: "News",},{id: "news-freshly-minted-dr-dipto-das-here-i-ve-successfully-defended-my-phd-dissertation",
+          title: 'Freshly minted Dr. Dipto Das here — I’ve successfully defended my PhD dissertation!...',
+          description: "",
+          section: "News",},{id: "news-papers-on-transnational-decolonial-discourse-related-to-nationalism-on-youtube-got-accepted-at-cscw-2024",
+          title: 'Papers on transnational decolonial discourse related to nationalism on YouTube got accepted at...',
+          description: "",
+          section: "News",},{id: "news-i-ve-started-working-as-a-postdoctoral-fellow-at-the-university-of-toronto",
+          title: 'I’ve started working as a postdoctoral fellow at the University of Toronto!',
+          description: "",
+          section: "News",},{id: "news-papers-on-a-civic-oriented-approach-to-moderating-hate-speech-against-indigenous-communities-got-accepted-at-ictd-2024",
+          title: 'Papers on a civic-oriented approach to moderating hate speech against Indigenous communities got...',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -511,42 +535,35 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/CV.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("mailto:%64%69%70%74%6F.%64%61%73@%75%74%6F%72%6F%6E%74%6F.%63%61", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=yRHRA4QAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/diptodas", "_blank");
         },
       },{
         id: 'social-custom_social',
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://calendar.google.com/calendar/embed?src=dipto.cs.uoft%40gmail.com&ctz=Canada%2FToronto", "_blank");
         },
       },{
       id: 'light-theme',
