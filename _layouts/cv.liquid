@@ -154,9 +154,9 @@ layout: default
               {% if section_title == 'Education' %}
                 {% assign entries = section_entries %}
                 {% include cv/education.liquid %}
-              {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
+              {% elsif section_title == 'Grants'%}
                 {% assign entries = section_entries %}
-                {% include cv/awards.liquid %}
+                {% include cv/grants.liquid %}
               {% elsif section_title == 'Publications' %}
                 {% assign entries = section_entries %}
                 {% include cv/publications.liquid %}
@@ -169,9 +169,9 @@ layout: default
               {% elsif section_title == 'Interests' or section_title == 'Academic Interests' %}
                 {% assign entries = section_entries %}
                 {% include cv/interests.liquid %}
-              {% elsif section_title == 'Certificates' %}
+              {% elsif section_title == 'Awards' %}
                 {% assign entries = section_entries %}
-                {% include cv/certificates.liquid %}
+                {% include cv/awards.liquid %}
               {% elsif section_title == 'Projects' or section_title == 'Open Source Projects' %}
                 {% assign entries = section_entries %}
                 {% include cv/projects.liquid %}
@@ -288,14 +288,14 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- Awards -->
-        {% if site.data.resume.awards.size > 0 %}
-          <a class="anchor" id="awards"></a>
+        <!-- Grants -->
+        {% if site.data.resume.grants.size > 0 %}
+          <a class="anchor" id="grants"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Awards</h3>
+            <h3 class="card-title font-weight-medium">Grants</h3>
             <div>
-              {% assign entries = site.data.resume.awards %}
-              {% include cv/awards.liquid %}
+              {% assign entries = site.data.resume.grants %}
+              {% include cv/grants.liquid %}
             </div>
           </div>
         {% endif %}
@@ -348,14 +348,14 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- Certificates -->
-        {% if site.data.resume.certificates.size > 0 %}
-          <a class="anchor" id="certificates"></a>
+        <!-- Awards -->
+        {% if site.data.resume.awards.size > 0 %}
+          <a class="anchor" id="awards"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Certificates</h3>
+            <h3 class="card-title font-weight-medium">awards</h3>
             <div>
-              {% assign entries = site.data.resume.certificates %}
-              {% include cv/certificates.liquid %}
+              {% assign entries = site.data.resume.awards %}
+              {% include cv/awards.liquid %}
             </div>
           </div>
         {% endif %}

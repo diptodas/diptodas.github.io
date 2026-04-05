@@ -1,10 +1,10 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Dipto Das
+  label: Postdoctoral Fellow
+  email: dipto.das@utoronto.ca
+  location: Toronto, ON, Canada
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: I study the sociotechnical systems and their impacts, focusing on AI fairness, platform governance, and community-centered evaluation.
 
   social_networks:
     - network: X
@@ -15,175 +15,250 @@ cv:
       username: example
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: 40 St. George Street
+    city: Toronto
+    region: Ontario
+    postalCode: M5S2E4
+    countryCode: Canada
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: University of Toronto
+        position: Postdoctoral Fellow
+        location: Toronto, ON, Canada
+        start_date: Aug 2024
+        end_date: Present
         highlights:
-          - Relativity
-          - Description 2.
+          - Funded by **Institute of Health Emergencies and Pandemics** (IHEP), Previously Institute for Pandemics
+          - Advised by Syed Ishtiaque Ahmed (__Dynamic Graphics Project Lab__) and Shion Guha (__Human-Centered Data Science Lab__)
+          - Taught as Course Instructor (Winter 2026).
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: University of Colorado Boulder
+        position: Adjunct Professor
+        location: Boulder, CO, USA
+        start_date: Aug 2021
+        end_date: Dec 2025
         highlights:
-          - Description 1.
-          - Description 2.
+          - Assistant Teaching Professor (Aug 2024-May 2025), Graduate Research/Teaching Assistant, Graduate Part-Time Instructor.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    Education:
+      - institution: University of Colorado Boulder
+        location: Boulder, CO, USA
+        area: Inforamtion Science
+        studyType: Doctor of Philosophy
+        start_date: 2021
+        end_date: 2024
+        courses: Human-Computer Interaction and Social Computing
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Dissertation ["Identity Decolonization amid the Coloniality of Computing"](https://www.proquest.com/openview/1f691b69ac865e1c7e665ec92cb4e86b/).
+          - Bryan Semaan (chair), Casey Fiesler, Jed Brubaker, Lilly Irani, and Syed Ishtiaque Ahmed
 
+      - institution: University of Colorado Boulder
+        location: Boulder, CO, USA
+        area: Inforamtion Science
+        studyType: Master of Science
+        start_date: 2021
+        end_date: 2023
+        highlights:
+          - Transferred from School of Inforamtion Studies at Syracuse University (2019-2021).
+
+      - institution: Missouri State University
+        location: Springfield, MO, USA
+        area: Computer Science
+        studyType: Master of Science
+        start_date: 2018
+        end_date: 2019
+        highlights:
+          - Thesis ["A Multimodal Approach to Sarcasm Detection on Social Media"](https://bearworks.missouristate.edu/theses/3417/)
+
+      - institution: Bangladesh University of Engineering and Technology
+        location: Dhaka, Bangladesh
+        area: Computer Science and Engineering
+        studyType: Bachelor of Science in Engineering
+        start_date: 2013
+        end_date: 2017
+        highlights:
+          - Thesis ["Question Difficulty Estimation of Stack Overflow Posts"](#)
+        
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - name: Best Paper Honorable Mention Award
+        date: 2026
+        issuer: ACM CHI
+        icon: fa-solid fa-award
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - name: Special Recognition for Outstanding Reviews
+        date: 2025
+        issuer: ACM DIS
+        icon: fa-solid fa-star
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - name: Best Paper Honorable Mention Award
+        date: 2025
+        issuer: ACM CHI
+        icon: fa-solid fa-award
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - name: Award of Excellence for Outstanding Research
+        date: 2024
+        issuer: Department of Information Science, University of Colorado Boulder
+        icon: fa-solid fa-award
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - name: Special Recognition for Outstanding Reviews
+        date: 2024
+        issuer: ACM CSCW
+        icon: fa-solid fa-star
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Special Recognition for Outstanding Reviews (Four Times)
+        date: 2022-2024
+        issuer: ACM CHI
+        icon: fa-solid fa-star
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Nomination for Google PhD Fellowship
+        date: 2021
+        issuer: University of Colorado Boulder
+        icon: fa-solid fa-medal
 
-      - name: English
-        summary: "Fluent"
+      - name: Best Paper Honorable Mention Award
+        date: 2021
+        issuer: ACM CSCW
+        icon: fa-solid fa-award
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Recognition for Diversity and Inclusion
+        date: 2021
+        issuer: ACM CSCW
+        icon: fa-solid fa-users
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: Winter School Attendance Scholarship
+        date: 2020
+        issuer: New England Complex Systems Institute
+        icon: fa-solid fa-graduation-cap
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: Winner (Top Three), 3 Minutes Thesis Competition
+        date: 2018
+        issuer: College of Natural & Applied Sciences, Missouri State University
+        icon: fa-solid fa-trophy
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Second Runner-up, Youth Earthquake Preparedness Campaign
+        date: 2016
+        issuer: UNDP and Government of Bangladesh
+        icon: fa-solid fa-medal
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: Champion, Humanitarian App Idea Contest
+        date: 2016
+        issuer: IEEE Bangladesh Section
+        icon: fa-solid fa-trophy
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Runner-up, Esonance Technical Poster Presentation
+        date: 2016
+        issuer: IEEE Islamic University of Technology Branch
+        icon: fa-solid fa-medal
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: First Place
+        date: 2012
+        issuer: Bangladesh University of Engineering & Technology Undergraduate Entrance Exam (Architecture & Engineering Unit)
+        icon: fa-solid fa-trophy
+
+
+    Grants:
+      - title: Postdoctoral Fellowship
+        date: 2025
+        awarder: Institute for Pandemics (IfP), University of Toronto
+        summary: Fellowship valued at 82,775 CAD.
+
+      - title: Computing Equipment Funds
+        date: 2024
+        awarder: University of Colorado Boulder
+        summary: Funding of 2,000 USD.
+
+      - title: Graduate School Travel Grant
+        date: 2024
+        awarder: University of Colorado Boulder
+        summary: Travel grant of 450 USD.
+
+      - title: Teaching Excellence Award
+        date: 2024
+        awarder: Graduate and Professional Student Government (GPSG), CU Boulder
+        summary: Awarded 400 USD.
+
+      - title: Diversity, Equity, and Inclusion Excellence Award
+        date: 2024
+        awarder: Graduate and Professional Student Government (GPSG), CU Boulder
+        summary: Awarded 400 USD.
+
+      - title: GPSG Travel Grant
+        date: 2024
+        awarder: Graduate and Professional Student Government (GPSG), CU Boulder
+        summary: Travel grant of 500 USD (Paper [P11]).
+
+      - title: Doctoral Research Fund
+        date: 2023
+        awarder: College of Media, Communication and Information (CMCI), CU Boulder
+        summary: Funding of 1,000 USD.
+
+      - title: ACM CSCW Doctoral Consortium Travel Support
+        date: 2023
+        awarder: NSF
+        summary: Travel support of 2,500 USD (Submission [S9]).
+
+      - title: Doctoral Student Attendee Support
+        date: 2023
+        awarder: Human-Computer Interaction Consortium
+        summary: Support of 600 USD.
+
+      - title: Cross-Cultural Context in NLP Registration Scholarship
+        date: 2023
+        awarder: European Chapter of the ACL
+        summary: Scholarship of 200 USD.
+
+      - title: ACM GROUP Doctoral Consortium Travel Support
+        date: 2023
+        awarder: NSF
+        summary: Travel support of 2,500 USD.
+
+      - title: Martin Scholarship
+        awarder: CMCI, CU Boulder
+        date: 2022
+        summary: Scholarship of 2,500 USD.
+
+      - title: COMPASS-ICTD Student Travel Grant
+        date: 2022
+        awarder: ACM and Meta
+        summary: Travel grant of 700 USD.
+
+      - title: Doctoral Student Travel Scholarship
+        date: 2022-2024
+        awarder: CMCI, CU Boulder
+        summary: Total support of 2,900 USD.
+
+      - title: Graduate Student Fellowship
+        date: 2021
+        awarder: Department of Information Science, CU Boulder
+        summary: Fellowship of 2,000 USD.
+
+      - title: Higher Studies Abroad Travel Grant
+        date: 2021
+        awarder: Bangladesh Sweden Trust Fund
+        summary: Grant of 30,000 BDT.
+
+      - title: NSF Grant Writing Workshop Registration Waiver
+        date: 2021
+        awarder: Syracuse University Graduate School
+        summary: Waiver valued at 100 USD.
+
+      - title: PhD Student Travel Support
+        date: 2020
+        awarder: School of Information Studies, Syracuse University
+        summary: Travel support of 1,500 USD.
+
+      - title: Late Breaking Results Travel Grant
+        date: 2018
+        awarder: ACM ICMI
+        summary: Travel grant of 500 USD (Submission [S2]).
+
+      - title: Champion, Business Case Competition
+        date: 2016
+        awarder: BUET Entrepreneurship Development Club
+        summary: Awarded 50,000 BDT.
+
+      - title: National Merit Scholarship
+        date: 2013-2017
+        awarder: Government of Bangladesh
+        summary: Undergraduate tuition waiver with stipend totaling approximately 1,050,000 BDT.
