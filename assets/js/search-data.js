@@ -499,7 +499,7 @@ ninja.data = [{
               window.location.href = "/projects/algorithmic_fairness/";
             },},{id: "projects-decolonizing-identity-and-sociotechnical-systems",
           title: 'Decolonizing Identity and Sociotechnical Systems',
-          description: "This project examines how sociotechnical systems shape and constrain identity decolonization among marginalized communities. Through mixed-method studies across platforms, algorithms, and discourse, it reveals how coloniality persists in computing and how users reclaim narrative agency through digital practices.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/identity_decolonization/";
             },},{id: "projects-immigrants-39-computing-practices",
