@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Dip-toh (Dipto) Daash (Das). Dipto means <em>bright</em> in Bengali (দীপ্ত দাস). Play the audio below to listen to the pronunciation of my name.
     <audio controls class="name-audio">
-      <source src="img/diptodas.mp3" type="audio/mpeg">
+      <source src="assets/audio/diptodas.mp3" type="audio/mpeg">
     </audio>
     Pronouns: He/him/his
     </p>
