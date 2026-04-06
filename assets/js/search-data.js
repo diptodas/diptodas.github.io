@@ -504,7 +504,7 @@ ninja.data = [{
               window.location.href = "/projects/identity_decolonization/";
             },},{id: "projects-immigrants-39-computing-practices",
           title: 'Immigrants&amp;#39; Computing Practices',
-          description: "This project explores how immigrant and diaspora communities use digital platforms, financial systems, and AI tools to stay connected, support communities back home, and organize for social and political change across borders.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/immigrants/";
             },},{id: "projects-understanding-sarcasm-in-social-media",
