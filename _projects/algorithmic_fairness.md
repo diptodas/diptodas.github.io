@@ -3,7 +3,7 @@ layout: page
 title: AI/Algorithmic Fairness and Bias
 description: Evaluating sociocultural bias in language models
 img: assets/img/projects/ai_fairness_bengali.png
-importance: 2
+importance: 3
 category: research
 ---
 
