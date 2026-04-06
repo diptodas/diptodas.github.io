@@ -8,7 +8,7 @@ category: research
 related_publications: false
 ---
 
-## [CHI 2024](), [CSCW 2024](), [CHI 2022](), and [CSCW 2021](), and [Submitted]()
+## [[CHI 24](/assets/pdf/CHI24_audit.pdf), [CSCW 24](/assets/pdf/CSCW24_transnational.pdf), [CHI 22](/assets/pdf/CHI22_collaborative.pdf), [CSCW 21](/assets/pdf/CSCW21_governance.pdf), and [Submitted](/assets/pdf/submitted_youTubegovernance.pdf)]
 
 ## Overview
 
