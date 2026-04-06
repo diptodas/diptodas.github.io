@@ -5,8 +5,10 @@ description: This project examines how sociotechnical systems shape and constrai
 img: assets/img/12.jpg
 importance: 1
 category: research
-related_publications: true
+related_publications: false
 ---
+
+## [CHI 2024](), [CSCW 2024](), [CHI 2022](), and [CSCW 2021](), and [Submitted]()
 
 ## Overview
 
@@ -18,8 +20,7 @@ This research adopts a mixed-methods approach spanning multiple layers of the so
 
 - **Qualitative studies**: Semi-structured interviews with YouTube content creators engaging in decolonial discourse  
 - **Platform analysis**: Examination of governance, moderation, and monetization systems  
-- **Computational methods**: NLP audits and analysis of bias in low-resource language contexts  
-- **Scientometric analysis**: Mapping the emergence of decolonial computing scholarship  
+- **Computational methods**: NLP audits and analysis of bias in low-resource language contexts
 
 ## Key Findings
 
@@ -33,12 +34,4 @@ This research adopts a mixed-methods approach spanning multiple layers of the so
 - Conceptualizes **identity decolonization as a sociotechnical process**  
 - Introduces frameworks such as **narrative agency** and **coloniality of computing**  
 - Develops **methodological approaches** for studying bias in low-resource and Global South contexts  
-- Provides **design and policy implications** for more equitable and culturally responsive systems  
-
-## Related Papers
-
-- Das, D., & Semaan, B. (2022). *Collaborative Identity Decolonization as Reclaiming Narrative Agency*. CHI.
-- Das, D., Østerlund, C., & Semaan, B. (2021). *How Does Governance Shape a Platform’s Identity?* CSCW.
-- Das, D., Guha, S., Brubaker, J., & Semaan, B. (2024). *The “Colonial Impulse” of NLP*. CHI.
-- Das, D., Gandhi, D., & Semaan, B. (2024). *Reimagining Communities through Transnational Decolonial Discourse*. CSCW.
-- Das, D., & Semaan, B. (2026). *Decolonial Discourse in Postcolonial Contexts*. submitted.
+- Provides **design and policy implications** for more equitable and culturally responsive systems
