@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "Like other branches of Computer Science, [top venues in HCI](https://scholar.google.com/citations?view_op=top_venues&amp;hl=en&amp;vq=eng_humancomputerinteraction) include extensively peer-reviewed conferences (e.g., CHI and CSCW). These extremely selective conferences, based on double-blinded peer review and intended for archival papers, are [more prestigious compared to journals](https://dl.acm.org/doi/10.1145/1743546.1743569) in terms of visibility and impact.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
         },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
