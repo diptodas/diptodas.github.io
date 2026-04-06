@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Diasporas, Infrastructure, and Collective Action
+title: Diasporas, Computing, and Collective Action
 description: This project explores how immigrant and diaspora communities use digital platforms, financial systems, and AI tools to stay connected, support communities back home, and organize for social and political change across borders.
 img: assets/img/12.jpg
 importance: 1
