@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (visiblePubs.length === 0) {
         const msg = document.createElement("div");
         msg.className = "no-match-message text-muted fst-italic mt-2 mb-3";
-        msg.textContent = "No papers match the search criteria.";
+        msg.textContent = "No papers this year match the search criteria.";
         list.insertAdjacentElement("afterend", msg);
       }
     });
