@@ -467,9 +467,9 @@ ninja.data = [{
           section: "News",},{id: "news-paper-on-immigrant-non-profit-organizations-ai-practices-has-been-accepted-to-dis-2026",
           title: 'Paper on immigrant non-profit organizations’ AI practices has been accepted to DIS 2026!...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-decolonizing-sociotechnical-systems",
+          title: 'Decolonizing Sociotechnical Systems',
+          description: "This project examines how sociotechnical systems shape and constrain identity decolonization among marginalized communities. Through mixed-method studies across platforms, algorithms, and discourse, it reveals how coloniality persists in computing and how users reclaim narrative agency through digital practices.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
