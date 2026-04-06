@@ -14,7 +14,6 @@ nav_order: 2
 <!-- {% include bib_search.liquid %} -->
 
 <!-- FILTER UI -->
-
 <div id="pub-filters" class="mb-4">
   <div class="row g-2 align-items-end">
     <div class="col-12 col-md-5">
@@ -52,7 +51,6 @@ nav_order: 2
     <div class="col-12 col-md-2">
       <button id="clearFilters" class="btn btn-outline-secondary w-100">Clear</button>
     </div>
-    
   </div>
 
   <small id="pub-stats" class="text-muted d-block mt-2"></small>
