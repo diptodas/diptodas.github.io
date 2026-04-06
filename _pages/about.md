@@ -20,12 +20,12 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit:  # leave blank to include all the news in the `_news` folder
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit:  # leave blank to include all the blog posts
+  limit: 5 # leave blank to include all the blog posts
 ---
 I am a postdoctoral fellow in the [Department of Computer Science](https://web.cs.toronto.edu) (also affiliated with the [iSchool](https://ischool.utoronto.ca/)) at the [University of Toronto](https://www.utoronto.ca/), where I work with [Dr. Syed Ishtiaque Ahmed](https://www.ishtiaque.net/) and [Dr. Shion Guha](https://shionguha.ca/). My research examines the sociotechnical impacts and bias of algorithmic systems and AI infrastructures—including language models, moderation tools, and platform algorithms—to better understand how they shape discourse, civic identity, and access to information, particularly in low-resource and Global South contexts. My goal is to advance theory and inform the design of accountable, context-aware, and responsible algorithmic systems. Drawing on my training in computer science, information science, and human-computer interaction, I take a mixed-methods and participatory approach to study algorithmic bias, governance policy, and ethics. My research spans three interconnected streams: **_(1) Algorithmic fairness and bias in sociotechnical systems, (2) Culture, discourse, and power in global digital platforms, and (3) Community-driven approaches to interactive and ethical AI)_**. My work has been published in top computing venues, such as **ACM CHI and ACM CSCW**, among others, and has received multiple Best Paper Honorable Mention Awards. My work and practice have been featured in prominent press and media outlets, such as the Atlantic, Prothom Alo, ACM Crossroads, and Princeton University Press. My research has been supported by competitive funding from the Institute for Pandemics and the National Science Foundation.
 
