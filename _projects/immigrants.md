@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Diasporas, Computing, and Collective Action
+title: Immigrants' Computing Practices
 description: This project explores how immigrant and diaspora communities use digital platforms, financial systems, and AI tools to stay connected, support communities back home, and organize for social and political change across borders.
 img: assets/img/12.jpg
 importance: 1
@@ -12,7 +12,7 @@ related_publications: false
 
 ## Overview
 
-This project examines how diaspora and immigrant communities engage with digital and financial systems across borders. It focuses on how people use platforms, remittance systems, and organizational tools to support communities back home, navigate institutional barriers, and participate in collective action.
+This project examines how immigrant and diaspora communities engage with digital and financial systems across borders. It focuses on how people use platforms, remittance systems, and organizational tools to support communities back home, navigate institutional barriers, and participate in collective action.
 
 Across different contexts, this work shows how these systems shape what communities can do—while also highlighting how people adapt, resist, and repurpose them in practice.
 
@@ -20,7 +20,7 @@ Across different contexts, this work shows how these systems shape what communit
 
 This research combines qualitative and system-level analysis across multiple contexts:
 
-- **Qualitative studies**: Interviews with diaspora members and immigrant nonprofit organizers across North America, Europe, and the Middle East  
+- **Qualitative studies**: Interviews with diaspora communities and immigrant nonprofit organizers across North America, Europe, and the Middle East  
 - **Organizational analysis**: Examination of how nonprofit groups coordinate work, manage resources, and build trust  
 - **Infrastructure analysis**: Study of platforms, remittance systems, and public-sector technologies that shape participation and access  
 
