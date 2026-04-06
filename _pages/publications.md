@@ -69,8 +69,32 @@ document.addEventListener("DOMContentLoaded", function () {
   const methodsFilter = document.getElementById("filterMethods");
   const clearBtn = document.getElementById("clearFilters");
   const stats = document.getElementById("pub-stats");
+  const publicationsContainer = document.querySelector(".publications");
 
   const pubs = Array.from(document.querySelectorAll(".pub-entry"));
+
+  function updateYearMessages() {
+    if (!publicationsContainer) return;
+
+    // remove old messages first
+    publicationsContainer.querySelectorAll(".no-match-message").forEach(el => el.remove());
+
+    // al-folio usually renders each year as an <h2> followed by an <ol class="bibliography">
+    const yearLists = publicationsContainer.querySelectorAll("ol.bibliography");
+
+    yearLists.forEach(list => {
+      const visiblePubs = Array.from(list.querySelectorAll(".pub-entry")).filter(pub => {
+        return pub.style.display !== "none";
+      });
+
+      if (visiblePubs.length === 0) {
+        const msg = document.createElement("div");
+        msg.className = "no-match-message text-muted fst-italic mt-2 mb-3";
+        msg.textContent = "No papers match your search criteria.";
+        list.insertAdjacentElement("afterend", msg);
+      }
+    });
+  }
 
   function applyFilters() {
     const typeVal = (typeFilter?.value || "").toLowerCase();
@@ -98,6 +122,8 @@ document.addEventListener("DOMContentLoaded", function () {
     if (stats) {
       stats.textContent = `${visibleCount} publication${visibleCount === 1 ? "" : "s"} shown`;
     }
+
+    updateYearMessages();
   }
 
   if (typeFilter) typeFilter.addEventListener("change", applyFilters);
