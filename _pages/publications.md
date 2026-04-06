@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let visibleCount = 0;
 
     pubs.forEach(pub => {
-      const pubType = (pub.dataset.type || "").toLowerCase().trim();
+      const pubType = (pub.dataset.filter_type || "").toLowerCase().trim();
       const pubMethods = (pub.dataset.methods || "")
         .toLowerCase()
         .split(",")

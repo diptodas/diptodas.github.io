@@ -2,7 +2,7 @@
 ---
 <div
   class="row pub-entry"
-  data-type="{{ entry.type | default: '' | downcase | strip }}"
+  data-type="{{ entry.filter_type | default: '' | downcase | strip }}"
   data-methods="{{ entry.methods | default: '' | downcase | strip }}"
 >
   {% if site.enable_publication_thumbnails %}
