@@ -9,13 +9,12 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Spelling in Bengali: দীপ্ত দাস<br>
-    Dip-toh (Dipto) Daash (Das). Dipto means <em>bright</em> in Bengali.<br>
-    Play the audio below to listen to the pronunciation of my name.
+    <p>Pronouns: He/him/his <br>
+    Spelling in Bengali: দীপ্ত দাস, Dipto means <em>bright</em> in Bengali.<br>
+    Pronunciation: Dip-toh (Dipto) Daash (Das). Audio below.
     <audio controls class="name-audio">
       <source src="assets/audio/diptodas.mp3" type="audio/mpeg">
     </audio>
-    Pronouns: He/him/his
     </p>
     
 
