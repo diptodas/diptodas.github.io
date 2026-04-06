@@ -40,9 +40,9 @@ This research adopts a mixed-methods approach spanning multiple layers of the so
 
 ## Key Findings and Contributions
 
-- Online platforms can enable **collaborative identity work** and **narrative reclamation**  
+- Online platforms can enable **collaborative identity work** and narrative reclamation
 - Platform governance and algorithmic systems often **reproduce colonial hierarchies**  
-- Users engage in **relational labor** and **infrastructural improvisation** to sustain participation  
+- Users engage in relational labor and infrastructural improvisation to sustain participation  
 - Decolonial discourse is an **ongoing, negotiated, and fragile work** shaped by sociotechnical constraints
-- Develops **methodological approaches** for studying sociocultural bias in low-resource and Global South contexts  
+- Develops methodological approaches for studying sociocultural bias in low-resource and Global South contexts  
 - Provides **design and policy implications** for more equitable and culturally responsive systems
