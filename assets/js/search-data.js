@@ -467,17 +467,7 @@ ninja.data = [{
           section: "News",},{id: "news-paper-on-immigrant-non-profit-organizations-ai-practices-has-been-accepted-to-dis-2026",
           title: 'Paper on immigrant non-profit organizations’ AI practices has been accepted to DIS 2026!...',
           description: "",
-          section: "News",},{id: "projects-decolonizing-sociotechnical-systems",
-          title: 'Decolonizing Sociotechnical Systems',
-          description: "This project examines how sociotechnical systems shape and constrain identity decolonization among marginalized communities. Through mixed-method studies across platforms, algorithms, and discourse, it reveals how coloniality persists in computing and how users reclaim narrative agency through digital practices.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
+          section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
@@ -512,6 +502,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-decolonizing-identity-and-sociotechnical-systems",
+          title: 'Decolonizing Identity and Sociotechnical Systems',
+          description: "This project examines how sociotechnical systems shape and constrain identity decolonization among marginalized communities. Through mixed-method studies across platforms, algorithms, and discourse, it reveals how coloniality persists in computing and how users reclaim narrative agency through digital practices.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/identity_decolonization/";
+            },},{id: "projects-diasporas-infrastructure-and-collective-action",
+          title: 'Diasporas, Infrastructure, and Collective Action',
+          description: "This project explores how immigrant and diaspora communities use digital platforms, financial systems, and AI tools to stay connected, support communities back home, and organize for social and political change across borders.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/immigrants/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
