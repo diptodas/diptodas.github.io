@@ -492,9 +492,9 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-ai-algorithmic-fairness-and-bias",
-          title: 'AI/Algorithmic Fairness and Bias',
-          description: "Evaluating sociocultural bias in language models",
+            },},{id: "projects-ai-ethics-fairness-and-bias",
+          title: 'AI Ethics, Fairness, and Bias',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/algorithmic_fairness/";
             },},{id: "projects-identity-decolonization-and-computing",
