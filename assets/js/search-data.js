@@ -509,7 +509,7 @@ ninja.data = [{
               window.location.href = "/projects/immigrants/";
             },},{id: "projects-understanding-sarcasm-in-social-media",
           title: 'Understanding Sarcasm in Social Media',
-          description: "This project explores how sarcasm is expressed and understood across text, images, and videos on social media. It develops computational approaches to detect sarcasm and examines how context, multimodality, and user interaction shape its meaning.",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sarcasm/";
             },},{id: "teachings-data-science-fundamentals",
