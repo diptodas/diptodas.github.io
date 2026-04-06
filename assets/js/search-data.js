@@ -497,8 +497,8 @@ ninja.data = [{
           description: "Evaluating sociocultural bias in language models",
           section: "Projects",handler: () => {
               window.location.href = "/projects/algorithmic_fairness/";
-            },},{id: "projects-decolonizing-identity-and-sociotechnical-systems",
-          title: 'Decolonizing Identity and Sociotechnical Systems',
+            },},{id: "projects-identity-decolonization-and-computing",
+          title: 'Identity Decolonization and Computing',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/identity_decolonization/";
