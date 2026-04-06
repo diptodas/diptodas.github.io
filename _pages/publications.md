@@ -7,14 +7,19 @@ nav: true
 nav_order: 2
 ---
 
+<!-- _pages/publications.md -->
+
 <!-- Bibsearch Feature -->
+
 <!-- {% include bib_search.liquid %} -->
+
+<!-- FILTER UI -->
 
 <div id="pub-filters" class="mb-4">
   <div class="row g-2 align-items-end">
     <div class="col-12 col-md-5">
       <label for="filterType" class="form-label mb-1">Paper type</label>
-      <select id="filterType" class="form-select">
+      <select id="filterType" class="form-control">
         <option value="">All types</option>
         <option value="full">Full Paper (Journal/Conference Proceeding)</option>
         <option value="short">Short Paper (Poster/Note/Doctoral Consortium)</option>
@@ -25,7 +30,7 @@ nav_order: 2
 
     <div class="col-12 col-md-5">
       <label for="filterMethods" class="form-label mb-1">Methods/Domains</label>
-      <select id="filterMethods" class="form-select">
+      <select id="filterMethods" class="form-control">
         <option value="">All methods</option>
         <option value="audit">Audit</option>
         <option value="cv">Computer Vision</option>
@@ -45,15 +50,18 @@ nav_order: 2
     </div>
 
     <div class="col-12 col-md-2">
-      <button type="button" id="clearFilters" class="btn btn-outline-secondary w-100">Clear</button>
+      <button id="clearFilters" class="btn btn-outline-secondary w-100">Clear</button>
     </div>
+    
   </div>
 
   <small id="pub-stats" class="text-muted d-block mt-2"></small>
 </div>
 
 <div class="publications">
-  {% bibliography %}
+
+{% bibliography %}
+
 </div>
 
 <script>
@@ -93,14 +101,16 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  typeFilter?.addEventListener("change", applyFilters);
-  methodsFilter?.addEventListener("change", applyFilters);
+  if (typeFilter) typeFilter.addEventListener("change", applyFilters);
+  if (methodsFilter) methodsFilter.addEventListener("change", applyFilters);
 
-  clearBtn?.addEventListener("click", function () {
-    if (typeFilter) typeFilter.value = "";
-    if (methodsFilter) methodsFilter.value = "";
-    applyFilters();
-  });
+  if (clearBtn) {
+    clearBtn.addEventListener("click", function () {
+      if (typeFilter) typeFilter.value = "";
+      if (methodsFilter) methodsFilter.value = "";
+      applyFilters();
+    });
+  }
 
   applyFilters();
 });
