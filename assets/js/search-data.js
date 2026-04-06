@@ -467,17 +467,7 @@ ninja.data = [{
           section: "News",},{id: "news-paper-on-immigrant-non-profit-organizations-ai-practices-has-been-accepted-to-dis-2026",
           title: 'Paper on immigrant non-profit organizations’ AI practices has been accepted to DIS 2026!...',
           description: "",
-          section: "News",},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
+          section: "News",},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
@@ -502,16 +492,26 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-ai-algorithmic-fairness-and-bias",
+          title: 'AI/Algorithmic Fairness and Bias',
+          description: "Evaluating sociocultural bias in language models",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/algorithmic_fairness/";
             },},{id: "projects-decolonizing-identity-and-sociotechnical-systems",
           title: 'Decolonizing Identity and Sociotechnical Systems',
           description: "This project examines how sociotechnical systems shape and constrain identity decolonization among marginalized communities. Through mixed-method studies across platforms, algorithms, and discourse, it reveals how coloniality persists in computing and how users reclaim narrative agency through digital practices.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/identity_decolonization/";
-            },},{id: "projects-diasporas-computing-and-collective-action",
-          title: 'Diasporas, Computing, and Collective Action',
+            },},{id: "projects-immigrants-39-computing-practices",
+          title: 'Immigrants&amp;#39; Computing Practices',
           description: "This project explores how immigrant and diaspora communities use digital platforms, financial systems, and AI tools to stay connected, support communities back home, and organize for social and political change across borders.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/immigrants/";
+            },},{id: "projects-understanding-sarcasm-in-social-media",
+          title: 'Understanding Sarcasm in Social Media',
+          description: "This project explores how sarcasm is expressed and understood across text, images, and videos on social media. It develops computational approaches to detect sarcasm and examines how context, multimodality, and user interaction shape its meaning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sarcasm/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
