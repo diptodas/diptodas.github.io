@@ -507,8 +507,8 @@ ninja.data = [{
           description: "This project examines how sociotechnical systems shape and constrain identity decolonization among marginalized communities. Through mixed-method studies across platforms, algorithms, and discourse, it reveals how coloniality persists in computing and how users reclaim narrative agency through digital practices.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/identity_decolonization/";
-            },},{id: "projects-diasporas-infrastructure-and-collective-action",
-          title: 'Diasporas, Infrastructure, and Collective Action',
+            },},{id: "projects-diasporas-computing-and-collective-action",
+          title: 'Diasporas, Computing, and Collective Action',
           description: "This project explores how immigrant and diaspora communities use digital platforms, financial systems, and AI tools to stay connected, support communities back home, and organize for social and political change across borders.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/immigrants/";
