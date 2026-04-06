@@ -2,7 +2,7 @@
 layout: page
 title: Identity Decolonization and Computing
 description: 
-img: assets/img/decolonization.png
+img: assets/img/project_banners/decolonization.png
 importance: 1
 category: research
 related_publications: false
@@ -13,7 +13,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/decolonization.png" title="context" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_banners/decolonization.png" title="context" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -23,7 +23,7 @@ This project investigates how colonial histories continue to shape identity, dis
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/decolonization_methods.png" title="platforms" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_banners/decolonization_methods.png" title="platforms" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

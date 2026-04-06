@@ -2,7 +2,7 @@
 layout: page
 title: Immigrants' Computing Practices
 description: 
-img: assets/img/DIS26_nonprofit.jpeg
+img: assets/img/project_banners/DIS26_nonprofit.jpeg
 importance: 2
 category: research
 related_publications: false
@@ -13,7 +13,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/DIS26_nonprofit_a.jpeg" title="context" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_banners/DIS26_nonprofit_a.jpeg" title="context" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -34,7 +34,7 @@ This research combines qualitative and system-level analysis across multiple con
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/submitted_IRCC.jpeg" title="context" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_banners/submitted_IRCC.jpeg" title="context" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
