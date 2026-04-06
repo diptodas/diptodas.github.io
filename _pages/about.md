@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Pronouns: He/him/his <br>
-    Spelling in Bengali: দীপ্ত দাস, Dipto means <em>bright</em> in Bengali.<br>
+    Spelling in Bengali: দীপ্ত দাস, Dipto means <em>bright</em> in Bengali.<br><br>
     Pronunciation: Dip-toh (Dipto) Daash (Das). Audio below.
     <audio controls class="name-audio">
       <source src="assets/audio/diptodas.mp3" type="audio/mpeg">
