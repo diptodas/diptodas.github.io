@@ -2,16 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: I am currently on the job market for 2025-26, seeking opportunities as a Tenure-Track Assistant Professor!
+subtitle: I am currently on the job market for 2025-26, seeking opportunities as a Tenure-Track Assistant Professor.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Room# 5175, Bahen Centre for Information Technology, <br>
-    40 Saint George Street, <br>
-    Toronto, ON M5S 2E4, Canada</p>
+    <p>Dip-toh (Dipto) Daash (Das). Dipto means <em>bright</em> in Bengali (দীপ্ত দাস). Play the audio below to listen to the pronunciation of my name.
+    <audio controls class="name-audio">
+      <source src="img/diptodas.mp3" type="audio/mpeg">
+    </audio>
+    Pronouns: He/him/his
+    </p>
     
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
