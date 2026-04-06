@@ -1,6 +1,10 @@
 ---
 ---
-<div class="row">
+<div
+  class="row pub-entry"
+  data-type="{{ entry.type | default: '' | downcase | strip }}"
+  data-methods="{{ entry.methods | default: '' | downcase | strip }}"
+>
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}

@@ -49,7 +49,8 @@ nav_order: 2
     </div>
 
     <div class="col-12 col-md-2">
-      <button id="clearFilters" class="btn btn-outline-secondary w-100">Clear</button>
+      <!-- <button id="clearFilters" class="btn btn-outline-secondary w-100">Clear</button> -->
+      <button type="button" id="clearFilters" class="btn btn-outline-secondary w-100">Clear</button>
     </div>
   </div>
 
