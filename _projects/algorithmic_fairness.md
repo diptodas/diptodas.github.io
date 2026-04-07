@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI Ethics, Fairness, and Bias
-description: This project examines how AI systems, such as NLP tools, datasets, generative language models, and text-to-image generators encode sociocultural biases.
+description: This project examines how AI systems encode sociocultural biases.
 img: assets/img/project_banners/ai_fairness.png
 importance: 3
 category: research
@@ -11,7 +11,7 @@ category: research
 
 ## Approach
 
-We design datasets capturing **explicit and implicit identity signals** (e.g., names, dialects) and conduct **algorithmic audits** by varying identity attributes in model inputs, across identity dimensions such as **gender, sexuality, religion, nationality, caste, ethnicity, political leaning, and their intersections**. We interpret the findings through quantitative and qualitative approaches guided by sociotechnical and critical perspectives.
+In different studies across this project, we examine fairness and biases in algorithmic systems, such as NLP tools, datasets, generative language models, and text-to-image generators, and reflect on the ethics that guide their construction. We design datasets capturing **explicit and implicit identity signals** (e.g., names, dialects) and conduct **algorithmic audits** by varying identity attributes in model inputs, across identity dimensions such as **gender, sexuality, religion, nationality, caste, ethnicity, political leaning, and their intersections**. We interpret the findings through quantitative and qualitative approaches guided by sociotechnical and critical perspectives.
 
 ## Key Findings and Contributions
 

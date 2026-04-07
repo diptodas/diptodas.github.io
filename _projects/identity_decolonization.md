@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Identity and Decolonial Computing
-description: This project investigates how colonial histories continue to shape identity, discourse, and participation in contemporary sociotechnical systems. Focusing on Bengali communities across transnational contexts, it examines how platforms, algorithms, and governance structures both enable and constrain processes of identity decolonization.
+description: This project examines how platforms, algorithms, and governance structures both enable and constrain processes of identity decolonization.
 img: assets/img/project_banners/decolonization.png
 importance: 1
 category: research
@@ -10,6 +10,9 @@ related_publications: false
 
 ## Outcome: [CHI 24](/assets/pdf/CHI24_audit.pdf), [CSCW 24](/assets/pdf/CSCW24_transnational.pdf), [CHI 22](/assets/pdf/CHI22_collaborative.pdf), [CSCW 21](/assets/pdf/CSCW21_governance.pdf), and [Submitted](/assets/pdf/submitted_youTubegovernance.pdf)
 
+
+## Overview
+Focusing on Bengali communities across transnational contexts, this project investigates how colonial histories continue to shape identity, discourse, and participation in contemporary sociotechnical systems.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
