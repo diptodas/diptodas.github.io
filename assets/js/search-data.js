@@ -502,8 +502,8 @@ ninja.data = [{
           description: "Investigating how online platforms support marginalized communities in decolonizing identities by challenging colonial norms, values, and histories through collaborative storytelling.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/decolonization/";
-            },},{id: "projects-immigrants-diaspora-and-transnational-digital-practices",
-          title: 'Immigrants, Diaspora, and Transnational Digital Practices',
+            },},{id: "projects-immigrants-amp-transnational-computing-practices",
+          title: 'Immigrants &amp;amp; Transnational Computing Practices',
           description: "Exploring how immigrants leverage digital technologies to exercise political agency, maintain cultural ties, and resist systemic exclusion across transnational borders.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/immigrants/";
@@ -517,8 +517,8 @@ ninja.data = [{
           description: "Auditing public-sector AI systems to identify asymmetries in accountability, ensuring institutional transparency aligns with the lived experiences of those subject to algorithmic decisions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/public/";
-            },},{id: "projects-multimodal-affective-computing-and-social-interaction",
-          title: 'Multimodal Affective Computing and Social Interaction',
+            },},{id: "projects-multimodal-affective-and-social-interaction",
+          title: 'Multimodal Affective and Social Interaction',
           description: "Building machine learning models to detect contextual human communication while examining how users manage digital personas and seek information through interactive social platforms.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sarcasm/";
