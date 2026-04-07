@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sarcasm in Social Media
+title: Sarcasm in Social Media Platforms
 description: This project explores how sarcasm is expressed and understood across text, images, and videos on social media.
 img: assets/img/project_banners/ms_thesis.png
 importance: 4
@@ -8,7 +8,7 @@ category: research
 related_publications: false
 ---
 
-## Outcome: [ICCBD 18](/assets/pdf/ICCBD18_sarcasm.pdf): offers a dataset, [ICMI 18](/assets/pdf/ICMI18_sarcasm.pdf), [HCC 19](/assets/pdf/HCC19_sarcasm.pdf), [TransAI 19](/assets/pdf/TransAI19_sarcasm.pdf), and [TransAI 19](/assets/pdf/TransAI19_satire.pdf)
+## Outcome: [ICCBD 18](/assets/pdf/ICCBD18_sarcasm.pdf), [ICMI 18](/assets/pdf/ICMI18_sarcasm.pdf), [HCC 19](/assets/pdf/HCC19_sarcasm.pdf), [TransAI 19](/assets/pdf/TransAI19_sarcasm.pdf), and [TransAI 19](/assets/pdf/TransAI19_satire.pdf)
 
 ## Overview
 
