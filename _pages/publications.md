@@ -6,8 +6,8 @@ description: Like other branches of Computer Science, top venues in HCI include 
 nav: true
 nav_order: 2
 scholar:
-  sort_by: year,abbr
-  order: descending,ascending
+  sort_by: year,filter_type,abbr
+  order: descending,ascending,ascending
 ---
 
 <!-- _pages/publications.md -->
