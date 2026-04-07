@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Identity Decolonization and Computing
+title: Identity and Decolonial Computing
 description: 
 img: assets/img/project_banners/decolonization.png
 importance: 1
