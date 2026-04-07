@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sarcasm in Social Media
-description: 
+description: This project explores how sarcasm is expressed and understood across text, images, and videos on social media.
 img: assets/img/project_banners/ms_thesis.png
 importance: 4
 category: research
@@ -12,7 +12,7 @@ related_publications: false
 
 ## Overview
 
-Sarcasm is a common but complex part of human communication. People often say one thing but mean the opposite, making it difficult for both humans and AI systems to interpret correctly. This project explores how sarcasm is expressed and understood across text, images, and videos on social media. It develops computational approaches to detect sarcasm and examines how context, multimodality, and user interaction shape its meaning.
+Sarcasm is a common but complex part of human communication. People often say one thing but mean the opposite, making it difficult for both humans and AI systems to interpret correctly. This project develops computational approaches to detect sarcasm and examines how context, multimodality, and user interaction shape its meaning.
 
 ## Approach
 

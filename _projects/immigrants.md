@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Immigrants' Computing Practices
-description: 
+description: Across different contexts, this project shows how these systems shape what communities can do, while also highlighting how people adapt, resist, and repurpose them in practice.
 img: assets/img/project_banners/DIS26_nonprofit.jpeg
 importance: 2
 category: research
@@ -20,8 +20,6 @@ related_publications: false
 ## Overview
 
 This project examines how immigrant and diaspora communities engage with digital and financial systems across borders. It focuses on how people experience organizational adoption of different algorithmic tools as well as use remittance systems, online platforms, and generative AI systems to support communities back home, navigate institutional barriers, and participate in collective sensemaking and action.
-
-Across different contexts, this project shows how these systems shape what communities can do, while also highlighting how people adapt, resist, and repurpose them in practice.
 
 ## Approach
 
