@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Immigrants, Diaspora, and Transnational Digital Practices
-description: This project explores how immigrants leverage digital technologies to exercise political agency, maintain cultural ties, and resist systemic exclusion across transnational borders.
+description: Exploring how immigrants leverage digital technologies to exercise political agency, maintain cultural ties, and resist systemic exclusion across transnational borders.
 img: assets/img/project_banners/DIS26_nonprofit.jpeg
 importance: 2
 category: research

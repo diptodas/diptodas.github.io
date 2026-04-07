@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Marginalization and Identity Decolonization
-description: This research investigates how online platforms support marginalized communities in decolonizing identities by challenging colonial norms, values, and histories through collaborative storytelling.
+description: Investigating how online platforms support marginalized communities in decolonizing identities by challenging colonial norms, values, and histories through collaborative storytelling.
 img: assets/img/project_banners/decolonization.png
 importance: 3
 category: research

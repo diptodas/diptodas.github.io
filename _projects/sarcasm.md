@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Multimodal Affective Computing and Social Interaction
-description: Building robust machine learning models to detect contextual human communication while examining how users manage digital personas and seek information through interactive social platforms.
+description: Building machine learning models to detect contextual human communication while examining how users manage digital personas and seek information through interactive social platforms.
 img: assets/img/project_banners/social_interaction.png
 importance: 6
 category: research
