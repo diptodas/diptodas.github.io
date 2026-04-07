@@ -2,7 +2,7 @@
 layout: page
 title: Understanding Sarcasm in Social Media
 description: 
-img: 
+img: assets/img/project_banners/ms_thesis.png
 importance: 4
 category: research
 related_publications: false
