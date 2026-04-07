@@ -2,7 +2,7 @@
 layout: page
 title: Multimodal Affective and Social Interaction
 description: Building machine learning models to detect contextual human communication while examining how users manage digital personas and seek information through interactive social platforms.
-img: assets/img/project_banners/social_interaction.png
+img: assets/img/project_banners/social_interaction.jpg
 importance: 6
 category: research
 related_publications: false
@@ -15,7 +15,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_banners/social_interaction.png" title="social interaction" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_banners/social_interaction.jpg" title="social interaction" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
