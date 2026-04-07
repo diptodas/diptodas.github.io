@@ -3,7 +3,7 @@ layout: page
 title: AI Fairness, Algorithmic Bias, and Ethics
 description: Conducting large-scale algorithmic audits to uncover systemic identity-based biases in AI systems, revealing how those perpetuate sociocultural hierarchies, stereotypes, and prejudices.
 img: assets/img/project_banners/ai_fairness.png
-importance: 3
+importance: 1
 category: research
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Immigrants & Transnational Computing Practices
+title: Immigrants and Transnational Computing Practices
 description: Exploring how immigrants leverage digital technologies to exercise political agency, maintain cultural ties, and resist systemic exclusion across transnational borders.
 img: assets/img/project_banners/DIS26_nonprofit.jpeg
-importance: 2
+importance: 3
 category: research
 related_publications: false
 ---

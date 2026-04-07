@@ -3,20 +3,15 @@ layout: page
 title: Platform Governance and Online Safety
 description: Developing pluralistic governance frameworks and technical tools, centering hermeneutic and restorative justice for the online safety concerns of minority and vulnerable populations.
 img: assets/img/project_banners/online_harm.jpg
-importance: 5
+importance: 4
 category: research
 related_publications: false
 ---
 
+
 ## Outcome
 
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_banners/online_harm.jpg" title="Online Harm" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+[CSCW 24](/assets/pdf/CSCW24_minority.pdf), [ICTD 24](/assets/pdf/ICTD24_civics.pdf), and [Submitted](/assets/pdf/submitted_modguide.pdf)
 
 ## Overview
 

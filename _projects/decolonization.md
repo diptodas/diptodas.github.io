@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Identity and Decolonial Computing
+title: Marginalized Identity and Decolonial Computing
 description: Investigating how online platforms support marginalized communities in decolonizing identities by challenging colonial norms, values, and histories through collaborative storytelling.
 img: assets/img/project_banners/decolonization.png
-importance: 3
+importance: 2
 category: research
 related_publications: false
 ---

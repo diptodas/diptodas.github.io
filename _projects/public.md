@@ -3,13 +3,15 @@ layout: page
 title: High-Stakes Public AI and Institutional Accountability
 description: Auditing public-sector AI systems to identify asymmetries in accountability, ensuring institutional transparency aligns with the lived experiences of those subject to algorithmic decisions.
 img: assets/img/project_banners/public_sector.jpeg
-importance: 3
+importance: 5
 category: research
 related_publications: false
 ---
 
+
 ## Outcome
 
+[CHI 25](/assets/pdf/CHI25_homelessness.pdf), [Submitted](/assets/pdf/submitted_IRCC.pdf)
 
 
 <div class="row">
@@ -24,13 +26,7 @@ As governments increasingly adopt AI for essential services like immigration, ho
 
 ## Approach
 
-We conduct ethnographic case studies (e.g., Toronto’s homelessness services) and analyze institutional documentation, such as public AI registers and Algorithmic Impact Assessments from the Government of Canada. This project seeks to understand how accountability is represented. Simultaneously, we analyze interviews with the frontline workers and the peer discourse on online platforms to understand how individuals, who enforce or experience those algorithmic decisions, collectively sense-make and respond to opaque system outcomes. 
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_banners/public_sector.jpeg" title="Public Sector AI" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+We conduct ethnographic case studies (e.g., Toronto’s homelessness services) and analyze institutional documentation, such as public AI registers and Algorithmic Impact Assessments from the Government of Canada. This project seeks to understand how accountability is represented. Simultaneously, we analyze interviews with the frontline workers and the peer discourse on online platforms to understand how individuals, who enforce or experience those algorithmic decisions, collectively sense-make and respond to opaque system outcomes.
 
 
 ## Key Contributions
