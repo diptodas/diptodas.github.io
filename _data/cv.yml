@@ -29,9 +29,10 @@ cv:
         start_date: Aug 2024
         end_date: Present
         highlights:
-          - Funded by **Institute of Health Emergencies and Pandemics** (IHEP), Previously Institute for Pandemics
-          - Advised by Syed Ishtiaque Ahmed (__Dynamic Graphics Project Lab__) and Shion Guha (__Human-Centered Data Science Lab__)
-          - Taught as Course Instructor (Winter 2026).
+          - Funded by *Institute of Health Emergencies and Pandemics* (IHEP), Previously Institute for Pandemics
+          - Advised by Syed Ishtiaque Ahmed (_Dynamic Graphics Project Lab_) and Shion Guha (_Human-Centered Data Science Lab_)
+          - Researched on [Immigrants and Transnational Computing Practices](/_projects/immigrants.md), [High-Stakes Public AI and Institutional Accountability](/_projects/public.md), [AI Fairness, Algorithmic Bias, and Ethics](/_projects/AI_fairness.md), and [Platform Governance and Online Safety](/_projects/minority.md)
+          - Taught course "Computer and Society" (Winter 2026).
 
       - company: Department of Information Science, University of Colorado Boulder
         position: Adjunct Professor
@@ -40,29 +41,40 @@ cv:
         end_date: Dec 2025
         highlights:
           - Assistant Teaching Professor (Aug 2024-May 2025), Graduate Research/Teaching Assistant, Graduate Part-Time Instructor.
+          - Researched on [Marginalized Identity and Decolonial Computing](/_projects/decolonization.md), [AI Fairness, Algorithmic Bias, and Ethics](/_projects/AI_fairness.md), and [Platform Governance and Online Safety](/_projects/minority.md)
+          - Taught courses "Introduction to Statistics," "Quantitative Reasoning," and "User-Centered Design" (Spring 2023, Spring 2024-Fall 2025)
+          - Assisted in "Introduction to Programming (Python)," "Introduction to Statistics," and "Information Science Fundamentals" courses (Fall 2021-Fall 2022, Fall 2023)
 
       - company: School of Information Studies, Syracuse University
         position: Graduate Assistant
         location: Syracuse, NY, USA
         start_date: Aug 2019
         end_date: Aug 2021
+        highlights:
+          - Researched on [Marginalized Identity and Decolonial Computing](/_projects/decolonization.md)
+          - Assisted in "Human-Computer Interaction," "Data and Society," "Digital Platforms," "Information Visualization" courses
 
       - company: Department of Computer Science, Missouri State University
         position: Graduate Assistant
         location: Springfield, MO, USA
         start_date: Jan 2018
         end_date: May 2019
+        highlights:
+          = Researched on [Multimodal Affective and Social Interaction](/_projects/sarcasm.md)
+          - Assisted in "Introduction to Programming" courses in C++ and Python
       
       - company: Department of Computer Science and Engineering, Dhaka International University
         position: Lecturer
         location: Dhaka, Bangladesh
         start_date: Sep 2017
         end_date: Dec 2017
+        highlights:
+          - Taught courses Computer Architecture, Algorithms Design, and Compiler
 
     Education:
       - institution: University of Colorado Boulder
         location: Boulder, CO, USA
-        area: Inforamtion Science
+        area: Information Science
         studyType: Doctor of Philosophy
         start_date: 2021
         end_date: 2024
@@ -73,12 +85,12 @@ cv:
 
       - institution: University of Colorado Boulder
         location: Boulder, CO, USA
-        area: Inforamtion Science
+        area: Information Science
         studyType: Master of Science
         start_date: 2021
         end_date: 2023
         highlights:
-          - Transferred from School of Inforamtion Studies at Syracuse University (2019-2021) with adviser.
+          - Transferred from School of Information Studies at Syracuse University (2019-2021) with adviser.
 
       - institution: Missouri State University
         location: Springfield, MO, USA
