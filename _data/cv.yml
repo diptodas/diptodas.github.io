@@ -31,7 +31,7 @@ cv:
         highlights:
           - Funded by *Institute of Health Emergencies and Pandemics* (IHEP), Previously Institute for Pandemics
           - Advised by Syed Ishtiaque Ahmed (_Dynamic Graphics Project Lab_) and Shion Guha (_Human-Centered Data Science Lab_)
-          - Researched on [Immigrants and Transnational Computing Practices](/_projects/immigrants.md), [High-Stakes Public AI and Institutional Accountability](/_projects/public.md), [AI Fairness, Algorithmic Bias, and Ethics](/_projects/AI_fairness.md), and [Platform Governance and Online Safety](/_projects/minority.md)
+          - Researched on [Immigrants and Transnational Computing Practices](/projects/immigrants), [High-Stakes Public AI and Institutional Accountability](/projects/public), [AI Fairness, Algorithmic Bias, and Ethics](/projects/AI_fairness), and [Platform Governance and Online Safety](/projects/minority)
           - Taught course "Computer and Society" (Winter 2026).
 
       - company: Department of Information Science, University of Colorado Boulder
@@ -41,7 +41,7 @@ cv:
         end_date: Dec 2025
         highlights:
           - Assistant Teaching Professor (Aug 2024-May 2025), Graduate Research/Teaching Assistant, Graduate Part-Time Instructor.
-          - Researched on [Marginalized Identity and Decolonial Computing](/_projects/decolonization.md), [AI Fairness, Algorithmic Bias, and Ethics](/_projects/AI_fairness.md), and [Platform Governance and Online Safety](/_projects/minority.md)
+          - Researched on [Marginalized Identity and Decolonial Computing](/projects/decolonization), [AI Fairness, Algorithmic Bias, and Ethics](/projects/AI_fairness), and [Platform Governance and Online Safety](/projects/minority)
           - Taught courses "Introduction to Statistics," "Quantitative Reasoning," and "User-Centered Design" (Spring 2023, Spring 2024-Fall 2025)
           - Assisted in "Introduction to Programming (Python)," "Introduction to Statistics," and "Information Science Fundamentals" courses (Fall 2021-Fall 2022, Fall 2023)
 
@@ -51,7 +51,7 @@ cv:
         start_date: Aug 2019
         end_date: Aug 2021
         highlights:
-          - Researched on [Marginalized Identity and Decolonial Computing](/_projects/decolonization.md)
+          - Researched on [Marginalized Identity and Decolonial Computing](/projects/decolonization)
           - Assisted in "Human-Computer Interaction," "Data and Society," "Digital Platforms," "Information Visualization" courses
 
       - company: Department of Computer Science, Missouri State University
@@ -60,7 +60,7 @@ cv:
         start_date: Jan 2018
         end_date: May 2019
         highlights:
-          = Researched on [Multimodal Affective and Social Interaction](/_projects/sarcasm.md)
+          = Researched on [Multimodal Affective and Social Interaction](/projects/sarcasm)
           - Assisted in "Introduction to Programming" courses in C++ and Python
       
       - company: Department of Computer Science and Engineering, Dhaka International University
