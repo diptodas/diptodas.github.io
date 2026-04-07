@@ -492,24 +492,34 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-ai-ethics-fairness-and-bias",
-          title: 'AI Ethics, Fairness, and Bias',
-          description: "This project examines how AI systems encode sociocultural biases.",
+            },},{id: "projects-ai-fairness-algorithmic-bias-and-ethics",
+          title: 'AI Fairness, Algorithmic Bias, and Ethics',
+          description: "We conduct large-scale algorithmic audits to uncover systemic identity-based biases in AI systems, revealing how those perpetuate sociocultural hierarchies, stereotypes, and prejudices.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/algorithmic_fairness/";
-            },},{id: "projects-identity-and-decolonial-computing",
-          title: 'Identity and Decolonial Computing',
-          description: "This project examines how platforms, algorithms, and governance structures both enable and constrain processes of identity decolonization.",
+              window.location.href = "/projects/AI_fairness/";
+            },},{id: "projects-marginalization-and-identity-decolonization",
+          title: 'Marginalization and Identity Decolonization',
+          description: "This research investigates how online platforms support marginalized communities in decolonizing identities by challenging colonial norms, values, and histories through collaborative storytelling.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/identity_decolonization/";
-            },},{id: "projects-immigrants-39-computing-practices",
-          title: 'Immigrants&amp;#39; Computing Practices',
-          description: "Across different contexts, this project shows how these systems shape what communities can do, while also highlighting how people adapt, resist, and repurpose them in practice.",
+              window.location.href = "/projects/decolonization/";
+            },},{id: "projects-immigrants-diaspora-and-transnational-digital-practices",
+          title: 'Immigrants, Diaspora, and Transnational Digital Practices',
+          description: "This project explores how immigrants leverage digital technologies to exercise political agency, maintain cultural ties, and resist systemic exclusion across transnational borders.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/immigrants/";
-            },},{id: "projects-sarcasm-in-social-media-platforms",
-          title: 'Sarcasm in Social Media Platforms',
-          description: "This project explores how sarcasm is expressed and understood across text, images, and videos on social media.",
+            },},{id: "projects-platform-governance-and-online-safety",
+          title: 'Platform Governance and Online Safety',
+          description: "Developing pluralistic governance frameworks and technical tools, centering hermeneutic and restorative justice for the online safety concerns of minority and vulnerable populations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/minority/";
+            },},{id: "projects-high-stakes-public-ai-and-institutional-accountability",
+          title: 'High-Stakes Public AI and Institutional Accountability',
+          description: "Auditing public-sector AI systems to identify asymmetries in accountability, ensuring institutional transparency aligns with the lived experiences of those subject to algorithmic decisions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/public/";
+            },},{id: "projects-multimodal-affective-computing-and-social-interaction",
+          title: 'Multimodal Affective Computing and Social Interaction',
+          description: "Building robust machine learning models to detect contextual human communication while examining how users manage digital personas and seek information through interactive social platforms.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sarcasm/";
             },},{id: "teachings-data-science-fundamentals",
