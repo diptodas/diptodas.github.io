@@ -23,7 +23,7 @@ cv:
 
   sections:
     Experience:
-      - company: University of Toronto
+      - company: Department of Computer Science, University of Toronto
         position: Postdoctoral Fellow
         location: Toronto, ON, Canada
         start_date: Aug 2024
@@ -33,13 +33,31 @@ cv:
           - Advised by Syed Ishtiaque Ahmed (__Dynamic Graphics Project Lab__) and Shion Guha (__Human-Centered Data Science Lab__)
           - Taught as Course Instructor (Winter 2026).
 
-      - company: University of Colorado Boulder
+      - company: Department of Information Science, University of Colorado Boulder
         position: Adjunct Professor
         location: Boulder, CO, USA
         start_date: Aug 2021
         end_date: Dec 2025
         highlights:
           - Assistant Teaching Professor (Aug 2024-May 2025), Graduate Research/Teaching Assistant, Graduate Part-Time Instructor.
+
+      - company: School of Information Studies, Syracuse University
+        position: Graduate Assistant
+        location: Syracuse, NY, USA
+        start_date: Aug 2019
+        end_date: Aug 2021
+
+      - company: Department of Computer Science, Missouri State University
+        position: Graduate Assistant
+        location: Springfield, MO, USA
+        start_date: Jan 2018
+        end_date: May 2019
+      
+      - company: Department of Computer Science and Engineering, Dhaka International University
+        position: Lecturer
+        location: Dhaka, Bangladesh
+        start_date: Sep 2017
+        end_date: Dec 2017
 
     Education:
       - institution: University of Colorado Boulder
@@ -60,7 +78,7 @@ cv:
         start_date: 2021
         end_date: 2023
         highlights:
-          - Transferred from School of Inforamtion Studies at Syracuse University (2019-2021).
+          - Transferred from School of Inforamtion Studies at Syracuse University (2019-2021) with adviser.
 
       - institution: Missouri State University
         location: Springfield, MO, USA
