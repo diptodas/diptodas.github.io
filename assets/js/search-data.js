@@ -494,12 +494,12 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-ai-ethics-fairness-and-bias",
           title: 'AI Ethics, Fairness, and Bias',
-          description: "This project examines how AI systems, such as NLP tools, datasets, generative language models, and text-to-image generators encode sociocultural biases.",
+          description: "This project examines how AI systems encode sociocultural biases.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/algorithmic_fairness/";
             },},{id: "projects-identity-and-decolonial-computing",
           title: 'Identity and Decolonial Computing',
-          description: "This project investigates how colonial histories continue to shape identity, discourse, and participation in contemporary sociotechnical systems. Focusing on Bengali communities across transnational contexts, it examines how platforms, algorithms, and governance structures both enable and constrain processes of identity decolonization.",
+          description: "This project examines how platforms, algorithms, and governance structures both enable and constrain processes of identity decolonization.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/identity_decolonization/";
             },},{id: "projects-immigrants-39-computing-practices",
