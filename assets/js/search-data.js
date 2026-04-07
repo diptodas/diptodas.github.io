@@ -497,8 +497,8 @@ ninja.data = [{
           description: "Conducting large-scale algorithmic audits to uncover systemic identity-based biases in AI systems, revealing how those perpetuate sociocultural hierarchies, stereotypes, and prejudices.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AI_fairness/";
-            },},{id: "projects-marginalization-and-identity-decolonization",
-          title: 'Marginalization and Identity Decolonization',
+            },},{id: "projects-identity-and-decolonial-computing",
+          title: 'Identity and Decolonial Computing',
           description: "Investigating how online platforms support marginalized communities in decolonizing identities by challenging colonial norms, values, and histories through collaborative storytelling.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/decolonization/";
