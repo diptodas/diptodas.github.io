@@ -14,7 +14,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_banners/public_sector.jpeg" title="Public Sector AI" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_banners/public_sector_banner.jpeg" title="Public Sector AI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -28,9 +28,10 @@ We conduct ethnographic case studies (e.g., Toronto’s homelessness services) a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_banners/ms_thesis.png" title="context" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_banners/public_sector.jpeg" title="Public Sector AI" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 
 ## Key Contributions
 
