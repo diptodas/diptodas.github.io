@@ -1,7 +1,7 @@
 ---
 layout: page
-title: research
-permalink: /research/
+title: projects
+permalink: /projects/
 description: Collection of my research, pedagogical, and personal projects
 nav: true
 nav_order: 1
