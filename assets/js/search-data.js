@@ -494,17 +494,17 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-ai-fairness-algorithmic-bias-and-ethics",
           title: 'AI Fairness, Algorithmic Bias, and Ethics',
-          description: "We conduct large-scale algorithmic audits to uncover systemic identity-based biases in AI systems, revealing how those perpetuate sociocultural hierarchies, stereotypes, and prejudices.",
+          description: "Conducting large-scale algorithmic audits to uncover systemic identity-based biases in AI systems, revealing how those perpetuate sociocultural hierarchies, stereotypes, and prejudices.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/AI_fairness/";
             },},{id: "projects-marginalization-and-identity-decolonization",
           title: 'Marginalization and Identity Decolonization',
-          description: "This research investigates how online platforms support marginalized communities in decolonizing identities by challenging colonial norms, values, and histories through collaborative storytelling.",
+          description: "Investigating how online platforms support marginalized communities in decolonizing identities by challenging colonial norms, values, and histories through collaborative storytelling.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/decolonization/";
             },},{id: "projects-immigrants-diaspora-and-transnational-digital-practices",
           title: 'Immigrants, Diaspora, and Transnational Digital Practices',
-          description: "This project explores how immigrants leverage digital technologies to exercise political agency, maintain cultural ties, and resist systemic exclusion across transnational borders.",
+          description: "Exploring how immigrants leverage digital technologies to exercise political agency, maintain cultural ties, and resist systemic exclusion across transnational borders.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/immigrants/";
             },},{id: "projects-platform-governance-and-online-safety",
@@ -519,7 +519,7 @@ ninja.data = [{
               window.location.href = "/projects/public/";
             },},{id: "projects-multimodal-affective-computing-and-social-interaction",
           title: 'Multimodal Affective Computing and Social Interaction',
-          description: "Building robust machine learning models to detect contextual human communication while examining how users manage digital personas and seek information through interactive social platforms.",
+          description: "Building machine learning models to detect contextual human communication while examining how users manage digital personas and seek information through interactive social platforms.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sarcasm/";
             },},{id: "teachings-data-science-fundamentals",
