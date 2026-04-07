@@ -499,7 +499,7 @@ ninja.data = [{
               window.location.href = "/projects/algorithmic_fairness/";
             },},{id: "projects-identity-and-decolonial-computing",
           title: 'Identity and Decolonial Computing',
-          description: "",
+          description: "This project investigates how colonial histories continue to shape identity, discourse, and participation in contemporary sociotechnical systems. Focusing on Bengali communities across transnational contexts, it examines how platforms, algorithms, and governance structures both enable and constrain processes of identity decolonization.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/identity_decolonization/";
             },},{id: "projects-immigrants-39-computing-practices",
