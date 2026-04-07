@@ -2,7 +2,7 @@
 layout: page
 title: Platform Governance and Online Safety
 description: Developing pluralistic governance frameworks and technical tools, centering hermeneutic and restorative justice for the online safety concerns of minority and vulnerable populations.
-img: assets/img/project_banners/#
+img: assets/img/project_banners/online_safety.png
 importance: 5
 category: research
 related_publications: false
@@ -14,7 +14,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_banners/#" title="Public Sector AI" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_banners/online_safety.png" title="Mod-Guide Interface" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
