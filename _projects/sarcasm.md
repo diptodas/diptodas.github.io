@@ -1,27 +1,31 @@
 ---
 layout: page
-title: Sarcasm in Social Media Platforms
-description: This project explores how sarcasm is expressed and understood across text, images, and videos on social media.
-img: assets/img/project_banners/ms_thesis.png
-importance: 4
+title: Multimodal Affective Computing and Social Interaction
+description: Building robust machine learning models to detect contextual human communication while examining how users manage digital personas and seek information through interactive social platforms.
+img: assets/img/project_banners/social_interaction.png
+importance: 6
 category: research
 related_publications: false
 ---
 
-## Outcome: [ICCBD 18](/assets/pdf/ICCBD18_sarcasm.pdf), [ICMI 18](/assets/pdf/ICMI18_sarcasm.pdf), [HCC 19](/assets/pdf/HCC19_sarcasm.pdf), [TransAI 19](/assets/pdf/TransAI19_sarcasm.pdf), and [TransAI 19](/assets/pdf/TransAI19_satire.pdf)
+
+## Outcome
+
+[ICCBD 18](/assets/pdf/ICCBD18_sarcasm.pdf), [ICMI 18](/assets/pdf/ICMI18_sarcasm.pdf), [HCC 19](/assets/pdf/HCC19_sarcasm.pdf), [TransAI 19](/assets/pdf/TransAI19_sarcasm.pdf), and [TransAI 19](/assets/pdf/TransAI19_satire.pdf)
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_banners/social_interaction.png" title="social interaction" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ## Overview
 
-Sarcasm is a common but complex part of human communication. People often say one thing but mean the opposite, making it difficult for both humans and AI systems to interpret correctly. This project develops computational approaches to detect sarcasm and examines how context, multimodality, and user interaction shape its meaning.
+A core area of my earlier research addressed the technical challenge of building machine learning models that can recognize the nuance and actual intent behind complex human communication behaviors, such as sarcasm and satire. We also investigate how these communication styles influence public opinion and platform dynamics.
 
 ## Approach
 
-This research studies sarcasm across different types of data and platforms:
-
-- **Qualitative analysis**: Interviewing people to understand how people convey sarcasm with different features available on social media and how that varies across linguistic and geocultural contexts.
-- **Text and multimodal analysis**: Combining text, images, and metadata from social media posts and using convolutional neural network-based models to detect sarcasm from visual cues in images
-- **User interaction modeling**: Analyzing reactions, comments, and engagement patterns as signals of sarcasm
-- **Video analysis**: Studying attention patterns in sarcastic videos using eye gaze tracking data
+We employ **supervised learning** to develop multimodal models that go beyond simple text analysis. These models integrate visual cues from images, patterns of user interactions (like comments and reactions), and narrative trajectories through **neural networks**. We ground our computational work in **psycholinguistic theory** to define the structural characteristics of sarcasm and humor in social media settings. Additionally, we use interviews and trace data with **social science and communication theories** to study how sociopolitical discourse is managed by influencers on platforms like Facebook.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -29,13 +33,8 @@ This research studies sarcasm across different types of data and platforms:
     </div>
 </div>
 
-## Key Findings and Contributions
+## Key Contributions
 
-- Sarcasm cannot be reliably detected from text alone, and often depends on **visual and contextual cues**
-- Early demonstration of **multimodal sarcasm detection** across text, images, and videos  
-- Develops datasets and models for sarcasm detection in social media and other online platforms  
-- **User interactions** (e.g., reactions, comments) provide important signals for understanding sarcastic intent
-- Different media types (images, videos) reveal **distinct patterns of how sarcasm is communicated**  
-- Connects sarcasm to broader questions of **misinformation, interpretation, and meaning in digital content** through the concepts of  **tone and storytelling style**
+We showed why sarcasm cannot be reliably detected from text alone, and often depends on **visual and contextual cues**. Our work offered early demonstration of **multimodal sarcasm detection** across text, images, and videos. A key outcome of our work was multimodal datasets and models for sarcasm detection in social media that is mindful of **user interactions** (e.g., reactions, comments) provide important signals for understanding sarcastic intent. It also connects sarcasm to broader questions of **misinformation, interpretation, and meaning in digital content** through the concepts of  **tone and storytelling style**.
 
 ---
