@@ -507,8 +507,8 @@ ninja.data = [{
           description: "Across different contexts, this project shows how these systems shape what communities can do, while also highlighting how people adapt, resist, and repurpose them in practice.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/immigrants/";
-            },},{id: "projects-sarcasm-in-social-media",
-          title: 'Sarcasm in Social Media',
+            },},{id: "projects-sarcasm-in-social-media-platforms",
+          title: 'Sarcasm in Social Media Platforms',
           description: "This project explores how sarcasm is expressed and understood across text, images, and videos on social media.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sarcasm/";
