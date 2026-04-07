@@ -494,7 +494,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-ai-ethics-fairness-and-bias",
           title: 'AI Ethics, Fairness, and Bias',
-          description: "",
+          description: "This project examines how AI systems, such as NLP tools, datasets, generative language models, and text-to-image generators encode sociocultural biases.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/algorithmic_fairness/";
             },},{id: "projects-identity-and-decolonial-computing",
@@ -504,12 +504,12 @@ ninja.data = [{
               window.location.href = "/projects/identity_decolonization/";
             },},{id: "projects-immigrants-39-computing-practices",
           title: 'Immigrants&amp;#39; Computing Practices',
-          description: "",
+          description: "Across different contexts, this project shows how these systems shape what communities can do, while also highlighting how people adapt, resist, and repurpose them in practice.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/immigrants/";
             },},{id: "projects-sarcasm-in-social-media",
           title: 'Sarcasm in Social Media',
-          description: "",
+          description: "This project explores how sarcasm is expressed and understood across text, images, and videos on social media.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sarcasm/";
             },},{id: "teachings-data-science-fundamentals",
