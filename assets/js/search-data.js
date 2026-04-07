@@ -497,8 +497,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/algorithmic_fairness/";
-            },},{id: "projects-identity-decolonization-and-computing",
-          title: 'Identity Decolonization and Computing',
+            },},{id: "projects-identity-and-decolonial-computing",
+          title: 'Identity and Decolonial Computing',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/identity_decolonization/";
@@ -507,8 +507,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/immigrants/";
-            },},{id: "projects-understanding-sarcasm-in-social-media",
-          title: 'Understanding Sarcasm in Social Media',
+            },},{id: "projects-sarcasm-in-social-media",
+          title: 'Sarcasm in Social Media',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/sarcasm/";
