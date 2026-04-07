@@ -13,12 +13,6 @@ related_publications: false
 
 [ICCBD 18](/assets/pdf/ICCBD18_sarcasm.pdf), [ICMI 18](/assets/pdf/ICMI18_sarcasm.pdf), [HCC 19](/assets/pdf/HCC19_sarcasm.pdf), [TransAI 19](/assets/pdf/TransAI19_sarcasm.pdf), and [TransAI 19](/assets/pdf/TransAI19_satire.pdf)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_banners/social_interaction.jpg" title="social interaction" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
 ## Overview
 
 A core area of my earlier research addressed the technical challenge of building machine learning models that can recognize the nuance and actual intent behind complex human communication behaviors, such as sarcasm and satire. We also investigate how these communication styles influence public opinion and platform dynamics.
