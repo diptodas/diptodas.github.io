@@ -60,7 +60,7 @@ cv:
         start_date: Jan 2018
         end_date: May 2019
         highlights:
-          = Researched on [Multimodal Affective and Social Interaction](/projects/sarcasm)
+          - Researched on [Multimodal Affective and Social Interaction](/projects/sarcasm)
           - Assisted in "Introduction to Programming" courses in C++ and Python
       
       - company: Department of Computer Science and Engineering, Dhaka International University
