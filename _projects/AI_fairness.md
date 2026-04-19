@@ -9,7 +9,7 @@ category: research
 
 ## Outcome
 
-[CHI 24](/assets/pdf/CHI24_audit.pdf), [FAccT 26](/assets/pdf/FACCT26_T2Icaste.pdf), [DIS 26](/assets/pdf/DIS26_nonprofit.pdf), [EACL-C3NLP](/assets/pdf/EACL23-C3NLP_bibed.pdf), [IJCNLP/AACL-BHASHA](/assets/pdf/IJCNLP_AACL25-BHASHA_political.pdf), and [Submitted](/assets/pdf/BSAdatasets.pdf)
+[CHI 24](/assets/pdf/CHI24_audit.pdf), [FAccT 26](/assets/pdf/FACCT26_T2Icaste.pdf), [DIS 26](/assets/pdf/DIS26_nonprofit.pdf), [EACL-C3NLP](/assets/pdf/EACL23-C3NLP_bibed.pdf), [IJCNLP/AACL-BHASHA](/assets/pdf/IJCNLP_AACL25-BHASHA_political.pdf), [TOCHI](/assets/pdf/TOCHI25_transphobia.pdf), and [Submitted](/assets/pdf/BSAdatasets.pdf)
 
 ## Overview
 This theme focuses on auditing AI and language technologies to uncover systemic biases that marginalize specific social identities, particularly within Global South contexts. We critique the "colonial impulse" inherent in state-of-the-art NLP tools, datasets, generative AI (e.g., LLM) and text-to-image models, which often misinterpret or exclude linguistically and culturally diverse populations.

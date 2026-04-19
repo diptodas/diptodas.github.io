@@ -11,7 +11,7 @@ related_publications: false
 
 ## Outcome
 
-[CHI 25](/assets/pdf/CHI25_homelessness.pdf), [Submitted](/assets/pdf/submitted_IRCC.pdf)
+[FAccT 26](/assets/pdf/FACCT26_AIregister.pdf), [CanadianAI 26](/assets/pdf/CanadianAI26_fairness.pdf), [CHI 25](/assets/pdf/CHI25_homelessness.pdf), and [Submitted](/assets/pdf/submitted_IRCC.pdf)
 
 
 <div class="row">

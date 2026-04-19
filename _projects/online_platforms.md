@@ -11,7 +11,7 @@ related_publications: false
 
 ## Outcome
 
-[ICCBD 18](/assets/pdf/ICCBD18_sarcasm.pdf), [ICMI 18](/assets/pdf/ICMI18_sarcasm.pdf), [HCC 19](/assets/pdf/HCC19_sarcasm.pdf), [TransAI 19](/assets/pdf/TransAI19_sarcasm.pdf), and [TransAI 19](/assets/pdf/TransAI19_satire.pdf)
+[JCSCW](/assets/pdf/JCSCW25_gig.pdf), [CSCW 25](/assets/pdf/CSCW25_BTPD.pdf), [ICTD 22](/assets/pdf/ICTD22_microcelebrity.pdf), [CSCW 20](/assets/pdf/CSCW20_quoras.pdf), [ICCBD 18](/assets/pdf/ICCBD18_sarcasm.pdf), [ICMI 18](/assets/pdf/ICMI18_sarcasm.pdf), [HCC 19](/assets/pdf/HCC19_sarcasm.pdf), [TransAI 19](/assets/pdf/TransAI19_sarcasm.pdf) and [TransAI 19](/assets/pdf/TransAI19_satire.pdf), [APSEC 18](/assets/pdf/APSEC18_soqde.pdf), and [OzCHI 18](/assets/pdf/OzCHI18_smqa.pdf)
 
 ## Overview
 

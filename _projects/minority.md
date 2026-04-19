@@ -11,7 +11,7 @@ related_publications: false
 
 ## Outcome
 
-[CSCW 24](/assets/pdf/CSCW24_minority.pdf), [ICTD 24](/assets/pdf/ICTD24_civics.pdf), and [Submitted](/assets/pdf/submitted_modguide.pdf)
+[CSCW 24](/assets/pdf/CSCW24_minority.pdf), [ICTD 24](/assets/pdf/ICTD24_civics.pdf), [ICTD 20](/assets/pdf/ICTD20_stigma.pdf), and [Submitted](/assets/pdf/submitted_modguide.pdf)
 
 ## Overview
 

@@ -11,7 +11,7 @@ related_publications: false
 
 ## Outcome
 
-[CHI 26](/assets/pdf/CHI26_remittance.pdf), [DIS 26](/assets/pdf/DIS26_nonprofit.pdf), [CSCW 25](/assets/pdf/CSCW25_migrants.pdf), [Submitted](/assets/pdf/submitted_IRCC.pdf), and [Submitted](#)
+[CHI 26](/assets/pdf/CHI26_remittance.pdf), [DIS 26](/assets/pdf/DIS26_nonprofit.pdf), [CSCW 25](/assets/pdf/CSCW25_migrants.pdf), [Submitted](/assets/pdf/submitted_IRCC.pdf), and [Submitted](/assets/pdf/submitted_AMINA.pdf)
 
 
 <div class="row">
