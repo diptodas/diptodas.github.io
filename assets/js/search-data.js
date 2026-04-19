@@ -515,16 +515,16 @@ ninja.data = [{
           description: "Developing pluralistic governance frameworks and technical tools, centering hermeneutic and restorative justice for the online safety concerns of minority and vulnerable populations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/minority/";
-            },},{id: "projects-high-stakes-public-ai-and-institutional-accountability",
-          title: 'High-Stakes Public AI and Institutional Accountability',
-          description: "Auditing public-sector AI systems to identify asymmetries in accountability, ensuring institutional transparency aligns with the lived experiences of those subject to algorithmic decisions.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/public/";
             },},{id: "projects-multimodal-affective-and-social-interaction",
           title: 'Multimodal Affective and Social Interaction',
           description: "Building machine learning models to detect contextual human communication while examining how users manage digital personas and seek information through interactive social platforms.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/sarcasm/";
+              window.location.href = "/projects/online_platforms/";
+            },},{id: "projects-high-stakes-public-ai-and-institutional-accountability",
+          title: 'High-Stakes Public AI and Institutional Accountability',
+          description: "Auditing public-sector AI systems to identify asymmetries in accountability, ensuring institutional transparency aligns with the lived experiences of those subject to algorithmic decisions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/public_sector/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
