@@ -5,8 +5,8 @@ description: This course introduces foundational statistical concepts for inform
 instructor: Dipto Das
 year: 2025
 term: Spring
-location: Center for Academic Success & Engagement W262
-time: MWF 12:20–1:10 PM
+location: Muenzinger Psyc & Biopsych E064
+time: TTh 8am-9:15am
 course_id: sp25-info-1301-statistics
 schedule:
   - week: 1
