@@ -560,6 +560,11 @@ ninja.data = [{
           description: "This course introduces foundational statistical concepts for information science, including data organization, descriptive and inferential statistics, and practical data analysis using Excel.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/sp25-stats_for_infosci/";
+            },},{id: "teachings-computers-and-society",
+          title: 'Computers and Society',
+          description: "This course examines the relationship between computing technologies and society, focusing on ethics, power, data, and social impacts of computing systems.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/wi26-computers_and_society/";
             },},{
         id: 'social-cv',
         title: 'CV',
