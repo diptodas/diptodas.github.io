@@ -525,6 +525,11 @@ ninja.data = [{
           description: "Auditing public-sector AI systems to identify asymmetries in accountability, ensuring institutional transparency aligns with the lived experiences of those subject to algorithmic decisions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/public_sector/";
+            },},{id: "teachings-quantitative-reasoning",
+          title: 'Quantitative Reasoning',
+          description: "This course introduces foundational concepts in discrete mathematics, probability, and predictive modeling, along with computational tools for analyzing data.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/fa24-quant_reasoning/";
             },},{id: "teachings-statistics-for-information-science",
           title: 'Statistics for Information Science',
           description: "This course introduces foundational statistical concepts for information science, including data organization, descriptive and inferential statistics, and practical data analysis using Excel.",
@@ -535,6 +540,11 @@ ninja.data = [{
           description: "This course introduces foundational statistical concepts for information science, including data organization, descriptive and inferential statistics, and practical data analysis using Excel.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/sp23-stats_for_infosci/";
+            },},{id: "teachings-quantitative-reasoning",
+          title: 'Quantitative Reasoning',
+          description: "This course introduces foundational concepts in discrete mathematics, probability, and predictive modeling, along with computational tools for analyzing data.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/sp24-quant_reasoning/";
             },},{id: "teachings-user-centered-design",
           title: 'User-Centered Design',
           description: "This course introduces the theoretical and practical foundations of human-computer interaction and user-centered design, including user research, prototyping, and evaluation.",
