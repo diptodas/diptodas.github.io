@@ -7,7 +7,7 @@ year: 2023
 term: Spring
 location: Center for Academic Success & Engagement W262
 time: MWF 12:20–1:10 PM
-course_id: info-1301-statistics
+course_id: sp23-info-1301-statistics
 schedule:
   - week: 1
     topic: Course Introduction & Data Concepts

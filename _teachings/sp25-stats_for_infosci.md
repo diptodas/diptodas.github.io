@@ -3,11 +3,11 @@ layout: course
 title: Statistics for Information Science
 description: This course introduces foundational statistical concepts for information science, including data organization, descriptive and inferential statistics, and practical data analysis using Excel.
 instructor: Dipto Das
-year: 2023
+year: 2025
 term: Spring
 location: Center for Academic Success & Engagement W262
 time: MWF 12:20–1:10 PM
-course_id: info-1301-statistics
+course_id: sp25-info-1301-statistics
 schedule:
   - week: 1
     topic: Course Introduction & Data Concepts

@@ -7,7 +7,7 @@ year: 2024
 term: Spring
 location: Lucile Berkeley Buchanan Building 341
 time: Wednesdays, 3:35–6:05 PM
-course_id: info-4609-ucd
+course_id: sp24-info-4609-ucd
 schedule:
   - week: 1
     topic: Introduction to User-Centered Design

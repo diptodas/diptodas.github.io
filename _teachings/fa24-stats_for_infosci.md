@@ -7,7 +7,7 @@ year: 2024
 term: Fall
 location: Ketchum Arts & Sciences Bldg 1B87
 time: TTh 9:30am-10:45am
-course_id: info-1301-statistics
+course_id: fa24-info-1301-statistics
 schedule:
   - week: 1
     topic: Course Introduction & Data Concepts
