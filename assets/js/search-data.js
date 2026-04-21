@@ -525,6 +525,11 @@ ninja.data = [{
           description: "Auditing public-sector AI systems to identify asymmetries in accountability, ensuring institutional transparency aligns with the lived experiences of those subject to algorithmic decisions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/public_sector/";
+            },},{id: "teachings-statistics-for-information-science",
+          title: 'Statistics for Information Science',
+          description: "This course introduces foundational statistical concepts for information science, including data organization, descriptive and inferential statistics, and practical data analysis using Excel.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Stats_for_InfoSci_Sp23/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
