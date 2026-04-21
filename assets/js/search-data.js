@@ -529,17 +529,22 @@ ninja.data = [{
           title: 'Statistics for Information Science',
           description: "This course introduces foundational statistical concepts for information science, including data organization, descriptive and inferential statistics, and practical data analysis using Excel.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/Stats_for_InfoSci_Sp23/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+              window.location.href = "/teachings/fa24-stats_for_infosci/";
+            },},{id: "teachings-statistics-for-information-science",
+          title: 'Statistics for Information Science',
+          description: "This course introduces foundational statistical concepts for information science, including data organization, descriptive and inferential statistics, and practical data analysis using Excel.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+              window.location.href = "/teachings/sp23-stats_for_infosci/";
+            },},{id: "teachings-user-centered-design",
+          title: 'User-Centered Design',
+          description: "This course introduces the theoretical and practical foundations of human-computer interaction and user-centered design, including user research, prototyping, and evaluation.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teachings/sp24-user_centered_design/";
+            },},{id: "teachings-statistics-for-information-science",
+          title: 'Statistics for Information Science',
+          description: "This course introduces foundational statistical concepts for information science, including data organization, descriptive and inferential statistics, and practical data analysis using Excel.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/sp25-stats_for_infosci/";
             },},{
         id: 'social-cv',
         title: 'CV',
