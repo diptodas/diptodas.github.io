@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on [diasporic communities' remittance practices](/assets/pdf/CHI26_remittance.pdf) got an honorable mention CHI 2026!
+Our paper on [diasporic communities' remittance practices](/assets/pdf/CHI26_remittance.pdf) got [an honorable mention](/assets/pdf/CHI2026_certificate_HM.pdf) CHI 2026!
