@@ -535,21 +535,26 @@ ninja.data = [{
           description: "This course introduces foundational statistical concepts for information science, including data organization, descriptive and inferential statistics, and practical data analysis using Excel.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/fa24-stats_for_infosci/";
+            },},{id: "teachings-user-centered-design",
+          title: 'User-Centered Design',
+          description: "This course surveys the theoretical and practical foundations of human-computer interaction and user-centered design, including user research, prototyping, and evaluation.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/fa25-user_centered_design/";
             },},{id: "teachings-statistics-for-information-science",
           title: 'Statistics for Information Science',
           description: "This course introduces foundational statistical concepts for information science, including data organization, descriptive and inferential statistics, and practical data analysis using Excel.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/sp23-stats_for_infosci/";
-            },},{id: "teachings-quantitative-reasoning",
-          title: 'Quantitative Reasoning',
-          description: "This course introduces foundational concepts in discrete mathematics, probability, and predictive modeling, along with computational tools for analyzing data.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/sp24-quant_reasoning/";
             },},{id: "teachings-user-centered-design",
           title: 'User-Centered Design',
           description: "This course introduces the theoretical and practical foundations of human-computer interaction and user-centered design, including user research, prototyping, and evaluation.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/sp24-user_centered_design/";
+            },},{id: "teachings-quantitative-reasoning",
+          title: 'Quantitative Reasoning',
+          description: "This course introduces foundational concepts in discrete mathematics, probability, and predictive modeling, along with computational tools for analyzing data.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/sp25-quant_reasoning/";
             },},{id: "teachings-statistics-for-information-science",
           title: 'Statistics for Information Science',
           description: "This course introduces foundational statistical concepts for information science, including data organization, descriptive and inferential statistics, and practical data analysis using Excel.",
