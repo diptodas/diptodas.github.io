@@ -422,10 +422,12 @@ ninja.data = [{
             },},{id: "news-the-atlantic-has-recently-quoted-me-in-an-article-about-quora",
           title: 'The Atlantic has recently quoted me in an article about Quora.',
           description: "",
-          section: "News",},{id: "news-papers-got-accepted-at-chi-2024-identity-bias-and-coloniality-in-nlp-tools",
-          title: 'Papers got accepted at CHI 2024! - identity bias and coloniality in NLP...',
+          section: "News",},{id: "news-a-long-announcement-with-details",
+          title: 'A long announcement with details',
           description: "",
-          section: "News",},{id: "news-the-prothom-alo-bangladesh-s-most-circulated-daily-has-featured-me-in-an-article",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2024-01-18/";
+            },},{id: "news-the-prothom-alo-bangladesh-s-most-circulated-daily-has-featured-me-in-an-article",
           title: 'The Prothom Alo (Bangladesh’s most circulated daily) has featured me in an article....',
           description: "",
           section: "News",},{id: "news-got-a-travel-grant-from-cu-boulder-gpsg",
