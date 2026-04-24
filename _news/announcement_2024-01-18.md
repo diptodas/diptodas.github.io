@@ -1,10 +1,8 @@
 ---
 layout: post
-title: A long announcement with details
 date: 2024-01-18
-inline: false
+inline: true
 related_posts: false
 ---
 
-Papers got accepted at **CHI 2024**!
-    - [identity bias and coloniality in NLP tools](../assets/pdf/CHI24_audit.pdf)
+Paper on [identity bias and coloniality in NLP tools](../assets/pdf/CHI24_audit.pdf) got accepted at **CHI 2024**!
