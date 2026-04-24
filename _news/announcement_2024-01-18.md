@@ -6,4 +6,5 @@ inline: true
 related_posts: false
 ---
 
-Papers on [identity bias in NLP tools](../assets/pdf/CHI24_audit.pdf) got accepted at CHI 2024!
+Papers got accepted at **CHI 2024**!
+    - [identity bias and coloniality in NLP tools](../assets/pdf/CHI24_audit.pdf)
