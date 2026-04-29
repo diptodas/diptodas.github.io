@@ -31,7 +31,7 @@ cv:
         highlights:
           - Funded by *Institute of Health Emergencies and Pandemics* (IHEP), Previously Institute for Pandemics
           - Advised by Syed Ishtiaque Ahmed (_Dynamic Graphics Project Lab_) and Shion Guha (_Human-Centered Data Science Lab_)
-          - Researched on [Immigrants and Transnational Computing Practices](/projects/immigrants), [High-Stakes Public AI and Institutional Accountability](/projects/public), [AI Fairness, Algorithmic Bias, and Ethics](/projects/AI_fairness), and [Platform Governance and Online Safety](/projects/minority)
+          - Researched on [Immigrants and Transnational Computing Practices](/projects/immigrants), [High-Stakes Public AI and Institutional Accountability](/projects/public_sector), [AI Fairness, Algorithmic Bias, and Ethics](/projects/AI_fairness), and [Platform Governance and Online Safety](/projects/minority)
           - Taught course "Computer and Society" (Winter 2026).
 
       - company: Department of Information Science, University of Colorado Boulder
@@ -60,7 +60,7 @@ cv:
         start_date: Jan 2018
         end_date: May 2019
         highlights:
-          - Researched on [Multimodal Affective and Social Interaction](/projects/sarcasm)
+          - Researched on [Multimodal Affective and Social Interaction](/projects/online_platforms)
           - Assisted in "Introduction to Programming" courses in C++ and Python
       
       - company: Department of Computer Science and Engineering, Dhaka International University
@@ -216,7 +216,7 @@ cv:
       - title: GPSG Travel Grant
         date: 2024
         awarder: Graduate and Professional Student Government (GPSG), CU Boulder
-        summary: Travel grant of 500 USD (Paper [P11]).
+        summary: Travel grant of 500 USD.
 
       - title: Doctoral Research Fund
         date: 2023
@@ -226,7 +226,7 @@ cv:
       - title: ACM CSCW Doctoral Consortium Travel Support
         date: 2023
         awarder: NSF
-        summary: Travel support of 2,500 USD (Submission [S9]).
+        summary: Travel support of 2,500 USD.
 
       - title: Doctoral Student Attendee Support
         date: 2023
@@ -281,7 +281,7 @@ cv:
       - title: Late Breaking Results Travel Grant
         date: 2018
         awarder: ACM ICMI
-        summary: Travel grant of 500 USD (Submission [S2]).
+        summary: Travel grant of 500 USD.
 
       - title: Champion, Business Case Competition
         date: 2016
