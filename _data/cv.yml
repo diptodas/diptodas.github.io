@@ -113,6 +113,11 @@ cv:
     Awards:
       - name: Best Paper Honorable Mention Award
         date: 2026
+        issuer: ACM DIS
+        icon: fa-solid fa-award
+
+      - name: Best Paper Honorable Mention Award
+        date: 2026
         issuer: ACM CHI
         icon: fa-solid fa-award
 
