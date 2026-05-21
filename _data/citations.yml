@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-29'
+  last_updated: '2026-05-15'
 papers:
   yRHRA4QAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: Identity Alignment and the Sociotechnical Reconfigurations of Emotional Labor in Transnational Gig-education Platforms
     year: '2025'
   yRHRA4QAAAAJ:35N4QoGY0k4C:
-    citations: 6
+    citations: 7
     title: 'The Power of Language: Resisting Western Heteropatriarchal Normative Writing Standards'
     year: '2025'
   yRHRA4QAAAAJ:4TOpqqG69KYC:
@@ -30,12 +30,16 @@ papers:
     title: 'Quoras: A python API for quora data collection to increase multi-language social science research'
     year: '2020'
   yRHRA4QAAAAJ:BqipwSGYUEgC:
-    citations: 44
+    citations: 47
     title: 'The``Colonial Impulse" of Natural Language Processing: An Audit of Bengali Sentiment Analysis Tools and Their Identity-based Biases'
     year: '2024'
   yRHRA4QAAAAJ:D03iK_w7-QYC:
     citations: 0
     title: 'Beyond Categories of Caste: Examining Caste Bias and Morality in Text-to-Image AI Models'
+    year: '2026'
+  yRHRA4QAAAAJ:EUQCXRtRnyEC:
+    citations: 0
+    title: "\u201CIs This Not Enough?\": Asymmetries in Institutional Accountability and Collective Sensemaking in the Case of Canada\u2019s Algorithmic Visa Triage System"
     year: '2026'
   yRHRA4QAAAAJ:GnPB-g6toBAC:
     citations: 1
@@ -46,11 +50,11 @@ papers:
     title: Understanding the Strategies and Practices of Facebook Microcelebrities for Engaging in Sociopolitical Discourses
     year: '2022'
   yRHRA4QAAAAJ:IjCSPb-OGe4C:
-    citations: 51
+    citations: 52
     title: 'Sarcasm detection on facebook: A supervised learning approach'
     year: '2018'
   yRHRA4QAAAAJ:KlAtU1dfN6UC:
-    citations: 43
+    citations: 45
     title: '``Jol'''' or ``Pani''''?: How Does Governance Shape a Platform''s Identity?'
     year: '2021'
   yRHRA4QAAAAJ:L8Ckcad2t8MC:
@@ -62,11 +66,11 @@ papers:
     title: 'A sociomaterial perspective on trace data collection: Strategies for democratizing and limiting bias'
     year: '2022'
   yRHRA4QAAAAJ:NMxIlDl6LWMC:
-    citations: 16
+    citations: 17
     title: The politics of fear and the experience of Bangladeshi religious minority communities using social media platforms
     year: '2024'
   yRHRA4QAAAAJ:O3NaXMp0MMsC:
-    citations: 13
+    citations: 14
     title: The Datafication of Care in Public Homelessness Services
     year: '2025'
   yRHRA4QAAAAJ:Se3iqnhoufwC:
@@ -102,15 +106,19 @@ papers:
     title: Conceptualizing indigeneity in social computing
     year: '2023'
   yRHRA4QAAAAJ:_kc_bZDykSQC:
-    citations: 62
+    citations: 64
     title: 'Collaborative identity decolonization as reclaiming narrative agency: Identity work of Bengali communities on Quora'
     year: '2022'
   yRHRA4QAAAAJ:_xSYboBqXhAC:
     citations: 0
     title: 'Bureaucratic Silences: What the Canadian AI Register Reveals, Omits, and Obscures'
     year: '2026'
+  yRHRA4QAAAAJ:b0M2c_1WBrUC:
+    citations: 0
+    title: 'Mod-Guide: An LLM-based Content Moderation Feedback System to Address Insensitive Speech toward Indigenous Ethnic and Religious Minority Communities'
+    year: '2026'
   yRHRA4QAAAAJ:bFI3QPDXJZMC:
-    citations: 5
+    citations: 6
     title: 'Transphobia Is in the Eye of the Prompter: Trans-Centered Perspectives on Large Language Models'
     year: '2025'
   yRHRA4QAAAAJ:blknAaTinKkC:
@@ -118,7 +126,7 @@ papers:
     title: Identity Decolonization amid the Coloniality of Computing
     year: '2024'
   yRHRA4QAAAAJ:dfsIfKJdRG4C:
-    citations: 0
+    citations: 1
     title: Tracing Users' Privacy Concerns Across the Lifecycle of a Romantic AI Companion
     year: '2026'
   yRHRA4QAAAAJ:dhFuZR0502QC:
@@ -126,7 +134,7 @@ papers:
     title: 'Decolonial and Postcolonial Computing Research: A Scientometric Exploration'
     year: '2022'
   yRHRA4QAAAAJ:e5wmG9Sq2KIC:
-    citations: 14
+    citations: 15
     title: Studying multi-dimensional marginalization of identity from decolonial and postcolonial perspectives
     year: '2023'
   yRHRA4QAAAAJ:eQOLeE2rZwMC:
@@ -143,8 +151,8 @@ papers:
     year: '2025'
   yRHRA4QAAAAJ:g5m5HwL7SMYC:
     citations: 2
-    title: How do datasets, developers, and models affect biases in a low-resourced language?
-    year: '2025'
+    title: 'How do datasets, developers, and models affect biases in a low-resourced language?: The Case of the Bengali Language'
+    year: '2026'
   yRHRA4QAAAAJ:hFOr9nPyWt4C:
     citations: 4
     title: 'HCI Across Borders: Towards Global Solidarity'
@@ -162,7 +170,7 @@ papers:
     title: 'BTPD: A Multilingual Hand-curated Dataset of Bengali Transnational Political Discourse Across Online Communities'
     year: '2025'
   yRHRA4QAAAAJ:mB3voiENLucC:
-    citations: 40
+    citations: 41
     title: 'Toward cultural bias evaluation datasets: The case of Bengali gender, religious, and national identity'
     year: '2023'
   yRHRA4QAAAAJ:maZDTaKrznsC:
