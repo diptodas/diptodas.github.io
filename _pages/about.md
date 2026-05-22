@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: I am currently on the job market for 2025-26, seeking opportunities as a Tenure-Track Assistant Professor.
+subtitle: 
 
 profile:
   align: right
