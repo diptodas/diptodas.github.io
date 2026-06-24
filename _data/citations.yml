@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-15'
+  last_updated: '2026-06-22'
 papers:
   yRHRA4QAAAAJ:0EnyYjriUFMC:
     citations: 0
     title: Microcelebrities in Bangladesh
     year: '2019'
   yRHRA4QAAAAJ:2P1L_qKh6hAC:
-    citations: 3
+    citations: 4
     title: Identity Alignment and the Sociotechnical Reconfigurations of Emotional Labor in Transnational Gig-education Platforms
     year: '2025'
   yRHRA4QAAAAJ:35N4QoGY0k4C:
@@ -42,11 +42,11 @@ papers:
     title: "\u201CIs This Not Enough?\": Asymmetries in Institutional Accountability and Collective Sensemaking in the Case of Canada\u2019s Algorithmic Visa Triage System"
     year: '2026'
   yRHRA4QAAAAJ:GnPB-g6toBAC:
-    citations: 1
+    citations: 2
     title: HCI, Mobility Justice, and Migration in the Face of Climate Crisis
     year: '2024'
   yRHRA4QAAAAJ:IWHjjKOFINEC:
-    citations: 11
+    citations: 12
     title: Understanding the Strategies and Practices of Facebook Microcelebrities for Engaging in Sociopolitical Discourses
     year: '2022'
   yRHRA4QAAAAJ:IjCSPb-OGe4C:
@@ -69,8 +69,12 @@ papers:
     citations: 19
     title: The politics of fear and the experience of Bangladeshi religious minority communities using social media platforms
     year: '2024'
+  yRHRA4QAAAAJ:NhqRSupF_l8C:
+    citations: 1
+    title: 'Artificial Intelligence at the Margins: Risks and Opportunities for Iranian Immigrant Nonprofits in the Global North'
+    year: '2026'
   yRHRA4QAAAAJ:O3NaXMp0MMsC:
-    citations: 15
+    citations: 16
     title: The Datafication of Care in Public Homelessness Services
     year: '2025'
   yRHRA4QAAAAJ:Se3iqnhoufwC:
@@ -78,7 +82,7 @@ papers:
     title: Understanding the Attention Model of Humans in Sarcastic Videos
     year: '2019'
   yRHRA4QAAAAJ:TQgYirikUcIC:
-    citations: 16
+    citations: 18
     title: 'Many Worlds of Ethics: Ethical Pluralism in CSCW'
     year: '2023'
   yRHRA4QAAAAJ:Tyk-4Ss8FVUC:
@@ -118,7 +122,7 @@ papers:
     title: 'Mod-Guide: An LLM-based Content Moderation Feedback System to Address Insensitive Speech toward Indigenous Ethnic and Religious Minority Communities'
     year: '2026'
   yRHRA4QAAAAJ:bFI3QPDXJZMC:
-    citations: 8
+    citations: 11
     title: 'Transphobia Is in the Eye of the Prompter: Trans-Centered Perspectives on Large Language Models'
     year: '2025'
   yRHRA4QAAAAJ:blknAaTinKkC:
@@ -130,7 +134,7 @@ papers:
     title: Tracing Users' Privacy Concerns Across the Lifecycle of a Romantic AI Companion
     year: '2026'
   yRHRA4QAAAAJ:dhFuZR0502QC:
-    citations: 29
+    citations: 30
     title: 'Decolonial and Postcolonial Computing Research: A Scientometric Exploration'
     year: '2022'
   yRHRA4QAAAAJ:e5wmG9Sq2KIC:
@@ -142,7 +146,7 @@ papers:
     title: 'Satire vs fake news: You can tell by the way they say it'
     year: '2019'
   yRHRA4QAAAAJ:f2IySw72cVMC:
-    citations: 2
+    citations: 3
     title: How do the Global South Diasporas Mobilize for Transnational Political Change?
     year: '2026'
   yRHRA4QAAAAJ:fPk4N6BV_jEC:
@@ -174,7 +178,7 @@ papers:
     title: 'Toward cultural bias evaluation datasets: The case of Bengali gender, religious, and national identity'
     year: '2023'
   yRHRA4QAAAAJ:maZDTaKrznsC:
-    citations: 14
+    citations: 15
     title: Reimagining communities through transnational Bengali decolonial discourse with YouTube content creators
     year: '2024'
   yRHRA4QAAAAJ:pyW8ca7W8N0C:
@@ -190,6 +194,6 @@ papers:
     title: 'Faster evacuation after disaster: Finding alternative routes using probable human behavior'
     year: '2016'
   yRHRA4QAAAAJ:vV6vV6tmYwMC:
-    citations: 3
+    citations: 4
     title: 'Residual Mobilities and Religious Practices: Exploring the Experiences of the Hindu Migrants in Canada'
     year: '2025'
