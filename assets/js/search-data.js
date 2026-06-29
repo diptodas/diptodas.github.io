@@ -523,11 +523,6 @@ ninja.data = [{
           description: "Examining how digital platforms shape identity, language, belonging, and participation among historically marginalized communities through decolonial and sociotechnical perspectives.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/decolonial/";
-            },},{id: "projects-marginalized-identity-and-decolonial-computing",
-          title: 'Marginalized Identity and Decolonial Computing',
-          description: "Investigating how online platforms support marginalized communities in decolonizing identities by challenging colonial norms, values, and histories through collaborative storytelling.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/decolonization/";
             },},{id: "projects-immigrants-and-transnational-computing-practices",
           title: 'Immigrants and Transnational Computing Practices',
           description: "Exploring how immigrants leverage digital technologies to exercise political agency, maintain cultural ties, and resist systemic exclusion across transnational borders.",
@@ -543,6 +538,11 @@ ninja.data = [{
           description: "Building machine learning models to detect contextual human communication while examining how users manage digital personas and seek information through interactive social platforms.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/online_platforms/";
+            },},{id: "projects-ai-accountability-in-public-institutions",
+          title: 'AI Accountability in Public Institutions',
+          description: "Investigating how governments design, document, and govern AI systems, with a focus on transparency, human discretion, accountability, and contestability in public-sector decision-making.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/public_ai/";
             },},{id: "projects-high-stakes-public-ai-and-institutional-accountability",
           title: 'High-Stakes Public AI and Institutional Accountability',
           description: "Auditing public-sector AI systems to identify asymmetries in accountability, ensuring institutional transparency aligns with the lived experiences of those subject to algorithmic decisions.",
