@@ -2,7 +2,7 @@
 layout: page
 title: AI Accountability in Public Institutions
 description: Investigating how governments design, document, and govern AI systems, with a focus on transparency, human discretion, accountability, and contestability in public-sector decision-making.
-img: assets/img/project_banners/public_sector.jpeg
+img: assets/img/project_banners/public_sector.png
 importance: 1
 category: research
 ---
