@@ -3,15 +3,15 @@ layout: page
 title: High-Stakes Public AI and Institutional Accountability
 description: Auditing public-sector AI systems to identify asymmetries in accountability, ensuring institutional transparency aligns with the lived experiences of those subject to algorithmic decisions.
 img: assets/img/project_banners/public_sector.jpeg
-importance: 5
-category: research
+importance: 
+category: 
 related_publications: false
 ---
 
 
 ## Outcome
 
-[FAccT 26](/assets/pdf/FACCT26_AIregister.pdf), [CanadianAI 26](/assets/pdf/CanadianAI26_fairness.pdf), [CHI 25](/assets/pdf/CHI25_homelessness.pdf), and [Submitted](/assets/pdf/submitted_IRCC.pdf)
+, , , and 
 
 
 <div class="row">

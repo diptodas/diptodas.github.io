@@ -49,11 +49,11 @@ Rather than studying individual technologies in isolation, I investigate how use
 
 This research contributes to several areas within Human-Computer Interaction and CSCW.
 
-- **Decolonial Computing:** Develops empirically grounded understandings of how colonial histories continue to shape digital technologies and online participation in major ethnolinguistic communities like the Bengalis from South Asian countries like Bangladesh, India, and Pakistan -- regions of increasing geopolitical importance. [CSCW 24](/assets/pdf/CSCW24_transnational.pdf) [CHI 22](/assets/pdf/CHI22_collaborative.pdf)
+- **Decolonial Computing:** Develops empirically grounded understandings of how colonial histories continue to shape digital technologies and online participation in major ethnolinguistic communities like the Bengalis from South Asian countries like Bangladesh, India, and Pakistan -- regions of increasing geopolitical importance. (See [CSCW 24](/assets/pdf/CSCW24_transnational.pdf), [CHI 22](/assets/pdf/CHI22_collaborative.pdf))
 
-- **Online Communities and Platform Governance:** Extends theories of online communities by showing how identities emerge through ongoing interactions among users, technologies, and sociocultural histories. It also demonstrates that governance is enacted not only through platform rules but also through recommendation systems, creator labor, audience expectations, and community norms. [CSCW 21](/assets/pdf/CSCW21_governance.pdf) [Submitted](/assets/pdf/submitted_youTubegovernance.pdf)
+- **Online Communities and Platform Governance:** Extends theories of online communities by showing how identities emerge through ongoing interactions among users, technologies, and sociocultural histories. It also demonstrates that governance is enacted not only through platform rules but also through recommendation systems, creator labor, audience expectations, and community norms. (See [CSCW 21](/assets/pdf/CSCW21_governance.pdf), [Submitted](/assets/pdf/submitted_youTubegovernance.pdf))
 
-- **Global HCI:** Broadens HCI scholarship by centering perspectives from South Asia and other historically underrepresented regions. My work demonstrates how examining communities outside dominant Western contexts can generate new theoretical insights with broader relevance across computing disciplines. This can also inform designers developing multilingual and multicultural technologies. [CHI 24](/assets/pdf/CHI24_audit.pdf)
+- **Global HCI:** Broadens HCI scholarship by centering perspectives from South Asia and other historically underrepresented regions. My work demonstrates how examining communities outside dominant Western contexts can generate new theoretical insights with broader relevance across computing disciplines. This can also inform designers developing multilingual and multicultural technologies. (See [CHI 24](/assets/pdf/CHI24_audit.pdf))
 
 ---
 
