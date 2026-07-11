@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on [immigrant non-profit organizations' AI practices](/assets/pdf/DIS26_nonprofit.pdf) got an honorable mention DIS 2026!
+Our paper on [immigrant non-profit organizations' AI practices](/assets/pdf/DIS26_nonprofit.pdf) got [an honorable mention](/assets/pdf/DIS26_certificate_HM.pdf) DIS 2026!
