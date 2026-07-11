@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-22'
+  last_updated: '2026-07-01'
 papers:
   yRHRA4QAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: Identity Alignment and the Sociotechnical Reconfigurations of Emotional Labor in Transnational Gig-education Platforms
     year: '2025'
   yRHRA4QAAAAJ:35N4QoGY0k4C:
-    citations: 7
+    citations: 8
     title: 'The Power of Language: Resisting Western Heteropatriarchal Normative Writing Standards'
     year: '2025'
   yRHRA4QAAAAJ:4TOpqqG69KYC:
@@ -30,13 +30,9 @@ papers:
     title: 'Quoras: A python API for quora data collection to increase multi-language social science research'
     year: '2020'
   yRHRA4QAAAAJ:BqipwSGYUEgC:
-    citations: 49
+    citations: 51
     title: 'The``Colonial Impulse" of Natural Language Processing: An Audit of Bengali Sentiment Analysis Tools and Their Identity-based Biases'
     year: '2024'
-  yRHRA4QAAAAJ:D03iK_w7-QYC:
-    citations: 0
-    title: 'Beyond Categories of Caste: Examining Caste Bias and Morality in Text-to-Image AI Models'
-    year: '2026'
   yRHRA4QAAAAJ:EUQCXRtRnyEC:
     citations: 0
     title: "\u201CIs This Not Enough?\": Asymmetries in Institutional Accountability and Collective Sensemaking in the Case of Canada\u2019s Algorithmic Visa Triage System"
@@ -54,7 +50,7 @@ papers:
     title: 'Sarcasm detection on facebook: A supervised learning approach'
     year: '2018'
   yRHRA4QAAAAJ:KlAtU1dfN6UC:
-    citations: 45
+    citations: 46
     title: '``Jol'''' or ``Pani''''?: How Does Governance Shape a Platform''s Identity?'
     year: '2021'
   yRHRA4QAAAAJ:L8Ckcad2t8MC:
@@ -78,7 +74,7 @@ papers:
     title: The Datafication of Care in Public Homelessness Services
     year: '2025'
   yRHRA4QAAAAJ:Se3iqnhoufwC:
-    citations: 0
+    citations: 1
     title: Understanding the Attention Model of Humans in Sarcastic Videos
     year: '2019'
   yRHRA4QAAAAJ:TQgYirikUcIC:
@@ -110,7 +106,7 @@ papers:
     title: Conceptualizing indigeneity in social computing
     year: '2023'
   yRHRA4QAAAAJ:_kc_bZDykSQC:
-    citations: 64
+    citations: 65
     title: 'Collaborative identity decolonization as reclaiming narrative agency: Identity work of Bengali communities on Quora'
     year: '2022'
   yRHRA4QAAAAJ:_xSYboBqXhAC:
@@ -122,7 +118,7 @@ papers:
     title: 'Mod-Guide: An LLM-based Content Moderation Feedback System to Address Insensitive Speech toward Indigenous Ethnic and Religious Minority Communities'
     year: '2026'
   yRHRA4QAAAAJ:bFI3QPDXJZMC:
-    citations: 11
+    citations: 7
     title: 'Transphobia Is in the Eye of the Prompter: Trans-Centered Perspectives on Large Language Models'
     year: '2025'
   yRHRA4QAAAAJ:blknAaTinKkC:
@@ -142,7 +138,7 @@ papers:
     title: Studying multi-dimensional marginalization of identity from decolonial and postcolonial perspectives
     year: '2023'
   yRHRA4QAAAAJ:eQOLeE2rZwMC:
-    citations: 11
+    citations: 12
     title: 'Satire vs fake news: You can tell by the way they say it'
     year: '2019'
   yRHRA4QAAAAJ:f2IySw72cVMC:
@@ -174,7 +170,7 @@ papers:
     title: 'BTPD: A Multilingual Hand-curated Dataset of Bengali Transnational Political Discourse Across Online Communities'
     year: '2025'
   yRHRA4QAAAAJ:mB3voiENLucC:
-    citations: 41
+    citations: 43
     title: 'Toward cultural bias evaluation datasets: The case of Bengali gender, religious, and national identity'
     year: '2023'
   yRHRA4QAAAAJ:maZDTaKrznsC:
@@ -197,3 +193,7 @@ papers:
     citations: 4
     title: 'Residual Mobilities and Religious Practices: Exploring the Experiences of the Hindu Migrants in Canada'
     year: '2025'
+  yRHRA4QAAAAJ:xtRiw3GOFMkC:
+    citations: 0
+    title: 'Beyond Categories of Caste: Examining Caste Bias and Morality in Text-to-Image AI Models'
+    year: '2026'
