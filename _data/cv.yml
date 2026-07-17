@@ -21,12 +21,13 @@ cv:
     postalCode: M5S2E4
     countryCode: Canada
 
-  sections:      
+  sections:
+    Experience:
       - company: Department of Computer Science, University of Toronto
         position: Postdoctoral Fellow
         location: Toronto, ON, Canada
         start_date: Aug 2024
-        end_date: Jun 2026
+        end_date: Present
         highlights:
           - Funded by *Institute of Health Emergencies and Pandemics* (IHEP), Previously Institute for Pandemics
           - Advised by Syed Ishtiaque Ahmed (_Dynamic Graphics Project Lab_) and Shion Guha (_Human-Centered Data Science Lab_)
