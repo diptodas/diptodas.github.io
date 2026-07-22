@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-01'
+  last_updated: '2026-07-22'
 papers:
   yRHRA4QAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -10,11 +10,11 @@ papers:
     title: Identity Alignment and the Sociotechnical Reconfigurations of Emotional Labor in Transnational Gig-education Platforms
     year: '2025'
   yRHRA4QAAAAJ:35N4QoGY0k4C:
-    citations: 8
+    citations: 9
     title: 'The Power of Language: Resisting Western Heteropatriarchal Normative Writing Standards'
     year: '2025'
   yRHRA4QAAAAJ:4TOpqqG69KYC:
-    citations: 3
+    citations: 4
     title: Importance of digital profile pictures on social media perceived by different groups
     year: '2022'
   yRHRA4QAAAAJ:5nxA0vEk-isC:
@@ -50,7 +50,7 @@ papers:
     title: 'Sarcasm detection on facebook: A supervised learning approach'
     year: '2018'
   yRHRA4QAAAAJ:KlAtU1dfN6UC:
-    citations: 46
+    citations: 48
     title: '``Jol'''' or ``Pani''''?: How Does Governance Shape a Platform''s Identity?'
     year: '2021'
   yRHRA4QAAAAJ:L8Ckcad2t8MC:
@@ -62,7 +62,7 @@ papers:
     title: 'A sociomaterial perspective on trace data collection: Strategies for democratizing and limiting bias'
     year: '2022'
   yRHRA4QAAAAJ:NMxIlDl6LWMC:
-    citations: 19
+    citations: 20
     title: The politics of fear and the experience of Bangladeshi religious minority communities using social media platforms
     year: '2024'
   yRHRA4QAAAAJ:NhqRSupF_l8C:
@@ -78,7 +78,7 @@ papers:
     title: Understanding the Attention Model of Humans in Sarcastic Videos
     year: '2019'
   yRHRA4QAAAAJ:TQgYirikUcIC:
-    citations: 18
+    citations: 17
     title: 'Many Worlds of Ethics: Ethical Pluralism in CSCW'
     year: '2023'
   yRHRA4QAAAAJ:Tyk-4Ss8FVUC:
@@ -102,7 +102,7 @@ papers:
     title: Decolonization through technology and decolonization of technology
     year: '2023'
   yRHRA4QAAAAJ:_Qo2XoVZTnwC:
-    citations: 7
+    citations: 8
     title: Conceptualizing indigeneity in social computing
     year: '2023'
   yRHRA4QAAAAJ:_kc_bZDykSQC:
@@ -118,7 +118,7 @@ papers:
     title: 'Mod-Guide: An LLM-based Content Moderation Feedback System to Address Insensitive Speech toward Indigenous Ethnic and Religious Minority Communities'
     year: '2026'
   yRHRA4QAAAAJ:bFI3QPDXJZMC:
-    citations: 7
+    citations: 8
     title: 'Transphobia Is in the Eye of the Prompter: Trans-Centered Perspectives on Large Language Models'
     year: '2025'
   yRHRA4QAAAAJ:blknAaTinKkC:
@@ -134,7 +134,7 @@ papers:
     title: 'Decolonial and Postcolonial Computing Research: A Scientometric Exploration'
     year: '2022'
   yRHRA4QAAAAJ:e5wmG9Sq2KIC:
-    citations: 15
+    citations: 16
     title: Studying multi-dimensional marginalization of identity from decolonial and postcolonial perspectives
     year: '2023'
   yRHRA4QAAAAJ:eQOLeE2rZwMC:
@@ -154,11 +154,11 @@ papers:
     title: 'How do datasets, developers, and models affect biases in a low-resourced language?: The Case of the Bengali Language'
     year: '2026'
   yRHRA4QAAAAJ:hFOr9nPyWt4C:
-    citations: 4
+    citations: 5
     title: 'HCI Across Borders: Towards Global Solidarity'
     year: '2023'
   yRHRA4QAAAAJ:hMod-77fHWUC:
-    citations: 1
+    citations: 2
     title: A Civics-oriented Approach to Understanding Intersectionally Marginalized Users' Experience with Hate Speech Online
     year: '2024'
   yRHRA4QAAAAJ:isC4tDSrTZIC:
@@ -170,7 +170,7 @@ papers:
     title: 'BTPD: A Multilingual Hand-curated Dataset of Bengali Transnational Political Discourse Across Online Communities'
     year: '2025'
   yRHRA4QAAAAJ:mB3voiENLucC:
-    citations: 43
+    citations: 45
     title: 'Toward cultural bias evaluation datasets: The case of Bengali gender, religious, and national identity'
     year: '2023'
   yRHRA4QAAAAJ:maZDTaKrznsC:
