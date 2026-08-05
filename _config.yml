@@ -7,7 +7,7 @@ first_name: Dipto
 middle_name:
 last_name: Das
 contact_note: >
-  Room# 5175, Bahen Centre for Information Technology, 40 Saint George Street, Toronto, ON M5S 2E4, Canada
+  Room# 219, Bill and Melinda Gates Hall, 107 Hoy Rd, Ithaca, NY 14850, United States
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Dipto Das' Domicile on the Web. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
