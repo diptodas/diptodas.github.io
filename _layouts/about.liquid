@@ -11,6 +11,26 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
+    {% if page.name_pronunciation %}
+      <p class="name-pronunciation">
+        <span lang="bn">{{ page.name_pronunciation.bengali }}</span>
+        <span aria-hidden="true">·</span>
+        pronounced “{{ page.name_pronunciation.pronunciation }}”
+        <button
+          type="button"
+          class="name-pronunciation-button"
+          aria-label="Play name pronunciation"
+          onclick="document.getElementById('name-pronunciation-audio').play()"
+        >
+          <i class="fa-solid fa-volume-high" aria-hidden="true"></i>
+        </button>
+        <span aria-hidden="true">·</span>
+        <em>Dipto</em> means “{{ page.name_pronunciation.meaning }}” in Bengali
+        <audio id="name-pronunciation-audio" preload="none">
+          <source src="{{ page.name_pronunciation.audio | relative_url }}" type="audio/mpeg">
+        </audio>
+      </p>
+    {% endif %}
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
@@ -34,6 +54,12 @@ layout: default
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+        {% if page.social %}
+          <div class="social">
+            <div class="contact-icons">{% social_links %}</div>
+            <div class="contact-note">{{ site.contact_note }}</div>
+          </div>
         {% endif %}
       </div>
     {% endif %}
@@ -62,15 +88,6 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}

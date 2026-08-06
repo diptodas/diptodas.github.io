@@ -4,22 +4,19 @@ title: about
 permalink: /
 subtitle:
 
+name_pronunciation:
+  bengali: দীপ্ত দাস
+  pronunciation: Dip-toh Daash
+  meaning: bright
+  audio: /assets/audio/diptodas.mp3
+
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Pronouns: He/him/his <br>
-    Spelling in Bengali: দীপ্ত দাস, Dipto means <em>bright</em> in Bengali.<br><br>
-    Pronunciation: Dip-toh (Dipto) Daash (Das). Audio below.
-    <audio controls class="name-audio">
-      <source src="assets/audio/diptodas.mp3" type="audio/mpeg">
-    </audio>
-    </p>
-    
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: true # includes social icons and the address in the profile panel
 
 announcements:
   enabled: true # includes a list of news items
