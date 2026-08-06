@@ -57,12 +57,12 @@ layout: default
         {% endif %}
         <div class="profile-contact">
           <div class="profile-documents">
-            <a href="{{ site.data.socials.cv_pdf | relative_url }}">CV</a>
+            <strong><a href="{{ site.data.contact.cv_pdf | relative_url }}">CV</a>
             <span aria-hidden="true">|</span>
-            <a href="{{ page.profile.resume_pdf | relative_url }}">Resume</a>
+            <a href="{{ site.data.contact.resume_pdf | relative_url }}">Resume</a></strong>
           </div>
-          Email: <a href="mailto:{{ site.data.socials.email }}">dd749@cornell.edu</a>
-          <div class="contact-note">{{ site.contact_note }}</div>
+          Email: <a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a>
+          <div class="contact-note">{{ site.data.contact.address }}</div>
         </div>
       </div>
     {% endif %}
@@ -98,7 +98,7 @@ layout: default
       <div class="social">
         <div class="contact-icons">
           <a
-            href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+            href="https://scholar.google.com/citations?user={{ site.data.contact.scholar_userid }}"
             title="Google Scholar"
             rel="external nofollow noopener"
             target="_blank"
@@ -106,18 +106,18 @@ layout: default
             <i class="ai ai-google-scholar"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}"
+            href="https://www.linkedin.com/in/{{ site.data.contact.linkedin_username }}"
             title="LinkedIn"
             rel="external nofollow noopener"
             target="_blank"
           >
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href="{{ site.data.socials.dblp_url }}" title="DBLP" rel="external nofollow noopener" target="_blank">
+          <a href="{{ site.data.contact.dblp_url }}" title="DBLP" rel="external nofollow noopener" target="_blank">
             <i class="ai ai-dblp"></i>
           </a>
           <a
-            href="https://orcid.org/{{ site.data.socials.orcid_id }}"
+            href="https://orcid.org/{{ site.data.contact.orcid_id }}"
             title="ORCID"
             rel="external nofollow noopener"
             target="_blank"
@@ -125,8 +125,8 @@ layout: default
             <i class="ai ai-orcid"></i>
           </a>
           <a
-            href="{{ site.data.socials.custom_social.url }}"
-            title="{{ site.data.socials.custom_social.title }}"
+            href="{{ site.data.contact.calendar_url }}"
+            title="Calendar"
             rel="external nofollow noopener"
             target="_blank"
           >

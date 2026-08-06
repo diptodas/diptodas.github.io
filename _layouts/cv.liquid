@@ -17,12 +17,12 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {{ page.title }}
-      {% if page.cv_pdf %}
+      {% if site.data.contact.cv_pdf %}
         <a
-          {% if page.cv_pdf contains '://' %}
-            href="{{ page.cv_pdf }}"
+          {% if site.data.contact.cv_pdf contains '://' %}
+            href="{{ site.data.contact.cv_pdf }}"
           {% else %}
-            href="{{ page.cv_pdf | relative_url }}"
+            href="{{ site.data.contact.cv_pdf | relative_url }}"
           {% endif %}
           target="_blank"
           rel="noopener noreferrer"

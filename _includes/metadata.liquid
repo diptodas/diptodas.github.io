@@ -80,8 +80,13 @@
   <!-- Schema.org -->
   {% comment %} Social links generator for "sameAs schema" {% endcomment %}
   {% assign sameaslinks = '' | split: ',' %}
-  {% for social in site.data.socials %}
+  {% for social in site.data.contact %}
     {% case social[0] %}
+      {% when 'address' or 'cv_pdf' or 'resume_pdf' %}
+        {% comment %}These contact details are not public profile URLs.{% endcomment %}
+      {% when 'calendar_url' %}
+        {% capture link %}{{ social[1] }}{% endcapture %}
+        {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'acm_id' %}
         {% capture link %}https://dl.acm.org/profile/{{ social[1] }}/{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
