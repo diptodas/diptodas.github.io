@@ -206,6 +206,20 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/diptodas", "_blank");
         },
       },{
+        id: 'social-dblp',
+        title: 'DBLP',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://dblp.org/pid/192/2609", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-5704-8804", "_blank");
+        },
+      },{
         id: 'social-custom_social',
         title: 'Custom_social',
         section: 'Socials',
