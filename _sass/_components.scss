@@ -88,44 +88,18 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  .social {
+  .profile-contact {
     margin-top: 1rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    text-align: center;
 
-    .contact-icons {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      gap: 0.5rem 0.8rem;
-      font-size: 1.8rem;
-
-      a {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-
-        img {
-          width: 1.6rem;
-          height: 1.6rem;
-          margin-bottom: 0;
-        }
-
-        svg {
-          width: 1.75rem;
-          height: 1.75rem;
-          margin-bottom: 0;
-
-          image {
-            width: 1.75rem;
-            height: 1.75rem;
-          }
-        }
-      }
+    .profile-documents {
+      margin-bottom: 0.2rem;
     }
 
     .contact-note {
       margin-top: 0.75rem;
-      line-height: 1.5;
     }
   }
 }
