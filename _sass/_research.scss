@@ -1,236 +1,154 @@
 .research-program {
-  --research-rule: var(--global-divider-color);
-
   margin: 0 auto;
-  max-width: 1020px;
+  max-width: 850px;
 }
 
 .research-intro {
-  padding: 1.5rem 0 3rem;
+  max-width: 760px;
+  padding: 0.5rem 0 2.5rem;
 }
 
 .research-kicker,
-.research-eyebrow {
+.research-label,
+.research-number {
   color: var(--global-theme-color);
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  font-size: 0.76rem;
+  font-size: 0.72rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
 }
 
 .research-deck {
-  font-size: clamp(1.65rem, 3.2vw, 2.65rem);
+  font-size: clamp(1.45rem, 3vw, 2.05rem);
   font-weight: 500;
-  letter-spacing: -0.035em;
-  line-height: 1.2;
-  margin: 1.25rem 0 1.5rem;
-  max-width: 940px;
+  letter-spacing: -0.025em;
+  line-height: 1.3;
+  margin: 1rem 0;
 }
 
 .research-intro-copy {
   color: var(--global-text-color-light);
-  font-size: 1.08rem;
-  line-height: 1.75;
-  max-width: 720px;
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 660px;
 }
 
-.research-lenses {
-  border-top: 1px solid var(--research-rule);
-  display: grid;
-  gap: 0;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 3.5rem;
+.research-index {
+  border-bottom: 1px solid var(--global-divider-color);
+  border-top: 1px solid var(--global-divider-color);
+  display: flex;
+  gap: 2rem;
+  padding: 0.8rem 0;
 }
 
-.research-lenses a {
-  border-right: 1px solid var(--research-rule);
+.research-index a {
   color: var(--global-text-color);
-  display: grid;
-  padding: 1.15rem 1.4rem 0.25rem 0;
+  font-size: 0.88rem;
   text-decoration: none;
-  transition: color 0.2s ease;
 }
 
-.research-lenses a + a {
-  padding-left: 1.4rem;
-}
-
-.research-lenses a:last-child {
-  border-right: 0;
-}
-
-.research-lenses a:hover {
+.research-index a:hover {
   color: var(--global-theme-color);
 }
 
-.research-lenses span,
-.research-lenses small {
+.research-index span {
   color: var(--global-text-color-light);
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  font-size: 0.72rem;
-}
-
-.research-lenses strong {
-  font-size: 1.1rem;
-  margin: 0.65rem 0 0.2rem;
+  font-size: 0.68rem;
+  margin-right: 0.25rem;
 }
 
 .research-theme {
-  border-top: 1px solid var(--research-rule);
-  padding: 6rem 0 1.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  padding: 4.5rem 0;
   scroll-margin-top: 5rem;
 }
 
-.research-theme-header h2 {
-  font-size: clamp(2.55rem, 6vw, 4.4rem);
-  font-weight: 650;
-  letter-spacing: -0.05em;
-  line-height: 1;
-  margin: 1rem 0 1.5rem;
-  max-width: 900px;
+.research-theme > header {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 44px minmax(0, 1fr);
+}
+
+.research-number,
+.research-label {
+  margin: 0;
+}
+
+.research-theme h2 {
+  font-size: clamp(1.75rem, 4vw, 2.55rem);
+  font-weight: 550;
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+  margin: 0.45rem 0 0;
+}
+
+.research-body {
+  margin-left: 60px;
+  max-width: 650px;
+}
+
+.research-body > p {
+  font-size: 1rem;
+  line-height: 1.75;
 }
 
 .research-thesis {
   color: var(--global-text-color-light);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.25rem, 2vw, 1.55rem);
+  font-size: 1.16rem !important;
   font-style: italic;
-  line-height: 1.5;
-  max-width: 750px;
+  margin: 1.5rem 0;
 }
 
-.research-visual {
-  align-items: center;
-  background: var(--global-card-bg-color);
-  border: 1px solid var(--research-rule);
+.research-paths {
   display: flex;
-  justify-content: center;
-  margin: 3rem 0;
-  min-height: 260px;
-  overflow: hidden;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.25rem;
+  margin: 1.5rem 0;
 }
 
-.research-visual img {
-  height: 100%;
-  max-height: 430px;
-  object-fit: cover;
-  width: 100%;
+.research-paths a {
+  font-size: 0.92rem;
+  font-weight: 500;
 }
 
-.research-visual-contain img {
-  max-height: 370px;
-  object-fit: contain;
-  padding: 1.5rem;
-}
-
-.research-prose {
-  font-size: 1.075rem;
-  line-height: 1.82;
-  max-width: 720px;
-}
-
-.research-prose p + p {
-  margin-top: 1.35rem;
-}
-
-.research-stories {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 3.25rem 0 2rem;
-}
-
-.research-story {
-  border: 1px solid var(--research-rule);
-  border-radius: 0.35rem;
-  color: var(--global-text-color);
-  display: block;
-  padding: 1.4rem;
-  text-decoration: none;
-  transition:
-    border-color 0.2s ease,
-    transform 0.2s ease;
-}
-
-.research-story:hover {
-  border-color: var(--global-theme-color);
-  color: var(--global-text-color);
-  transform: translateY(-2px);
-}
-
-.research-story span {
-  color: var(--global-theme-color);
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.research-story h3 {
-  font-size: 1.14rem;
-  line-height: 1.35;
-  margin: 0.8rem 0 0.65rem;
-}
-
-.research-story p {
-  color: var(--global-text-color-light);
-  font-size: 0.88rem;
-  line-height: 1.55;
-  margin: 0;
+.research-paths a::after {
+  content: " →";
 }
 
 .research-selected {
-  border-top: 1px solid var(--research-rule);
   color: var(--global-text-color-light);
-  font-size: 0.82rem;
-  line-height: 1.8;
-  padding-top: 1rem;
+  font-size: 0.82rem !important;
+  margin-bottom: 0;
 }
 
-.research-selected span {
-  color: var(--global-text-color);
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  margin-right: 0.55rem;
-  text-transform: uppercase;
+.research-all {
+  font-size: 0.9rem;
+  margin: 1.5rem 0 0;
+  text-align: right;
 }
 
-.research-selected i {
-  font-style: normal;
-  margin: 0 0.35rem;
-}
-
-@media (max-width: 767px) {
-  .research-intro {
-    padding-top: 0.5rem;
-  }
-
-  .research-lenses,
-  .research-stories {
-    grid-template-columns: 1fr;
-  }
-
-  .research-lenses a,
-  .research-lenses a + a {
-    border-bottom: 1px solid var(--research-rule);
-    border-right: 0;
-    padding: 1rem 0;
+@media (max-width: 576px) {
+  .research-index {
+    gap: 0.9rem;
+    justify-content: space-between;
   }
 
   .research-theme {
-    padding-top: 4rem;
+    padding: 3.5rem 0;
   }
 
-  .research-visual {
-    margin: 2.25rem 0;
-    min-height: 190px;
+  .research-theme > header {
+    display: block;
   }
 
-  .research-visual-contain img {
-    padding: 0.75rem;
+  .research-number {
+    margin-bottom: 0.65rem;
+  }
+
+  .research-body {
+    margin-left: 0;
   }
 }
