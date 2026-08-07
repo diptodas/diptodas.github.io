@@ -101,6 +101,11 @@ ul.task-list input[type="checkbox"] {
 
     .contact-note {
       margin-top: 0.75rem;
+
+      span {
+        display: block;
+        white-space: nowrap;
+      }
     }
   }
 }

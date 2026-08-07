@@ -57,12 +57,16 @@ layout: default
         {% endif %}
         <div class="profile-contact">
           <div class="profile-documents">
-            <strong><a href="{{ site.data.contact.cv_pdf | relative_url }}">CV</a>
+            <a href="{{ site.data.contact.cv_pdf | relative_url }}">CV</a>
             <span aria-hidden="true">|</span>
-            <a href="{{ site.data.contact.resume_pdf | relative_url }}">Resume</a></strong>
+            <a href="{{ site.data.contact.resume_pdf | relative_url }}">Resume</a>
           </div>
           Email: <a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a>
-          <div class="contact-note">{{ site.data.contact.address }}</div>
+          <div class="contact-note">
+            {% for address_line in site.data.contact.address %}
+              <span>{{ address_line }}</span>
+            {% endfor %}
+          </div>
         </div>
       </div>
     {% endif %}
