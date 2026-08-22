@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /cv/
-title: Curriculum Vitae
+title: CV
 nav: true
 nav_order: 4
-description: 
+description: View or download Dipto Das's curriculum vitae.
 _styles: |
   .cv-actions {
     display: flex;
