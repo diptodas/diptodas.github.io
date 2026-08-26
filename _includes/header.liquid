@@ -22,7 +22,53 @@
         </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
-        <div class="navbar-brand social">{% social_links %}</div>
+        <div class="navbar-brand social" role="group" aria-label="Academic and professional profiles">
+          <a
+            href="https://scholar.google.com/citations?user={{ site.data.contact.scholar_userid }}"
+            title="Google Scholar"
+            aria-label="Google Scholar"
+            rel="external nofollow noopener"
+            target="_blank"
+          >
+            <i class="ai ai-google-scholar" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/{{ site.data.contact.linkedin_username }}"
+            title="LinkedIn"
+            aria-label="LinkedIn"
+            rel="external nofollow noopener"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a
+            href="{{ site.data.contact.dblp_url }}"
+            title="DBLP"
+            aria-label="DBLP"
+            rel="external nofollow noopener"
+            target="_blank"
+          >
+            <i class="ai ai-dblp" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://orcid.org/{{ site.data.contact.orcid_id }}"
+            title="ORCID"
+            aria-label="ORCID"
+            rel="external nofollow noopener"
+            target="_blank"
+          >
+            <i class="ai ai-orcid" aria-hidden="true"></i>
+          </a>
+          <a
+            href="{{ site.data.contact.calendar_url }}"
+            title="Calendar"
+            aria-label="Calendar"
+            rel="external nofollow noopener"
+            target="_blank"
+          >
+            <i class="fa-solid fa-calendar-days" aria-hidden="true"></i>
+          </a>
+        </div>
       {% endif %}
       <!-- Navbar Toggle -->
       <button
