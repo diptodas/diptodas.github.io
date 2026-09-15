@@ -36,6 +36,7 @@ _styles: |
 ---
 
 {% assign cv_pdf = '/assets/pdf/CV.pdf' | relative_url %}
+{% assign resume_pdf = site.data.contact.resume_pdf | relative_url %}
 
 <div class="cv-actions" aria-label="CV document actions">
   <!-- <a class="btn btn-sm btn-outline-primary" href="{{ cv_pdf }}" target="_blank" rel="noopener noreferrer">
@@ -44,7 +45,11 @@ _styles: |
   </a> -->
   <a class="btn btn-sm btn-outline-primary" href="{{ cv_pdf }}" download>
     <i class="fa-solid fa-download" aria-hidden="true"></i>
-    Download as PDF
+    Download CV
+  </a>
+  <a class="btn btn-sm btn-outline-primary" href="{{ resume_pdf }}" download>
+    <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
+    Download Résumé
   </a>
 </div>
 
