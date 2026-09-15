@@ -1,6 +1,6 @@
 # Contact documents
 cv_pdf: /assets/pdf/CV.pdf
-resume_pdf: "#"
+resume_pdf: /assets/pdf/resume.pdf
 email: dd749@cornell.edu
 
 # Mailing address
