@@ -6,7 +6,7 @@ description: Courses I have taught as instructor of record and as a teaching ass
 nav: true
 nav_order: 3
 ---
-I have taught seven courses as instructor of record at the University of Toronto, the University of Colorado Boulder, and Dhaka International University, from small design studios to a junior-level undergraduate course with more than 300 students. My courses span critical perspectives on computing, human-computer interaction and user-centered design, as well as the quantitative foundations of computing and information science. I received an Award of Excellence from CU Boulder for teaching in 2024.
+I have taught seven courses as instructor of record at the University of Toronto, the University of Colorado Boulder, and Dhaka International University, from small design studios to a junior-level undergraduate course with more than 300 students. My courses span critical perspectives on computing, human-computer interaction and user-centered design, as well as the quantitative foundations of computing and information science. I received a Teaching Excellence Award from CU Boulder (2024).
 
 <h2 class="year">instructor of record</h2>
 
