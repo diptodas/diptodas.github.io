@@ -6,8 +6,7 @@ description: Courses I have taught as instructor of record and as a teaching ass
 nav: true
 nav_order: 3
 ---
-
-I have taught seven courses as instructor of record at the University of Toronto, the University of Colorado Boulder, and Dhaka International University, from 20-student design studios to a computers-and-society course with two 158-student sections. My courses span critical perspectives on computing (ethics, data, equity, labor, and materiality), human-computer interaction and user-centered design, the quantitative foundations of information science, and core computer science. Across them, I pair theory with practice: students critique technologies through readings such as Winner's "Do Artifacts Have Politics?", run user research and usability studies on their own prototypes, and analyze real data in Excel and Python. In 2024, I received the Teaching Excellence Award from CU Boulder's Graduate and Professional Student Government.
+I have taught seven courses as instructor of record at the University of Toronto, the University of Colorado Boulder, and Dhaka International University, from small design studios to a junior-level undergraduate course with more than 300 students. My courses span critical perspectives on computing, human-computer interaction and user-centered design, as well as the quantitative foundations of computing and information science. I received an Award of Excellence from CU Boulder for teaching in 2024.
 
 <h2 class="year">instructor of record</h2>
 
