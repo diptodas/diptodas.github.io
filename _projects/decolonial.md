@@ -1,69 +1,83 @@
 ---
 layout: page
-title: Identity and Platform Governance
-description: Examining how digital platforms shape identity, language, belonging, and participation among historically marginalized communities through decolonial and sociotechnical perspectives.
+title: Identity, Safety, and Platform Governance
+description: Examining how digital platforms shape identity, expression, and safety for historically marginalized communities across South Asia, through decolonial and sociotechnical perspectives.
 img: assets/img/project_banners/decolonization.png
-importance: 2
+importance: 3
 category: research
+related_publications: false
+selected_work:
+  - label: CHI 2022
+    pdf: CHI22_collaborative.pdf
+  - label: CSCW 2024
+    pdf: CSCW24_transnational.pdf
+  - label: CSCW 2024
+    pdf: CSCW24_minority.pdf
+  - label: USENIX Security 2026
+    pdf: USENIX26_surveillance.pdf
 ---
+
+<p class="project-back"><a href="{{ '/projects/' | relative_url }}">← All research projects</a></p>
 
 > **Research Summary**
 >
-> This research program examines how digital platforms shape identity, language, and collective participation in historically marginalized communities. Through qualitative, computational, and critical approaches, I investigate how platform governance, algorithmic systems, and colonial histories intersect to influence online expression, cultural preservation, and community formation across South Asia and its diaspora.
+> This project examines how digital platforms shape identity, expression, and safety for historically marginalized communities across South Asia and its diaspora. I study how platform governance, algorithmic systems, and colonial histories shape whose identities become legible, whose voices are amplified, and who is made unsafe, from Bengali communities reclaiming narrative agency online to religious and Indigenous minorities facing hate, fear, and surveillance.
 
 ---
 
 ## Why this research?
 
-Digital platforms have become central spaces for cultural expression, political participation, and community building. However, not everybody can make their voices heard -- platforms' recommendation algorithms, moderation systems, interface designs, and economic incentives influence whose voices are amplified, whose identities become legible, and whose experiences remain marginalized.
+Recommendation algorithms, moderation systems, interface designs, and economic incentives influence whose voices are heard online. Much of the work on online communities in HCI and social computing comes from North American and European contexts, so how colonial histories, linguistic diversity, religious identities, and regional politics shape participation elsewhere remains insufficiently understood. Minority users, in particular, often experience harms that platform policies were not designed to recognize: implicit erasure, misrepresentation, and fear rooted in local histories of violence, alongside surveillance exercised by peers and kin as well as states.
 
-Much of the rich work on online communities in human-computer interaction and social computing has emerged from North American and European contexts. In contrary, how colonial histories, linguistic diversity, religious identities, and regional politics shape digital participation elsewhere remains insufficiently understood.
+Rather than treating identity as a fixed characteristic, I examine it as an ongoing sociotechnical accomplishment that emerges through interactions among people, platforms, algorithms, and historical power structures.
 
-This research program addresses that gap by studying online communities in South Asia and the South Asian diaspora. Rather than treating identity as a fixed characteristic, I examine identity as an ongoing sociotechnical accomplishment that emerges through interactions among people, platforms, algorithms, and historical power structures. My work contributes to decolonial computing by foregrounding local knowledge, community practices, and lived experiences that are often overlooked in mainstream technology research.
+Questions guiding this work include:
 
-Across this project, I investigate questions such as:
-
-- How do digital platforms influence the construction and negotiation of cultural identities?
-- How do language, history, and colonial legacies shape online participation?
+- How do language, history, and colonial legacies shape identity and participation online?
 - How do creators and communities navigate platform governance, moderation, and algorithmic visibility?
-- How do marginalized communities appropriate digital technologies to preserve culture and build solidarity?
-- What can decolonial perspectives contribute to the design and governance of online platforms?
+- How do fear, surveillance, and social conformity silence minority voices online?
+- What would platform governance grounded in minority perspectives and restorative justice look like?
 
 ---
 
 ## Research Approach
 
-This project combines qualitative, computational, and critical methods to understand online communities as sociotechnical systems.
-
-Methods include:
-
-- Interviews and digital ethnography with community members
+- Interviews and digital ethnography with community members, content creators, and activists
+- The asynchronous remote community method to engage distributed minority populations
 - Computational, qualitative, and critical discourse analyses
-- Sociotechnical theories and decolonial and postcolonial perspectives
-
-Rather than studying individual technologies in isolation, I investigate how users, platforms, institutional policies, and historical contexts jointly shape digital participation.
+- Decolonial, postcolonial, and sociotechnical perspectives
 
 ---
 
 ## Research Outcomes and Contributions
 
-This research contributes to several areas within Human-Computer Interaction and CSCW.
+#### Identity and platform governance
 
-- **Decolonial Computing:** Develops empirically grounded understandings of how colonial histories continue to shape digital technologies and online participation in major ethnolinguistic communities like the Bengalis from South Asian countries like Bangladesh, India, and Pakistan -- regions of increasing geopolitical importance. (See [CSCW 24](/assets/pdf/CSCW24_transnational.pdf), [CHI 22](/assets/pdf/CHI22_collaborative.pdf))
+- **Identity decolonization online:** Bengali communities on Quora collaboratively reclaim narrative agency over their identities, and platform governance shapes which linguistic and cultural identities a platform comes to hold. (See [CHI 22](/assets/pdf/CHI22_collaborative.pdf), [CSCW 21](/assets/pdf/CSCW21_governance.pdf), and my [PhD dissertation](/assets/pdf/phd_dissertation.pdf))
 
-- **Online Communities and Platform Governance:** Extends theories of online communities by showing how identities emerge through ongoing interactions among users, technologies, and sociocultural histories. It also demonstrates that governance is enacted not only through platform rules but also through recommendation systems, creator labor, audience expectations, and community norms. (See [CSCW 21](/assets/pdf/CSCW21_governance.pdf), [Submitted](/assets/pdf/submitted_youTubegovernance.pdf))
+- **Decolonial discourse on YouTube:** Creators engaging in Bengali decolonial discourse across Bangladesh, India, and Pakistan use video to reimagine nationalism and community, while navigating audience backlash, differential monetization, opaque moderation, copyright regimes, and state influence routed through intermediaries. (See [CSCW 24](/assets/pdf/CSCW24_transnational.pdf), [GROUP 27](/assets/pdf/GROUP27_decolonial.pdf))
 
-- **Global HCI:** Broadens HCI scholarship by centering perspectives from South Asia and other historically underrepresented regions. My work demonstrates how examining communities outside dominant Western contexts can generate new theoretical insights with broader relevance across computing disciplines. This can also inform designers developing multilingual and multicultural technologies. (See [CHI 24](/assets/pdf/CHI24_audit.pdf))
+- **Creators and identity work:** Facebook microcelebrities engage strategically in sociopolitical discourse, and tutors on transnational gig-education platforms align their identities to client expectations through new forms of emotional labor. (See [ICTD 22](/assets/pdf/ICTD22_microcelebrity.pdf), [JCSCW 25](/assets/pdf/JCSCW25_gig.pdf))
+
+#### Safety for minority and Indigenous communities
+
+- **The politics of fear:** Bangladeshi religious minorities' use of social media is shaped by fear tied to social conformity, misinformation, stigma, and South Asian postcolonial memory, pushing minority voices into a "spiral of silence." (See [CSCW 24](/assets/pdf/CSCW24_minority.pdf))
+
+- **Usership:** Drawing an analogy to citizenship, we analyze the status, rights, membership, and participation of intersectionally marginalized users, such as Indigenous ethnic minorities and women, facing hate speech online. (See [ICTD 24](/assets/pdf/ICTD24_civics.pdf))
+
+- **Lateral surveillance and resilience:** During Bangladesh's 2024 uprising, protesters experienced surveillance from peers, kin, and intimate ties as well as the state, and responded with improvised encryption, panic deletions, satire, and hidden speech. (See [USENIX Security 26](/assets/pdf/USENIX26_surveillance.pdf))
+
+- **Restorative moderation:** We propose moving from punishment-based moderation toward restorative justice that addresses hermeneutical injustice, demonstrated through Mod-Guide, an LLM-based moderation feedback system grounded in Hindu and Chakma community knowledge. (See [COMPASS 26](/assets/pdf/COMPASS26_modguide.pdf))
+
+#### Global and decolonial HCI
+
+My work also helps build communities of scholarship on decolonial computing and HCI across borders, and questions how Western heteropatriarchal writing norms shape scientific communication in HCI. (See [CHI 25](/assets/pdf/CHI25_language.pdf), [CSCW 22 Poster](/assets/pdf/CSCW22_scientometric.pdf), [CSCW 23 Workshop](/assets/pdf/CSCW23_indigeneity.pdf))
 
 ---
 
 ## Current Directions
 
-This research program continues to evolve alongside rapid developments in generative AI and platform ecosystems.
-
-Current directions include:
-
-- AI-mediated identity construction
-- Cultural representation in generative AI
-- Platform governance for multilingual communities
+- AI-mediated identity construction and cultural representation
+- Pluralistic moderation for multilingual and multi-faith platforms
+- Safety, anonymity, and collective resilience in repressive contexts
 - Digital public spheres in the Global South

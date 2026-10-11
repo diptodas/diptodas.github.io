@@ -1,151 +1,60 @@
-.research-program {
-  margin: 0 auto;
-  max-width: 850px;
+/*******************************************************************************
+ * Research projects page and project subpages
+ * Mirrors the publications list (thumbnail, bold title, outlined buttons)
+ * and the teaching page's section headings so the pages match the site.
+ ******************************************************************************/
+
+.research-projects {
+  margin-top: 30px;
 }
 
-.research-intro {
-  max-width: 760px;
-  padding: 0.5rem 0 2.5rem;
-}
-
-.research-kicker,
-.research-label,
-.research-number {
-  color: var(--global-theme-color);
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-}
-
-.research-deck {
-  font-size: clamp(1.45rem, 3vw, 2.05rem);
-  font-weight: 500;
-  letter-spacing: -0.025em;
-  line-height: 1.3;
-  margin: 1rem 0;
-}
-
-.research-intro-copy {
-  color: var(--global-text-color-light);
-  font-size: 1rem;
-  line-height: 1.7;
-  max-width: 660px;
-}
-
-.research-index {
+.project-group {
+  margin-top: 40px;
+  margin-bottom: 20px;
   border-bottom: 1px solid var(--global-divider-color);
-  border-top: 1px solid var(--global-divider-color);
-  display: flex;
-  gap: 2rem;
-  padding: 0.8rem 0;
+  padding-bottom: 10px;
 }
 
-.research-index a {
-  color: var(--global-text-color);
-  font-size: 0.88rem;
-  text-decoration: none;
-}
+.project-item {
+  margin-bottom: 1.5rem;
 
-.research-index a:hover {
-  color: var(--global-theme-color);
-}
-
-.research-index span {
-  color: var(--global-text-color-light);
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  font-size: 0.68rem;
-  margin-right: 0.25rem;
-}
-
-.research-theme {
-  border-bottom: 1px solid var(--global-divider-color);
-  padding: 4.5rem 0;
-  scroll-margin-top: 5rem;
-}
-
-.research-theme > header {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 44px minmax(0, 1fr);
-}
-
-.research-number,
-.research-label {
-  margin: 0;
-}
-
-.research-theme h2 {
-  font-size: clamp(1.75rem, 4vw, 2.55rem);
-  line-height: 1.15;
-  margin: 0.45rem 0 0;
-}
-
-.research-body {
-  margin-left: 60px;
-  max-width: 650px;
-}
-
-.research-body > p {
-  font-size: 1rem;
-  line-height: 1.75;
-}
-
-.research-thesis {
-  color: var(--global-text-color-light);
-  font-size: 1.16rem !important;
-  font-style: italic;
-  margin: 1.5rem 0;
-}
-
-.research-paths {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 1.25rem;
-  margin: 1.5rem 0;
-}
-
-.research-paths a {
-  font-size: 0.92rem;
-  font-weight: 500;
-}
-
-.research-paths a::after {
-  content: " →";
-}
-
-.research-selected {
-  color: var(--global-text-color-light);
-  font-size: 0.82rem !important;
-  margin-bottom: 0;
-}
-
-.research-all {
-  font-size: 0.9rem;
-  margin: 1.5rem 0 0;
-  text-align: right;
-}
-
-@media (max-width: 576px) {
-  .research-index {
-    gap: 0.9rem;
-    justify-content: space-between;
+  .project-thumb img {
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    width: 100%;
   }
 
-  .research-theme {
-    padding: 3.5rem 0;
+  .title {
+    font-weight: bolder;
+
+    a {
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
   }
 
-  .research-theme > header {
-    display: block;
+  .description {
+    margin: 0.25rem 0 0.5rem;
   }
 
-  .research-number {
-    margin-bottom: 0.65rem;
-  }
-
-  .research-body {
+  .links a.btn {
+    color: var(--global-text-color);
+    border: 1px solid var(--global-text-color);
+    padding: 0.25rem 1rem;
     margin-left: 0;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
   }
+}
+
+.project-back {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
 }

@@ -1,0 +1,20 @@
+<div class="row project-item">
+  {% if project.img %}
+    <div class="col-sm-3 project-thumb">
+      <a href="{{ project.url | relative_url }}" tabindex="-1" aria-hidden="true">
+        {% include figure.liquid loading="lazy" path=project.img sizes="200px" alt="" class="z-depth-1 rounded" %}
+      </a>
+    </div>
+  {% endif %}
+  <div class="{% if project.img %}col-sm-9{% else %}col-sm-12{% endif %}">
+    <div class="title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></div>
+    <div class="description">{{ project.description }}</div>
+    {% if project.selected_work %}
+      <div class="links">
+        {% for paper in project.selected_work %}
+          <a href="{{ '/assets/pdf/' | append: paper.pdf | relative_url }}" class="btn btn-sm z-depth-0" role="button">{{ paper.label }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>

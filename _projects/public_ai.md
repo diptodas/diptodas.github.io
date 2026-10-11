@@ -1,73 +1,82 @@
 ---
 layout: page
 title: AI Accountability in Public Institutions
-description: Investigating how governments design, document, and govern AI systems, with a focus on transparency, human discretion, accountability, and contestability in public-sector decision-making.
+description: Examining how governments document, deploy, and govern AI in immigration, social services, and education, and how people subject to these systems experience and contest them.
 img: assets/img/project_banners/public_sector.png
 importance: 1
 category: research
+related_publications: false
+selected_work:
+  - label: FAccT 2026
+    pdf: FACCT26_AIregister.pdf
+  - label: DxConf 2026
+    pdf: DxConf26_global.pdf
+  - label: COMPASS 2026
+    pdf: COMPASS26_ircc.pdf
+  - label: CHI 2025
+    pdf: CHI25_homelessness.pdf
 ---
+
+<p class="project-back"><a href="{{ '/projects/' | relative_url }}">← All research projects</a></p>
 
 > **Research Summary**
 >
-> Governments around the world are increasingly adopting artificial intelligence to support decisions in immigration, healthcare, scientific research, law enforcement, public benefits, and administrative services. This research program examines how public institutions govern these systems through AI registers, inventories, impact assessments, procurement practices, and organizational processes. By studying the infrastructures surrounding AI adoption rather than AI models alone, I investigate how transparency, accountability, and human discretion are enacted—and where important gaps remain.
+> Governments increasingly use AI in immigration, social services, education, and other public systems, and increasingly promise transparency through AI registers, inventories, and impact assessments. This project examines both sides of that promise: what disclosure mechanisms make visible, obscure, or contestable, and how AI reorganizes frontline judgment, resource allocation, and the experiences of people subject to algorithmic decisions. Across Canada, the United States, and dozens of other countries, I find that making an algorithm visible does not necessarily make the institution using it accountable.
 
 ---
 
 ## Why this research?
 
-As artificial intelligence becomes embedded within governments, universities, and other public-serving institutions, questions of accountability extend well beyond algorithmic performance. AI systems are implemented through bureaucratic procedures, documentation practices, procurement processes, organizational routines, and professional judgment, making their impacts inseparable from the institutions in which they operate.
+Accountability for public-sector AI is often framed as a property of the model or of the documentation that describes it. But a register is not a neutral mirror of government activity: its schema decides which questions agencies must answer and whether a system looks like reliable tooling or a contestable decision. And in practice, outcomes depend on frontline workers' discretion, the data clients can or will share, post-processing choices, and the resources available to act on a prediction. People affected by these systems often encounter them only as opaque outcomes.
 
-This research program investigates AI governance as a sociotechnical and institutional challenge. Rather than treating governance as a set of technical safeguards or policy requirements, I examine how accountability is enacted through administrative practice: how organizations document AI systems, translate governance principles into operational processes, exercise human discretion, allocate responsibility, and respond to uncertainty.
+Questions guiding this work include:
 
-Across studies of AI registers, algorithmic impact assessments, and AI-supported decision making in immigration systems, homelessness services, and higher education institutions, my work examines how governance infrastructures shape what becomes visible, what remains hidden, and how individuals experience AI-enabled decision making.
-
-Across this project, I investigate questions such as:
-
-- How do public institutions implement and govern AI in practice?
-- How do documentation, disclosure, and impact assessment shape algorithmic accountability?
-- How do bureaucratic routines, procurement, and organizational capacity influence AI governance?
-- How is human judgment redistributed through human-AI collaboration?
-- How do people experience, interpret, and contest institutional AI systems?
+- What do AI registers, inventories, and impact assessments make visible, and what do they leave out?
+- How are human oversight and discretion described, and how well do those descriptions match practice?
+- Where in a deployed pipeline do disparities emerge and compound?
+- How do people make sense of, and respond to, opaque algorithmic decisions?
 
 ---
 
 ## Research Approach
 
-This research combines qualitative, computational, ethnographic, and critical approaches to examine AI governance across public institutions and other organizational settings.
+- Large-scale mapping of register and inventory records, with qualitative coding guided by the Algorithmic Decision-Making Adapted for the Public Sector (ADMAPS) framework
+- Cross-national comparison of schemas, transparency, and interoperability
+- Ethnographic case studies of public-service data practices
+- Replica-based fairness audits of deployed institutional ML pipelines
+- Mixed-method analyses of institutional documents and public discourse
 
-Methods include:
-
-- Large-scale analyses of AI registers and inventories
-- Computational audits of deployed institutional AI systems
-- Ethnographic and qualitative studies of frontline work
-- Mixed-method analyses of public discourse and collective sensemaking
-- Critical analyses of documentation, impact assessments, and governance artifacts
-- Sociotechnical theories of infrastructure, bureaucracy, classification, and accountability
-
-Rather than evaluating AI systems in isolation, I investigate the institutional ecosystems through which they are designed, implemented, documented, governed, and experienced.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_banners/submitted_IRCC.jpeg" title="Canada's algorithmic visa triage system" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ---
 
 ## Research Outcomes and Contributions
 
-This research contributes to several areas within Human-Computer Interaction and CSCW.
+#### Disclosure and documentation
 
-- **Documentation and Accountability in Institutional AI Governance:** I study how governments and public-serving organizations adopt, implement, and govern AI systems through organizational routines, procurement practices, documentation, and administrative decision making. Rather than viewing governance as a purely technical problem, I examine how accountability emerges through institutions, professional judgment, bureaucratic practice, and human discretion and what becomes visible, remains obscured, or is contestable by respective accountasbility measures. (See [FAccT 26](/assets/pdf/FACCT26_AIregister.pdf), [HCOMP 26](#))
+- **Registers as ontological design:** Canada's first Federal AI Register covers 409 systems, 86% of which are deployed internally for efficiency. The Register systematically obscures the human discretion, training, and uncertainty management needed to operate them, constructing AI as "reliable tooling" rather than "contestable decision-making," and risks offering visibility without contestability. (See [FAccT 26](/assets/pdf/FACCT26_AIregister.pdf))
 
-- **Human-AI Collaboration in Administrative Decision Making:** AI systems increasingly support rather than replace professional decision makers. I examine how human judgment, expertise, and discretion are redistributed across institutional workflows and how these collaborations influence accountability. Rather than treating human oversight as a procedural safeguard, this work conceptualizes it as an organizational practice shaped by institutional values, expertise, workload, and uncertainty. (See [CHI 25](/assets/pdf/CHI25_homelessness.pdf), [HCOMP 26](#), [COMPASS 26](/assets/pdf/COMPASS26_ircc.pdf))
+- **A global comparison of AI registers:** Comparing 8,368 records from inventories covering 72 countries across 23 harmonized fields, we found that registers share a descriptive core but rarely ask about appeals, risks, legal bases, or external evaluation. We propose a _layered visibility framework_ explaining why interoperability requires shared concepts, clear definitions, and preserved provenance. (See [DxConf 26](/assets/pdf/DxConf26_global.pdf))
 
-- **Fairness Audits of and Lived Experiences around Institutional AI:** Fairness is produced by a series of processes, e.g., algorithms, data collection, organizational priorities, post-processing decisions, and resource allocation. My work develops computational methods for auditing deployed institutional AI systems while situating inequalities within broader sociotechnical contexts. I also study how institutional accountability is experienced those affected by AI systems by examining how people interpret opaque decisions, engage in collective sensemaking, and navigate algorithmic governance in practice. (See [CanadianAI 26](/assets/pdf/CanadianAI26_fairness.pdf), [COMPASS 26](/assets/pdf/COMPASS26_ircc.pdf))
+- **Fragmented accountability in the U.S. federal inventory:** Across 3,611 use cases reported by 56 federal agencies, procurement and governance details are often incomplete, and impact classifications and claims of human oversight are frequently under-explained. (See [Preprint](/assets/pdf/pUSAI.pdf))
 
+#### Deployment and lived experience
+
+- **Asymmetries in algorithmic visa triage:** Comparing Canada's Algorithmic Impact Assessment for its visa triage system with how applicants discuss it online, we identify epistemic, jurisdictional, and temporal–relational asymmetries that institutional disclosure frameworks do not capture. (See [COMPASS 26](/assets/pdf/COMPASS26_ircc.pdf))
+
+- **The datafication of care:** An ethnographic case study of the City of Toronto's homelessness system shows how standardized data practices coexist with frontline workers' heuristic decision-making under uncertainty and resource constraints, and how the temporality of client data limits the validity of predictive AI models. (See [CHI 25](/assets/pdf/CHI25_homelessness.pdf))
+
+- **Fairness audits of deployed risk models:** A replica-based audit of a college's early warning system finds that younger, male, and international students are disproportionately flagged while older and female students with comparable risk are under-identified, and that post-processing into risk tiers amplifies these disparities. (See [CanadianAI 26](/assets/pdf/CanadianAI26_fairness.pdf))
 
 ---
 
 ## Current Directions
 
-This research program continues to expand in several directions:
-
 - Comparative analyses of AI registers across countries
 - Governance of generative AI in the public sector
 - Human-AI collaboration in administrative decision making
-- Documentation standards for trustworthy AI
-- Public participation and contestability in AI governance
-- Comparative studies of algorithmic accountability infrastructures
+- Contestability and remedy for people subject to public-sector AI

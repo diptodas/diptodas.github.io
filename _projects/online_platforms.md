@@ -1,34 +1,40 @@
 ---
 layout: page
-title: Multimodal Affective and Social Interaction
-description: Building machine learning models to detect contextual human communication while examining how users manage digital personas and seek information through interactive social platforms.
+title: Multimodal Communication on Social Platforms
+description: Building machine learning models to detect sarcasm and satire across text, images, and video, and studying how people ask questions and seek information on social platforms.
 img: assets/img/project_banners/social_interaction.jpg
-importance: 6
-category: research
+importance: 8
+category: earlier
 related_publications: false
+selected_work:
+  - label: ICMI 2018
+    pdf: ICMI18_sarcasm.pdf
+  - label: TransAI 2019
+    pdf: TransAI19_satire.pdf
+  - label: OzCHI 2018
+    pdf: OzCHI18_smqa.pdf
 ---
 
+<p class="project-back"><a href="{{ '/projects/' | relative_url }}">← All research projects</a></p>
 
 ## Outcome
 
-[JCSCW](/assets/pdf/JCSCW25_gig.pdf), [CSCW 25](/assets/pdf/CSCW25_BTPD.pdf), [ICTD 22](/assets/pdf/ICTD22_microcelebrity.pdf), [CSCW 20](/assets/pdf/CSCW20_quoras.pdf), [ICCBD 18](/assets/pdf/ICCBD18_sarcasm.pdf), [ICMI 18](/assets/pdf/ICMI18_sarcasm.pdf), [HCC 19](/assets/pdf/HCC19_sarcasm.pdf), [TransAI 19](/assets/pdf/TransAI19_sarcasm.pdf) and [TransAI 19](/assets/pdf/TransAI19_satire.pdf), [APSEC 18](/assets/pdf/APSEC18_soqde.pdf), and [OzCHI 18](/assets/pdf/OzCHI18_smqa.pdf)
+[ICCBD 18](/assets/pdf/ICCBD18_sarcasm.pdf), [ICMI 18](/assets/pdf/ICMI18_sarcasm.pdf), [HCC 19](/assets/pdf/HCC19_sarcasm.pdf), [TransAI 19](/assets/pdf/TransAI19_sarcasm.pdf), [TransAI 19](/assets/pdf/TransAI19_satire.pdf), [APSEC 18](/assets/pdf/APSEC18_soqde.pdf), [OzCHI 18](/assets/pdf/OzCHI18_smqa.pdf), and [MS Thesis](/assets/pdf/ms_thesis.pdf)
 
 ## Overview
 
-A core area of my earlier research addressed the technical challenge of building machine learning models that can recognize the nuance and actual intent behind complex human communication behaviors, such as sarcasm and satire. We also investigate how these communication styles influence public opinion and platform dynamics.
+My earlier research addressed the technical challenge of building machine learning models that can recognize the nuance and intent behind complex human communication, such as sarcasm and satire, and studied how people ask questions and seek information on social platforms. This work shaped a question that runs through my current research: meaning depends on context, and systems that ignore context misread people.
 
 ## Approach
 
-We employ **supervised learning** to develop multimodal models that go beyond simple text analysis. These models integrate visual cues from images, patterns of user interactions (like comments and reactions), and narrative trajectories through **neural networks**. We ground our computational work in **psycholinguistic theory** to define the structural characteristics of sarcasm and humor in social media settings. Additionally, we use interviews and trace data with **social science and communication theories** to study how sociopolitical discourse is managed by influencers on platforms like Facebook.
+We used **supervised learning** to develop multimodal models that go beyond text alone, integrating visual cues from images, patterns of user interaction (such as comments and reactions), and narrative trajectories through **neural networks**. We grounded this computational work in **psycholinguistic theory** to define the structural characteristics of sarcasm and humor in social media settings.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_banners/ms_thesis.png" title="context" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_banners/ms_thesis.png" title="Multimodal sarcasm detection" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ## Key Contributions
 
-We showed why sarcasm cannot be reliably detected from text alone, and often depends on **visual and contextual cues**. Our work offered early demonstration of **multimodal sarcasm detection** across text, images, and videos. A key outcome of our work was multimodal datasets and models for sarcasm detection in social media that is mindful of **user interactions** (e.g., reactions, comments) provide important signals for understanding sarcastic intent. It also connects sarcasm to broader questions of **misinformation, interpretation, and meaning in digital content** through the concepts of  **tone and storytelling style**.
-
----
+We showed why sarcasm cannot be reliably detected from text alone and often depends on **visual and contextual cues**, offering an early demonstration of **multimodal sarcasm detection** across text, images, and videos. Our datasets and models showed that **user interactions** (e.g., reactions, comments) provide important signals for understanding sarcastic intent, and connected sarcasm and satire to broader questions of **misinformation, interpretation, and meaning in digital content** through **tone and storytelling style**. Related work modeled question difficulty on Stack Overflow and examined whom people tag, and why, when asking questions on social media.
