@@ -1,5 +1,6 @@
 ---
 layout: course
+published: false # merged into the course page for the most recent offering; safe to delete
 title: Statistics for Information Science
 description: This course introduces foundational statistical concepts for information science, including data organization, descriptive and inferential statistics, and practical data analysis using Excel.
 instructor: Dipto Das

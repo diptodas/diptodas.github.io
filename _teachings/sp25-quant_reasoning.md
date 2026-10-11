@@ -1,100 +1,85 @@
 ---
 layout: course
 title: Quantitative Reasoning
-description: This course introduces foundational concepts in discrete mathematics, probability, and predictive modeling, along with computational tools for analyzing data.
+description: Foundations of discrete mathematics, probability, and predictive modeling for working with data, paired with Python programming to apply these concepts to real problems.
+course_code: INFO 2301
+institution: University of Colorado Boulder
 instructor: Dipto Das
 year: 2025
-term: Spring
-location: Lucile Berkeley Buchanan Building 155
-time: Tuesdays and Thursdays, 2:00–3:15 PM
+term: Spring 2025, Fall 2024
+sections: Two sections of 37 and 49 students (one online)
+order: 3
 course_id: sp25-info-2301-quantitative
+schedule_note: Schedule from the Spring 2025 offering.
 schedule:
   - week: 1
-    topic: Course Overview and Motivation
-    description: Introduction to quantitative reasoning and course tools.
+    topic: Motivation and Course Overview
+    description: "Module 1: Fundamentals. Getting started with JupyterHub."
 
   - week: 2
-    topic: Logic and Reasoning
-    description: Foundations of logical thinking and computational reasoning.
+    topic: Logic
+    description: Introduction to unit testing and LaTeX.
 
   - week: 3
     topic: Sets and Functions
-    description: Set theory and functions for structuring data.
 
   - week: 4
-    topic: Linear Algebra Foundations
-    description: Scalars, vectors, and matrices.
+    topic: Scalars, Vectors, and Matrices
 
   - week: 5
     topic: Exam 1
-    description: Covers fundamentals of logic and mathematical structures.
 
   - week: 6
-    topic: Statistics and Probability
-    description: Introduction to probability distributions and statistics.
+    topic: Statistics and Probability Distributions
+    description: "Module 2: Statistics and Probability"
 
   - week: 7
     topic: Conditional Probability
-    description: Reasoning about dependent events.
 
   - week: 8
     topic: Expected Value
-    description: Understanding expectation and decision-making.
 
   - week: 9
-    topic: Bayes’ Rule
-    description: Bayesian reasoning and updating beliefs.
+    topic: Bayes' Rule
 
   - week: 10
     topic: Exam 2
-    description: Covers probability and statistical reasoning.
 
   - week: 11
-    topic: Combinatorics
-    description: Permutations and combinations.
+    topic: Permutations and Combinations
+    description: "Module 3: Combinatorics, Distributions, and Regression"
 
   - week: 12
     topic: Binomial Distribution
-    description: Modeling discrete outcomes.
 
   - week: 13
     topic: Normal Distribution
-    description: Continuous distributions and inference.
 
   - week: 14
     topic: Regression and Correlation
-    description: Modeling relationships between variables.
 
   - week: 15
     topic: Final Exam
-    description: Comprehensive final exam.
 ---
 
 ## Course Overview
 
-This course introduces quantitative reasoning methods for analyzing data. Students will:
+This course introduces methods for quantifying and analyzing different types of data, covering foundational concepts in discrete mathematics, probability, and predictive modeling, along with the computational skills to apply them to real problems. Topics include logic, set theory, counting and combinatorics, introductory probability, common probability distributions, regression, and model validation. Because each concept builds on the ones before it, the course is taught cumulatively, and students practice in Python throughout.
 
-- Learn foundational concepts in logic, sets, and linear algebra  
-- Apply probability and statistical reasoning  
-- Use combinatorics and distributions to model uncertainty  
-- Develop computational approaches to data analysis  
-- Build and evaluate predictive models  
+## Learning Objectives
 
-## Prerequisites
+After completing this course, students will be able to:
 
-- Introductory programming experience  
-- Basic algebra  
+- Understand fundamental concepts such as logic, sets, functions, scalars, vectors, and matrices for reasoning quantitatively about data
+- Apply descriptive and inferential statistics to reason about data
+- Predict the likelihood of future events
+- Use combinatorics to enumerate, combine, and permute sets of elements
+- Use probability distributions to describe the values a random variable can take and their likelihoods
+- Build applications that apply computational skills to real-world data analysis
 
-## Textbooks
+## Assessment
 
-- No required textbook  
-- Course materials provided throughout the semester  
-
-## Grading
-
-- Attendance: 10%  
-- Quizzes: 10%  
-- Homework: 20%  
-- Exam 1: 20%  
-- Exam 2: 20%  
-- Final Exam: 20%
+- **Attendance (10%)**
+- **Reading quizzes (10%)**
+- **Homework assignments (20%)**
+- **Exams (60%):** two in-term exams and a final exam, 20% each

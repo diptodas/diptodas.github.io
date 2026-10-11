@@ -1,0 +1,23 @@
+{% assign taught_courses = site.teachings | sort: 'order' %}
+{% assign institutions = taught_courses | group_by: 'institution' %}
+<div class="courses">
+  {% for group in institutions %}
+    <h3 class="course-institution">{{ group.name }}</h3>
+    <div class="course-list">
+      {% for course in group.items %}
+        <div class="course-item">
+          <h3 class="course-title">
+            <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+          </h3>
+          <div class="course-meta">
+            {% if course.course_code %}<span class="course-term">{{ course.course_code }}</span>{% endif %}
+            {% if course.term %}<span class="course-instructor">{{ course.term }}</span>{% endif %}
+          </div>
+          {% if course.description %}
+            <div class="course-description">{{ course.description | markdownify }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>

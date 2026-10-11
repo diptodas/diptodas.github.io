@@ -1,102 +1,71 @@
 ---
 layout: course
 title: Statistics for Information Science
-description: This course introduces foundational statistical concepts for information science, including data organization, descriptive and inferential statistics, and practical data analysis using Excel.
+description: Descriptive and inferential statistics and regression, taught through lectures and hands-on Excel practice with real data, with attention to data quality, bias, and critical reading of others' analyses.
+course_code: INFO 1301
+institution: University of Colorado Boulder
 instructor: Dipto Das
 year: 2025
-term: Spring
-location: Muenzinger Psyc & Biopsych E064
-time: TTh 8am-9:15am
+term: Spring 2025, Fall 2024, Spring 2023
+sections: Two sections of 38 and 31 students
+order: 4
 course_id: sp25-info-1301-statistics
+schedule_unit: Module
+schedule_note: Schedule from the Spring 2025 offering. Each week paired a reading-based lecture and quiz with an in-class Excel practice session that prepared students for that week's homework.
 schedule:
   - week: 1
-    topic: Course Introduction & Data Concepts
-    description: Overview of the course, syllabus, and introduction to data types and statistical thinking.
+    topic: "Data: Organization, Terms, Types, Quality, and Sampling"
+    description: Getting started with Excel formulas and functions.
+    materials:
+      - name: OpenIntro Statistics, Ch. 1
+      - name: Excel Easy, Basics and Introduction
 
   - week: 2
-    topic: Data Collection and Organization
-    description: Understanding data sources, sampling, and organizing datasets.
+    topic: Descriptive Statistics and Error
+    description: Summarizing data numerically and visually; reliability and validity of measurement; Midterm 1.
+    materials:
+      - name: OpenIntro Statistics, Chs. 2 and 4 (selections)
+      - name: Reliability and validity of measurement
+      - name: Making Your Data Legible
+      - name: Excel Data Analysis ToolPak
 
   - week: 3
-    topic: Descriptive Statistics
-    description: Summarizing data using measures of central tendency and variability.
+    topic: Inferential Statistics
+    description: Foundations of inference and inference for categorical and numerical data; pivot tables; Midterm 2.
+    materials:
+      - name: OpenIntro Statistics, Chs. 5–7 (selections)
+      - name: Excel Easy, Pivot Tables
 
   - week: 4
-    topic: Data Visualization
-    description: Creating and interpreting visual representations of data in Excel.
-
-  - week: 5
-    topic: Statistical Bias and Error
-    description: Understanding bias, noise, and limitations in data collection and analysis.
-
-  - week: 6
-    topic: Midterm 1
-    description: In-class midterm exam covering descriptive statistics and data analysis.
-
-  - week: 7
-    topic: Probability and Distributions
-    description: Introduction to probability concepts and distributions.
-
-  - week: 8
-    topic: Statistical Inference
-    description: Confidence intervals and hypothesis testing fundamentals.
-
-  - week: 9
-    topic: Relationships Between Variables
-    description: Exploring relationships using correlation and comparisons.
-
-  - week: 10
-    topic: Advanced Inference
-    description: Deeper exploration of hypothesis testing and interpretation.
-
-  - week: 11
-    topic: Spring Break
-    description: No classes.
-
-  - week: 12
-    topic: Applied Statistical Analysis
-    description: Applying inference techniques to real-world datasets.
-
-  - week: 13
-    topic: Midterm 2
-    description: In-class exam covering inferential statistics.
-
-  - week: 14
-    topic: Regression Analysis
-    description: Introduction to regression and predictive modeling.
-
-  - week: 15
-    topic: Advanced Regression and Review
-    description: Interpreting regression results and course review.
-
-  - week: 16
-    topic: Final Exam
-    description: Comprehensive final exam.
+    topic: Regression
+    description: Linear and multiple regression; final exam.
+    materials:
+      - name: OpenIntro Statistics, Chs. 8–9 (selections)
 ---
 
 ## Course Overview
 
-This course introduces statistical thinking and data analysis for information science. Students will:
+This course introduces the statistics that information scientists use to describe data, make inferences, and model relationships. Students learn by doing: each week combines a lecture on the readings with in-class practice in Excel, so that students build numerical, visual, and analytical fluency with real data. Throughout the course, students also learn to recognize the limits of data collection and the sources of bias that shape statistical claims.
 
-- Understand different types of data and how they are collected  
-- Use Microsoft Excel for data analysis and visualization  
-- Apply descriptive and inferential statistical methods  
-- Recognize bias and limitations in data and analysis  
-- Interpret and communicate statistical findings clearly  
+## Learning Objectives
 
-## Prerequisites
+After completing this course, students will be able to:
 
-- Basic algebra  
-- Familiarity with spreadsheets is helpful but not required  
+- Organize and understand the types of data used in statistical analysis
+- Use Microsoft Excel to summarize data numerically and visually and to perform data analysis
+- Identify limitations in data collection and other sources of statistical bias and noise, and determine their implications for claims and decisions
+- Investigate relationships among variables and groups by making statistical inferences
+- Interpret findings and communicate them clearly
+- Be critical consumers of others' analyses
 
-## Textbooks
+## Course Materials
 
-- *OpenIntro Statistics (4th Edition)* by Diez, Barr, & Çetinkaya-Rundel  
-- Supplementary readings provided via Canvas  
+- Diez, Çetinkaya-Rundel, and Barr, _OpenIntro Statistics_, 4th edition (free and open access)
+- Excel Easy tutorials for learning Excel
 
-## Grading
+## Assessment
 
-- Homework: 40%  
-- Exams (Midterm 1, Midterm 2, Final): 40%  
-- Quizzes: 10%  
-- Attendance & Participation: 10%
+- **Attendance and in-class practice (10%)**
+- **Reading quizzes (10%)**
+- **Homework (40%)**
+- **Exams (40%):** two midterms and a final exam

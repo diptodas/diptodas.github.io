@@ -1,5 +1,6 @@
 ---
 layout: course
+published: false # merged into the course page for the most recent offering; safe to delete
 title: User-Centered Design
 description: This course introduces the theoretical and practical foundations of human-computer interaction and user-centered design, including user research, prototyping, and evaluation.
 instructor: Dipto Das

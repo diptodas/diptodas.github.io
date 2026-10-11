@@ -11,6 +11,7 @@
     <div class="description">{{ project.description }}</div>
     {% if project.selected_work %}
       <div class="links">
+        <span class="links-label">Selected papers</span>
         {% for paper in project.selected_work %}
           <a href="{{ '/assets/pdf/' | append: paper.pdf | relative_url }}" class="btn btn-sm z-depth-0" role="button">{{ paper.label }}</a>
         {% endfor %}

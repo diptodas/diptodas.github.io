@@ -1,5 +1,6 @@
 ---
 layout: course
+published: false # merged into the course page for the most recent offering; safe to delete
 title: Quantitative Reasoning
 description: This course introduces foundational concepts in discrete mathematics, probability, and predictive modeling, along with computational tools for analyzing data.
 instructor: Dipto Das
