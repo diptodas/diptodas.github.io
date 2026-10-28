@@ -27,6 +27,7 @@ scholar:
         <option value="short">Short Paper (Poster/Note/Doctoral Consortium)</option>
         <option value="workshop">Workshop Organization Proposal</option>
         <option value="unarchived">Position Paper (unarchived)</option>
+        <option value="policy">Policy Artifact / Brief</option>
       </select>
     </div>
 
