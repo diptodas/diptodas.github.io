@@ -46,6 +46,17 @@ Questions guiding this work include:
 - Replica-based fairness audits of deployed institutional ML pipelines
 - Mixed-method analyses of institutional documents and public discourse
 
+## Interactive PIAAC visualization
+
+Explore the modern, browser-based viewers for the PIAAC policy dialogues:
+
+<p>
+  <a href="{{ '/assets/html/piaac-policy-dialogues.html' | relative_url }}" target="_blank" rel="noopener">Open the PIAAC Policy Dialogue Viewer</a><br>
+  <a href="{{ '/assets/html/piaac-rating-contrast-dialogues.html' | relative_url }}" target="_blank" rel="noopener">Open the PIAAC Rating-Contrast Dialogue Viewer</a>
+</p>
+
+The underlying project snapshot is available in the <a href="https://github.com/uofthcdslab/PIAAC-GABM" target="_blank" rel="noopener">PIAAC GABM GitHub repository</a>.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project_banners/submitted_IRCC.jpeg" title="Canada's algorithmic visa triage system" class="img-fluid rounded z-depth-1" %}
