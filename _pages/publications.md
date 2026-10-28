@@ -35,6 +35,7 @@ scholar:
       <label for="filterMethods" class="form-label mb-1">Methods/Domains</label>
       <select id="filterMethods" class="form-control">
         <option value="">All methods</option>
+        <option value="abm">Agent-Based Modeling</option>
         <option value="audit">Audit</option>
         <option value="cv">Computer Vision</option>
         <option value="dataset">Dataset</option>
