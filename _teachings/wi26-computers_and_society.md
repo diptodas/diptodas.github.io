@@ -24,7 +24,7 @@ schedule:
     topic: Theories of Ethics
     description: Moral philosophy for computing, from classical theories to relational ethics.
     materials:
-      - name: "Birhane, \"Algorithmic Injustice: A Relational Ethics Approach\""
+      - name: 'Birhane, "Algorithmic Injustice: A Relational Ethics Approach"'
       - name: LaFollette (ed.), Ethics in Practice (optional)
 
   - week: 3
@@ -53,20 +53,20 @@ schedule:
     topic: Surveillance, Power, and Visibility
     materials:
       - name: "Browne, Dark Matters: On the Surveillance of Blackness"
-      - name: "Zuboff, \"Big Other: Surveillance Capitalism and the Prospects of an Information Civilization\""
+      - name: 'Zuboff, "Big Other: Surveillance Capitalism and the Prospects of an Information Civilization"'
 
   - week: 7
     topic: Race, Gender, and Intersectionality in Computing
     description: "Module 3: Computing, Fairness, and Equity"
     materials:
       - name: Costanza-Chock, "Design Justice"
-      - name: "Bardzell, \"Feminist HCI: Taking Stock and Outlining an Agenda for Design\""
+      - name: 'Bardzell, "Feminist HCI: Taking Stock and Outlining an Agenda for Design"'
       - name: D'Ignazio and Klein, Data Feminism (optional)
 
   - week: 8
     topic: Development, Colonialism, and Computing Futures
     materials:
-      - name: "Philip, Irani, and Dourish, \"Postcolonial Computing: A Tactical Survey\""
+      - name: 'Philip, Irani, and Dourish, "Postcolonial Computing: A Tactical Survey"'
       - name: Toyama, Geek Heresy, Introduction and Ch. 1
       - name: Milan and Treré, "Big Data from the South(s)" (optional)
 
@@ -81,7 +81,7 @@ schedule:
     description: "Module 4: Computing, Labor, and Materiality"
     materials:
       - name: Crawford and Joler, "Anatomy of an AI System"
-      - name: "Taffel, \"Escaping Attention: Digital Media Hardware, Materiality and Ecological Cost\""
+      - name: 'Taffel, "Escaping Attention: Digital Media Hardware, Materiality and Ecological Cost"'
       - name: Hogan, "Big Data Ecologies"
 
   - week: 11

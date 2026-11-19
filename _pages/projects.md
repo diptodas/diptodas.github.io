@@ -15,7 +15,6 @@ I study how AI systems and online platforms shape decision-making, public discou
   {% for project in current_projects %}
     {% include research_project.liquid %}
   {% endfor %}
-
   {% assign earlier_projects = site.projects | where: "category", "earlier" | sort: "importance" %}
   {% if earlier_projects.size > 0 %}
     <h2 class="project-group">earlier work</h2>

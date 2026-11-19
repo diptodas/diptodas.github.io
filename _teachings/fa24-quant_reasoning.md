@@ -75,26 +75,26 @@ schedule:
 
 This course introduces methods for quantitative reasoning about data. Students will:
 
-- Learn logic, set theory, and foundational mathematical concepts  
-- Apply probability and statistical reasoning to real-world problems  
-- Use combinatorics and distributions to model uncertainty  
-- Develop computational skills using Python and Jupyter notebooks  
-- Build predictive models and interpret relationships in data  
+- Learn logic, set theory, and foundational mathematical concepts
+- Apply probability and statistical reasoning to real-world problems
+- Use combinatorics and distributions to model uncertainty
+- Develop computational skills using Python and Jupyter notebooks
+- Build predictive models and interpret relationships in data
 
 ## Prerequisites
 
-- Introductory programming experience (Python recommended)  
-- Basic algebra  
+- Introductory programming experience (Python recommended)
+- Basic algebra
 
 ## Textbooks
 
-- No required textbook  
-- Supplementary materials and notes provided in class  
+- No required textbook
+- Supplementary materials and notes provided in class
 
 ## Grading
 
-- Quizzes: 10%  
-- Homework: 30%  
-- Exam 1: 20%  
-- Exam 2: 20%  
+- Quizzes: 10%
+- Homework: 30%
+- Exam 1: 20%
+- Exam 2: 20%
 - Final Exam: 20%

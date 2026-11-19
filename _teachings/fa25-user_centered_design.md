@@ -62,7 +62,7 @@ schedule:
     description: "Module 3: Evaluation. Running quantitative usability tests."
     materials:
       - name: Ko, Design Methods, Ch. 9
-      - name: "Brooke, \"SUS: A 'Quick and Dirty' Usability Scale\""
+      - name: 'Brooke, "SUS: A ''Quick and Dirty'' Usability Scale"'
 
   - week: 10
     topic: Analytical Evaluation and Personas

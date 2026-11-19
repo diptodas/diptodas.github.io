@@ -79,16 +79,16 @@ schedule:
 
 This course explores the foundations of user-centered design and human-computer interaction. Students will:
 
-- Understand how human, social, and technical factors shape design  
-- Learn user research methods and data analysis techniques  
-- Design, prototype, and evaluate interactive systems  
-- Engage with critical perspectives on design, power, and ethics  
-- Develop a semester-long project applying UCD principles  
+- Understand how human, social, and technical factors shape design
+- Learn user research methods and data analysis techniques
+- Design, prototype, and evaluate interactive systems
+- Engage with critical perspectives on design, power, and ethics
+- Develop a semester-long project applying UCD principles
 
 ## Prerequisites
 
-- No formal prerequisites  
-- Interest in design, technology, or human-centered computing  
+- No formal prerequisites
+- Interest in design, technology, or human-centered computing
 
 ## Textbooks
 
@@ -96,6 +96,6 @@ This course explores the foundations of user-centered design and human-computer 
 
 ## Grading
 
-- Participation: 20%  
-- Reading Reflections: 40%  
+- Participation: 20%
+- Reading Reflections: 40%
 - Course Project: 40%

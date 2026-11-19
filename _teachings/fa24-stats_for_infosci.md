@@ -79,25 +79,25 @@ schedule:
 
 This course introduces statistical thinking and data analysis for information science. Students will:
 
-- Understand different types of data and how they are collected  
-- Use Microsoft Excel for data analysis and visualization  
-- Apply descriptive and inferential statistical methods  
-- Recognize bias and limitations in data and analysis  
-- Interpret and communicate statistical findings clearly  
+- Understand different types of data and how they are collected
+- Use Microsoft Excel for data analysis and visualization
+- Apply descriptive and inferential statistical methods
+- Recognize bias and limitations in data and analysis
+- Interpret and communicate statistical findings clearly
 
 ## Prerequisites
 
-- Basic algebra  
-- Familiarity with spreadsheets is helpful but not required  
+- Basic algebra
+- Familiarity with spreadsheets is helpful but not required
 
 ## Textbooks
 
-- *OpenIntro Statistics (4th Edition)* by Diez, Barr, & Çetinkaya-Rundel  
-- Supplementary readings provided via Canvas  
+- _OpenIntro Statistics (4th Edition)_ by Diez, Barr, & Çetinkaya-Rundel
+- Supplementary readings provided via Canvas
 
 ## Grading
 
-- Homework: 40%  
-- Exams (Midterm 1, Midterm 2, Final): 40%  
-- Quizzes: 10%  
+- Homework: 40%
+- Exams (Midterm 1, Midterm 2, Final): 40%
+- Quizzes: 10%
 - Attendance & Participation: 10%

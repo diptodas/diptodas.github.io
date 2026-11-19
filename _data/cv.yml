@@ -62,7 +62,7 @@ cv:
         highlights:
           - Researched on [Multimodal Affective and Social Interaction](/projects/online_platforms)
           - Assisted in "Introduction to Programming" courses in C++ and Python
-      
+
       - company: Department of Computer Science and Engineering, Dhaka International University
         position: Lecturer
         location: Dhaka, Bangladesh
@@ -109,7 +109,7 @@ cv:
         end_date: 2017
         highlights:
           - Thesis ["Question Difficulty Estimation of Stack Overflow Posts"](#)
-        
+
     Awards:
       - name: Best Paper Honorable Mention Award
         date: 2026
@@ -190,7 +190,6 @@ cv:
         date: 2012
         issuer: Bangladesh University of Engineering & Technology Undergraduate Entrance Exam (Architecture & Engineering Unit)
         icon: fa-solid fa-trophy
-
 
     Grants:
       - title: Postdoctoral Fellowship

@@ -30,7 +30,6 @@ scholar:
         <option value="policy">Policy Artifact / Brief</option>
       </select>
     </div>
-
     <div class="col-12 col-md-5">
       <label for="filterMethods" class="form-label mb-1">Methods/Domains</label>
       <select id="filterMethods" class="form-control">
@@ -52,13 +51,11 @@ scholar:
         <option value="tool">Tool Development</option>
       </select>
     </div>
-
     <div class="col-12 col-md-2">
       <!-- <button id="clearFilters" class="btn btn-outline-secondary w-100">Clear</button> -->
       <button type="button" id="clearFilters" class="btn btn-outline-primary w-100">Clear</button>
     </div>
   </div>
-
   <small id="pub-stats" class="text-muted d-block mt-2"></small>
 </div>
 
