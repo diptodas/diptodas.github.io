@@ -7,42 +7,33 @@
   outlet: CBC Just Asking
   title: Digital Sovereignty has Come up in Trade Talks, but What does it Mean?
   url: https://www.cbc.ca/radio/justasking/canada-digital-sovereignty-just-asking-9.7337778
-  note: Highlighted our research on accountability in the Government of Canada's AI Register.
-  paper: /assets/pdf/FACCT26_AIregister.pdf
 
 - date: 2026-08-18
   outlet: AI Accountability Review
   title: Building Awareness through Public AI Registers
   url: https://www.ai-accountability-review.com/p/building-ai-awareness-through-public
-  note: Covered our FAccT '26 paper on the Government of Canada's AI Register.
-  paper: /assets/pdf/FACCT26_AIregister.pdf
 
 - date: 2026-08-18
   outlet: CBC Ottawa Morning
   title: The Federal Government and Foreign AI Companies
   url: https://www.cbc.ca/listen/live-radio/1-100-ottawa-morning/clip/16232262-the-federal-government-foreign-a.i.-companies
-  note: Interviewed about our study of the Government of Canada's AI Register.
-  paper: /assets/pdf/FACCT26_AIregister.pdf
 
 - date: 2026-08-14
   outlet: The Ottawa Citizen
   title: Government ‘Dependent’ on U.S. Companies to Meet Public Service AI Needs
   url: https://ottawacitizen.com/public-service/government-dependent-u-s-companies-public-service-ai
-  note: Spoke about our study of the Government of Canada's AI Register.
-  paper: /assets/pdf/FACCT26_AIregister.pdf
 
 - date: 2026-05-20
   outlet: AI for the Rest of Us
   title: "Geographic Scale in AI Governance: Research Strengths, Gaps, and Policy Implications"
   url: https://aifortherestofus.ca/wp-content/uploads/2026/05/Sieber_Brandusescu_2026_Full-Report-EN.pdf
-  note: Covered our FAccT '26 paper on the Government of Canada's AI Register.
-  paper: /assets/pdf/FACCT26_AIregister.pdf
 
 - date: 2025-08-05
   outlet: Princeton University Press
   title: Cultural Imperialism and Marginalization through Technology
   url: https://press.princeton.edu/books/hardcover/9780691255811/digital-culture-shock
-  note: "A chapter of Katharina Reinecke's book Digital Culture Shock: Who Creates Technology and Why This Matters."
+  note: "Chapter 9 of Katharina Reinecke's book Digital Culture Shock: Who Creates Technology and Why This Matters discusses our CSCW '21 paper on how governance shapes a platform's identity."
+  paper: /assets/pdf/CSCW21_governance.pdf
 
 - date: 2024-02-25
   outlet: The Prothom Alo
