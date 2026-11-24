@@ -9,7 +9,7 @@
       ".image-lightbox { position: fixed; inset: 0; z-index: 2000; display: flex; align-items: center;" +
       " justify-content: center; background: transparent; cursor: zoom-out; }" +
       ".image-lightbox[hidden] { display: none; }" +
-      ".image-lightbox img { max-width: 90vw; max-height: 85vh; width: auto; height: auto;" +
+      ".image-lightbox img { flex: none; max-width: none; max-height: none;" +
       " background: #fff; border-radius: 4px; box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35); }";
     document.head.appendChild(style);
 
@@ -21,6 +21,22 @@
     box.appendChild(big);
     document.body.appendChild(box);
 
+    // Size the image explicitly (up to 90% of the window width and 85% of its height, never
+    // larger than the file itself) so every browser, including Safari, shows it the same way.
+    function fit() {
+      var w = big.naturalWidth;
+      var h = big.naturalHeight;
+      if (!w || !h) return;
+      var scale = Math.min(1, (window.innerWidth * 0.9) / w, (window.innerHeight * 0.85) / h);
+      big.style.width = Math.round(w * scale) + "px";
+      big.style.height = Math.round(h * scale) + "px";
+      big.style.visibility = "visible";
+    }
+    big.addEventListener("load", fit);
+    window.addEventListener("resize", function () {
+      if (!box.hidden) fit();
+    });
+
     function close() {
       box.hidden = true;
       big.removeAttribute("src");
@@ -30,7 +46,9 @@
       var img = e.target.closest ? e.target.closest("img[data-zoomable]") : null;
       if (!img) return;
       e.preventDefault();
+      big.style.visibility = "hidden";
       big.src = img.getAttribute("src");
+      if (big.complete) fit();
       big.alt = img.alt || "";
       box.hidden = false;
     });
