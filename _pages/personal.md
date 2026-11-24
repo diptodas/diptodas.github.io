@@ -154,7 +154,7 @@ During grad school, I worked on one painting each fall, around Durga Puja. The s
 <div class="art-strip">
   {% for art in page.durga_series %}
     {% assign art_path = 'assets/img/personal/' | append: art.file %}
-    {% include figure.liquid path=art_path class="rounded z-depth-1" alt=art.alt caption=art.caption zoomable=true %}
+    {% include figure.liquid path=art_path class="rounded z-depth-1 art-zoomable" alt=art.alt caption=art.caption %}
   {% endfor %}
 </div>
 
@@ -173,7 +173,7 @@ During grad school, I worked on one painting each fall, around Durga Puja. The s
     <div class="sketch-grid">
       {% for art in page.sketches %}
         {% assign art_path = 'assets/img/personal/' | append: art.file %}
-        {% include figure.liquid path=art_path class="img-fluid rounded z-depth-1" alt=art.alt caption=art.caption zoomable=true %}
+        {% include figure.liquid path=art_path class="img-fluid rounded z-depth-1 art-zoomable" alt=art.alt caption=art.caption %}
       {% endfor %}
     </div>
   </div>
@@ -193,7 +193,7 @@ During grad school, I worked on one painting each fall, around Durga Puja. The s
     </p>
   </div>
   <div class="col-md-5">
-    {% include figure.liquid path="assets/img/personal/singing.jpg" class="img-fluid rounded z-depth-1" alt="Dipto singing with friends, one of them playing a guitar." zoomable=true %}
+    {% include figure.liquid path="assets/img/personal/singing.jpg" class="img-fluid rounded z-depth-1 art-zoomable" alt="Dipto singing with friends, one of them playing a guitar." %}
   </div>
 </div>
 
@@ -203,17 +203,14 @@ During grad school, I worked on one painting each fall, around Durga Puja. The s
 
 <script>
   // Open images on this page in a full-size overlay instead of stretching the thumbnail, so they stay sharp in every browser.
-  window.addEventListener("load", function () {
+  (function () {
     var box = document.getElementById("art-lightbox");
     var big = box.querySelector("img");
-    var imgs = document.querySelectorAll("img[data-zoomable]");
-    if (typeof medium_zoom !== "undefined") medium_zoom.detach(imgs);
     function close() {
       box.hidden = true;
       big.removeAttribute("src");
     }
-    imgs.forEach(function (img) {
-      img.classList.add("art-zoomable");
+    document.querySelectorAll("img.art-zoomable").forEach(function (img) {
       img.addEventListener("click", function () {
         big.src = img.getAttribute("src");
         big.alt = img.alt;
@@ -224,5 +221,5 @@ During grad school, I worked on one painting each fall, around Durga Puja. The s
     document.addEventListener("keydown", function (e) {
       if (e.key === "Escape" && !box.hidden) close();
     });
-  });
+  })();
 </script>
