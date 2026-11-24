@@ -1,9 +1,19 @@
 <!-- Employment and education, shown in two columns on the homepage (included from _pages/about.md). -->
 <style>
+  .background-cols > div {
+    display: flex;
+    flex-direction: column;
+  }
   .background-cols h5 {
     margin-bottom: 0.75rem;
+    font-weight: 700;
   }
+  /* Spread each list over the full column height so both columns end level. */
   .background-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     list-style: none;
     margin: 0 0 1.5rem;
     padding: 0;
@@ -17,6 +27,7 @@
   }
   .background-years {
     flex: 0 0 5.2rem;
+    white-space: nowrap;
     color: var(--global-text-color-light);
     font-variant-numeric: tabular-nums;
   }
@@ -35,7 +46,6 @@
         <span>
           <strong>Postdoctoral Associate</strong>, Computing and Information Science<br />
           <a href="https://www.cornell.edu/">Cornell University</a>
-          <span class="background-note">with <a href="https://www.adityavashistha.com/">Dr. Aditya Vashistha</a></span>
         </span>
       </li>
       <li>
@@ -43,9 +53,6 @@
         <span>
           <strong>Postdoctoral Fellow</strong>, Computer Science<br />
           <a href="https://www.utoronto.ca/">University of Toronto</a>
-          <span class="background-note"
-            >with <a href="https://www.ishtiaque.net/">Dr. Syed Ishtiaque Ahmed</a> and <a href="https://shionguha.ca/">Dr. Shion Guha</a></span
-          >
         </span>
       </li>
       <li>
