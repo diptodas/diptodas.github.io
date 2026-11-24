@@ -5,34 +5,138 @@ title: personal
 description: Art, travel, music, and stories.
 nav: true
 nav_order: 6
+durga_series:
+  - file: durga-2019.jpg
+    caption: "2019"
+    alt: A pencil and color drawing of Durga, with a woman's face above the face of a Durga idol.
+  - file: durga-2020.jpg
+    caption: "2020"
+    alt: A painting of Durga's face under an orange veil.
+  - file: durga-2021.jpg
+    caption: "2021"
+    alt: An acrylic painting of Durga with her many arms and a crown.
+  - file: durga-2022.jpg
+    caption: "2022"
+    alt: A watercolor painting of Durga as a mother holding a child.
+  - file: durga-2023.jpg
+    caption: "2023"
+    alt: A watercolor painting of Durga's face above a young girl sitting among flowers and garlands.
+sketches:
+  - file: krishna-2017.jpg
+    caption: Krishna (2017)
+    alt: A pencil drawing of Krishna playing the flute, with a peacock feather in his hair.
+  - file: krishna-2018.jpg
+    caption: Baby Krishna (2018)
+    alt: A pencil sketch of baby Krishna beside a broken butter pot, with birds and a butterfly.
+  - file: shiva-2018.jpg
+    caption: Shiva (2018)
+    alt: A pencil drawing of Shiva meditating, with a crescent moon and a snake.
+  - file: krishna-2019.jpg
+    caption: Baby Krishna (2019)
+    alt: A pencil drawing of baby Krishna sitting on the ground.
+  - file: radha-krishna-2020.jpg
+    caption: Radha and Krishna (2020)
+    alt: A pencil and color drawing of Krishna playing the flute behind Radha.
+  - file: zeus.jpg
+    caption: Zeus
+    alt: A pencil drawing of Zeus holding a lightning bolt.
+  - file: messi-ronaldo.jpg
+    caption: Messi and Ronaldo
+    alt: A pencil drawing of footballers Lionel Messi and Cristiano Ronaldo standing together.
 _styles: |
-  .personal-painting {
-    max-width: 320px;
+  .art-strip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 0.5rem 0 2rem;
   }
 
-  @media (min-width: 768px) {
-    .personal-painting {
-      float: right;
-      margin: 0 0 1rem 1.5rem;
+  .art-strip figure {
+    display: table;
+    margin: 0;
+  }
+
+  .art-strip img {
+    height: 210px;
+    width: auto;
+    max-width: none;
+  }
+
+  .art-strip figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+    font-size: 0.85rem;
+    padding-top: 0.35rem;
+  }
+
+  @media (max-width: 576px) {
+    .art-strip img {
+      height: 150px;
     }
+  }
+
+  .personal-epigraph {
+    margin: 1.5rem 0;
+    font-style: italic;
+  }
+
+  .personal-epigraph span {
+    display: block;
+    font-style: normal;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
   }
 ---
 
-<div class="personal-painting">
-  {% include figure.liquid path="assets/img/personal/durga-painting.jpg" class="img-fluid rounded z-depth-1" alt="An acrylic painting of Goddess Durga by Dipto Das." caption="Goddess Durga, acrylic. Durga Puja is one of the biggest festivals in Bengal." zoomable=true %}
+Plain old pencil sketching is my go-to medium, but I also paint with acrylic and watercolor, depending on the subject. My drawings often feature human figures, using abstraction to connect them with social and cultural sentiments. Most of them depict Hindu deities, with the occasional Greek one. During grad school, I worked on a series of five paintings titled "Durga," one each autumn from 2019 to 2023, depicting the different ways divine feminine energy is culturally conceptualized in Bengal.
+
+<blockquote class="personal-epigraph">
+  "...the gods are the dreams of men."
+  <span>Carl Sagan, <em>Cosmos</em></span>
+</blockquote>
+
+<h5>Durga, 2019–2023</h5>
+<div class="art-strip">
+  {% for art in page.durga_series %}
+    {% assign art_path = 'assets/img/personal/' | append: art.file %}
+    {% include figure.liquid path=art_path class="rounded z-depth-1" alt=art.alt caption=art.caption zoomable=true %}
+  {% endfor %}
 </div>
 
-Plain old pencil sketching is my go-to medium, but I also paint with acrylic and watercolor, depending on the subject. My drawings often feature human figures, using abstraction to connect them with social and cultural sentiments. During grad school, I worked on a series of five paintings titled "Durga," depicting the different ways divine feminine energy is culturally conceptualized in Bengal.
+<h5>Sketches</h5>
+<div class="art-strip">
+  {% for art in page.sketches %}
+    {% assign art_path = 'assets/img/personal/' | append: art.file %}
+    {% include figure.liquid path=art_path class="rounded z-depth-1" alt=art.alt caption=art.caption zoomable=true %}
+  {% endfor %}
+</div>
 
-Besides sketching, I love traveling to new places. Whether I am relaxing on the beach at St. Martin's Island under a full moon or hiking high-altitude trails in Colorado, I am usually humming my favorite classical Bengali or American country songs. You can listen to some of them on my [SoundCloud profile](https://soundcloud.com/dipto-das-575115499).
+Besides sketching, I love traveling to new places, be it relaxing on the beach at St. Martin's Island under a full moon or hiking high-altitude trails in Colorado.
 
-With an interested group, I also enjoy telling and listening to stories. Of what kind? The time I was stuck in an airport for three days straight, or the time I sneaked out of the house in middle school! Maybe you can taste some of my recipes as we share those stories.
-
-<div class="row mt-4" style="clear: both;">
+<div class="row">
   <div class="col-sm-6 mt-3">
     {% include figure.liquid path="assets/img/personal/naf-river-2016.jpg" class="img-fluid rounded z-depth-1" alt="Two fishing boats on the Naf River." caption="Fishing boats on the Naf River, on the way to Cox's Bazar (2016)." zoomable=true %}
   </div>
   <div class="col-sm-6 mt-3">
     {% include figure.liquid path="assets/img/personal/maroon-bells-2021.jpg" class="img-fluid rounded z-depth-1" alt="The Maroon Bells and Maroon Lake in Aspen, Colorado, with wildflowers in the foreground." caption="The Maroon Bells in Aspen, Colorado (2021)." zoomable=true %}
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-md-7">
+    <p>
+      Wherever I go, I am usually humming my favorite classical Bengali or American country songs. You can listen to some of them on my
+      <a href="https://soundcloud.com/dipto-das-575115499">SoundCloud profile</a>.
+    </p>
+    <p>
+      With an interested group, I also enjoy telling and listening to stories. Of what kind? The time I was stuck in an airport for three days straight,
+      or the time I sneaked out of the house in middle school! Maybe you can taste some of my recipes as we share those stories.
+    </p>
+  </div>
+  <div class="col-md-5">
+    {% include figure.liquid path="assets/img/personal/singing.jpg" class="img-fluid rounded z-depth-1" alt="Dipto singing with friends, one of them playing a guitar." caption="Singing with friends." zoomable=true %}
   </div>
 </div>
