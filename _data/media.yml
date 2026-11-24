@@ -1,4 +1,4 @@
-# Press and media coverage, shown on the /press/ page. The page sorts entries by date.
+# Press and media coverage, shown on the /media/ page. The page sorts entries by date.
 # Fields: date (YYYY-MM-DD), outlet, title, url,
 #   when (optional: shown instead of the month and year, e.g. "Summer 2022"),
 #   translation (optional: English title, shown after a non-English title),
@@ -50,6 +50,12 @@
   outlet: ACM Crossroads
   title: "Decoloniality in Computing: An Interview with Dipto Das"
   url: https://dl.acm.org/doi/10.1145/3538548
+
+- date: 2022-04-01
+  when: Spring 2022
+  outlet: Social Media Influencers Conference, University of Michigan
+  title: Strategies and Practices of Bangladeshi Facebook Microcelebrities in Sociopolitical Discourses
+  url: https://youtu.be/1M3kjCrXfiI?t=725
 
 - date: 2016-11-11
   outlet: The Daily Star

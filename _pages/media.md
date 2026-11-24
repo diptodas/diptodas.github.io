@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /press/
-title: press
+permalink: /media/
+title: media
 description: Media coverage of my research and interviews.
 nav: true
 nav_order: 4
@@ -31,7 +31,7 @@ _styles: |
   }
 ---
 
-{% assign press_items = site.data.press | sort: "date" | reverse %}
+{% assign press_items = site.data.media | sort: "date" | reverse %}
 {% assign press_years = press_items | group_by_exp: "item", "item.date | date: '%Y'" %}
 
 {% for year in press_years %}
