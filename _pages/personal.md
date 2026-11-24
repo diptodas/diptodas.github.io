@@ -102,6 +102,34 @@ _styles: |
     padding-top: 0.35rem;
   }
 
+  .art-zoomable {
+    cursor: zoom-in;
+  }
+
+  .art-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--global-bg-color);
+    cursor: zoom-out;
+  }
+
+  .art-lightbox[hidden] {
+    display: none;
+  }
+
+  .art-lightbox img {
+    max-width: 90vw;
+    max-height: 85vh;
+    width: auto;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+  }
+
   .personal-epigraph {
     margin: 1.5rem 0;
     font-style: italic;
@@ -169,15 +197,32 @@ During grad school, I worked on one painting each fall, around Durga Puja. The s
   </div>
 </div>
 
+<div class="art-lightbox" id="art-lightbox" hidden>
+  <img alt="" />
+</div>
+
 <script>
-  // Zoom images on this page to about 70% of the screen height instead of filling it, so the images stay sharp.
+  // Open images on this page in a full-size overlay instead of stretching the thumbnail, so they stay sharp in every browser.
   window.addEventListener("load", function () {
-    if (typeof mediumZoom === "undefined" || typeof medium_zoom === "undefined") return;
-    var art = document.querySelectorAll("img[data-zoomable]");
-    medium_zoom.detach(art);
-    mediumZoom(art, {
-      background: getComputedStyle(document.documentElement).getPropertyValue("--global-bg-color") + "ee",
-      margin: Math.round(window.innerHeight * 0.15),
+    var box = document.getElementById("art-lightbox");
+    var big = box.querySelector("img");
+    var imgs = document.querySelectorAll("img[data-zoomable]");
+    if (typeof medium_zoom !== "undefined") medium_zoom.detach(imgs);
+    function close() {
+      box.hidden = true;
+      big.removeAttribute("src");
+    }
+    imgs.forEach(function (img) {
+      img.classList.add("art-zoomable");
+      img.addEventListener("click", function () {
+        big.src = img.getAttribute("src");
+        big.alt = img.alt;
+        box.hidden = false;
+      });
+    });
+    box.addEventListener("click", close);
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !box.hidden) close();
     });
   });
 </script>
