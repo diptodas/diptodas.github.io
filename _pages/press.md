@@ -20,6 +20,7 @@ _styles: |
   }
 
   .press-date,
+  .press-translation,
   .press-note {
     color: var(--global-text-color-light);
   }
@@ -42,6 +43,7 @@ _styles: |
       <span class="press-outlet">{{ item.outlet }}</span>
       <span class="press-date">· {% if item.when %}{{ item.when }}{% else %}{{ item.date | date: '%B %-d, %Y' }}{% endif %}</span><br>
       <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
+      {%- if item.translation %} <span class="press-translation">({{ item.translation }})</span>{% endif %}
       {% if item.note %}
         <span class="press-note">
           {{- item.note -}}

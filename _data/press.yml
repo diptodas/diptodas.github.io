@@ -1,6 +1,7 @@
 # Press and media coverage, shown on the /press/ page. The page sorts entries by date.
 # Fields: date (YYYY-MM-DD), outlet, title, url,
 #   when (optional: shown instead of the month and year, e.g. "Summer 2022"),
+#   translation (optional: English title, shown after a non-English title),
 #   note (optional), paper (optional link to a related paper)
 
 - date: 2026-09-12
@@ -39,7 +40,7 @@
   outlet: The Prothom Alo
   title: ইউটিউব, ফেসবুকসহ বিভিন্ন মাধ্যমে বাঙালিদের প্রতি বৈষম্য খুঁজে বের করেন দীপ্ত
   url: https://www.prothomalo.com/bangladesh/8ml8jqzguh
-  note: (Dipto Finds Discrimination against Bengalis in Mediums like YouTube and Facebook)
+  translation: Dipto Finds Discrimination against Bengalis in Mediums like YouTube and Facebook
 
 - date: 2024-01-09
   outlet: The Atlantic
