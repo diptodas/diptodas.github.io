@@ -15,9 +15,6 @@
     column-gap: 1rem;
     padding: 0.8rem 0;
   }
-  .funders-row + .funders-row {
-    border-top: 1px solid #e9ecef;
-  }
   .funders-label {
     font-size: 0.72rem;
     font-variant: small-caps;
@@ -36,25 +33,6 @@
     height: 38px;
     width: auto;
   }
-  /* Smaller second row; each logo sets its own height (--h) so the row looks visually even. */
-  .funders-logos-secondary {
-    gap: 0.75rem 2rem;
-  }
-  .funders-logos-secondary img {
-    height: var(--h, 30px);
-  }
-  .funders-captioned {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.15rem;
-    font-size: 0.62rem;
-    line-height: 1.1;
-  }
-  /* The theme colors every span with the page text color (light in dark mode); keep this caption black on the white band. */
-  .funders-captioned span {
-    color: #000000;
-  }
   @media (max-width: 576px) {
     .funders-row {
       grid-template-columns: 1fr;
@@ -66,9 +44,6 @@
     .funders-logos img {
       height: 32px;
     }
-    .funders-logos-secondary img {
-      height: calc(var(--h, 30px) * 0.8);
-    }
   }
 </style>
 <div class="funders">
@@ -78,19 +53,6 @@
       <img src="{{ '/assets/img/funders/cornell-global-ai.png' | relative_url }}" alt="Cornell Global AI Initiative" />
       <img src="{{ '/assets/img/funders/ihep.png' | relative_url }}" alt="Institute of Health Emergencies and Pandemics" />
       <img src="{{ '/assets/img/funders/fsc.png' | relative_url }}" alt="Future Skills Centre" />
-    </div>
-  </div>
-  <div class="funders-row">
-    <div class="funders-label">Training and travel supported by</div>
-    <div class="funders-logos funders-logos-secondary">
-      <img src="{{ '/assets/img/funders/nsf.png' | relative_url }}" alt="National Science Foundation" style="--h: 30px" />
-      <img src="{{ '/assets/img/funders/acm.png' | relative_url }}" alt="ACM" style="--h: 34px" />
-      <img src="{{ '/assets/img/funders/meta.png' | relative_url }}" alt="Meta" style="--h: 22px" />
-      <img src="{{ '/assets/img/funders/necsi.png' | relative_url }}" alt="New England Complex Systems Institute" style="--h: 28px" />
-      <span class="funders-captioned">
-        <img src="{{ '/assets/img/funders/bstf.png' | relative_url }}" alt="" style="--h: 26px" />
-        <span>Bangladesh-Sweden Trust Fund</span>
-      </span>
     </div>
   </div>
 </div>
