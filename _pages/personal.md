@@ -126,7 +126,7 @@ During grad school, I worked on one painting each fall, around Durga Puja. The s
 <div class="art-strip">
   {% for art in page.durga_series %}
     {% assign art_path = 'assets/img/personal/' | append: art.file %}
-    {% include figure.liquid path=art_path class="rounded z-depth-1" alt=art.alt caption=art.caption zoomable=true %}
+    {% include figure.liquid path=art_path class="rounded z-depth-1" alt=art.alt caption=art.caption sizes="200px" zoomable=true %}
   {% endfor %}
 </div>
 
@@ -145,7 +145,7 @@ During grad school, I worked on one painting each fall, around Durga Puja. The s
     <div class="sketch-grid">
       {% for art in page.sketches %}
         {% assign art_path = 'assets/img/personal/' | append: art.file %}
-        {% include figure.liquid path=art_path class="img-fluid rounded z-depth-1" alt=art.alt caption=art.caption zoomable=true %}
+        {% include figure.liquid path=art_path class="img-fluid rounded z-depth-1" alt=art.alt caption=art.caption sizes="160px" zoomable=true %}
       {% endfor %}
     </div>
   </div>
@@ -165,6 +165,6 @@ During grad school, I worked on one painting each fall, around Durga Puja. The s
     </p>
   </div>
   <div class="col-md-5">
-    {% include figure.liquid path="assets/img/personal/singing.jpg" class="img-fluid rounded z-depth-1" alt="Dipto singing with friends, one of them playing a guitar." zoomable=true %}
+    {% include figure.liquid path="assets/img/personal/singing.jpg" class="img-fluid rounded z-depth-1" alt="Dipto singing with friends, one of them playing a guitar." sizes="(min-width: 768px) 400px, 95vw" zoomable=true %}
   </div>
 </div>
