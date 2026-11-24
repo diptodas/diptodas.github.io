@@ -114,10 +114,9 @@ _styles: |
     margin-top: 0.25rem;
   }
 ---
-
 ## art
 
-Plain old pencil sketching is my go-to medium, but I also paint with acrylic and watercolor, depending on the subject. Many of my drawings feature deities and icons. However, I approach them less as objects of faith and more as cultural figures: they show how people imagine power, care, and belonging in their own image.
+Plain old pencil sketching is my go-to medium, but I also paint with acrylic and watercolor, depending on the subject. Many of my drawings feature deities and icons. I approach them as figures showing how people imagine power, care, and belonging in their own image within fluid cultural contexts.
 
 <h5 class="mt-4">Durga</h5>
 
