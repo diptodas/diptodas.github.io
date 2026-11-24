@@ -78,6 +78,28 @@ _styles: |
     }
   }
 
+  .sketch-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+    align-items: start;
+    margin: 0.5rem 0 2rem;
+  }
+
+  .sketch-grid figure {
+    margin: 0;
+  }
+
+  .sketch-grid figcaption {
+    text-align: center;
+    font-size: 0.85rem;
+    padding-top: 0.35rem;
+  }
+
+  .sketch-grid figure:last-child:nth-child(3n + 1) {
+    grid-column: 2;
+  }
+
   .personal-epigraph {
     margin: 1.5rem 0;
     font-style: italic;
@@ -113,12 +135,12 @@ During grad school, I painted one Durga each autumn, around Durga Puja. The seri
   <span>Carl Sagan, <em>Cosmos</em></span>
 </blockquote>
 
-My sketches play with this idea. Krishna, Shiva, and Zeus share the page with Messi and Ronaldo, whom many football fans would happily call gods of the game.
+My sketches play with this idea. Some of the figures come from scripture and myth: Krishna as a mischievous child and a flute-playing cowherd, Shiva in meditation, and Zeus with his thunderbolt. Others come from epics written not in scripture but on sports fields: Messi and Ronaldo, revered, argued over, and celebrated by millions of fans with something close to devotion. The line between the sacred and the popular is thinner than it seems.
 
-<div class="art-strip">
+<div class="sketch-grid">
   {% for art in page.sketches %}
     {% assign art_path = 'assets/img/personal/' | append: art.file %}
-    {% include figure.liquid path=art_path class="rounded z-depth-1" alt=art.alt caption=art.caption zoomable=true %}
+    {% include figure.liquid path=art_path class="img-fluid rounded z-depth-1" alt=art.alt caption=art.caption zoomable=true %}
   {% endfor %}
 </div>
 
