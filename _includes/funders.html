@@ -1,0 +1,44 @@
+<!-- Strip of funder and supporter logos, shown on the homepage (included from _pages/about.md). -->
+<style>
+  .funders {
+    clear: both;
+    margin: 0.5rem 0 2rem;
+    padding: 0.9rem 1rem 1rem;
+    background: #ffffff;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+  }
+  .funders-label {
+    margin-bottom: 0.7rem;
+    font-size: 0.72rem;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #6c757d;
+  }
+  .funders-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem 1.5rem;
+  }
+  .funders-logos img {
+    height: 42px;
+    width: auto;
+  }
+  @media (max-width: 576px) {
+    .funders-logos img {
+      height: 32px;
+    }
+  }
+</style>
+<div class="funders">
+  <div class="funders-label">Research and training supported by</div>
+  <div class="funders-logos">
+    <img src="{{ '/assets/img/funders/ihep.png' | relative_url }}" alt="Institute of Health Emergencies and Pandemics" />
+    <img src="{{ '/assets/img/funders/uoft.png' | relative_url }}" alt="University of Toronto" />
+    <img src="{{ '/assets/img/funders/cu-boulder.png' | relative_url }}" alt="University of Colorado Boulder" />
+    <img src="{{ '/assets/img/funders/nsf.png' | relative_url }}" alt="National Science Foundation" />
+  </div>
+</div>
