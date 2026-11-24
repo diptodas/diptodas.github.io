@@ -96,10 +96,6 @@ _styles: |
     padding-top: 0.35rem;
   }
 
-  .sketch-grid figure:last-child:nth-child(3n + 1) {
-    grid-column: 2;
-  }
-
   .personal-epigraph {
     margin: 1.5rem 0;
     font-style: italic;
@@ -130,18 +126,24 @@ During grad school, I painted one Durga each autumn, around Durga Puja. The seri
 
 <h5 class="mt-4">Gods, old and new</h5>
 
-<blockquote class="personal-epigraph">
-  "...the gods are the dreams of men."
-  <span>Carl Sagan, <em>Cosmos</em></span>
-</blockquote>
-
-My sketches play with this idea. Some of the figures come from scripture and myth: Krishna as a mischievous child and a flute-playing cowherd, Shiva in meditation, and Zeus with his thunderbolt. Others come from epics written not in scripture but on sports fields: Messi and Ronaldo, revered, argued over, and celebrated by millions of fans with something close to devotion. The line between the sacred and the popular is thinner than it seems.
-
-<div class="sketch-grid">
-  {% for art in page.sketches %}
-    {% assign art_path = 'assets/img/personal/' | append: art.file %}
-    {% include figure.liquid path=art_path class="img-fluid rounded z-depth-1" alt=art.alt caption=art.caption zoomable=true %}
-  {% endfor %}
+<div class="row">
+  <div class="col-md-6 order-md-2">
+    <blockquote class="personal-epigraph">
+      "...the gods are the dreams of men."
+      <span>Carl Sagan, <em>Cosmos</em></span>
+    </blockquote>
+    <p>
+      My sketches play with this idea. Some of the figures come from scripture and myth: Krishna as a mischievous child and a flute-playing cowherd, Shiva in meditation, and Zeus with his thunderbolt. Others come from epics written not in scripture but on sports fields: Messi and Ronaldo, revered, argued over, and celebrated by millions of fans with something close to devotion. The line between the sacred and the popular is thinner than it seems.
+    </p>
+  </div>
+  <div class="col-md-6 order-md-1">
+    <div class="sketch-grid">
+      {% for art in page.sketches %}
+        {% assign art_path = 'assets/img/personal/' | append: art.file %}
+        {% include figure.liquid path=art_path class="img-fluid rounded z-depth-1" alt=art.alt caption=art.caption zoomable=true %}
+      {% endfor %}
+    </div>
+  </div>
 </div>
 
 ## music and stories
