@@ -90,6 +90,12 @@ _styles: |
     margin: 0;
   }
 
+  .sketch-grid img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+  }
+
   .sketch-grid figcaption {
     text-align: center;
     font-size: 0.85rem;
