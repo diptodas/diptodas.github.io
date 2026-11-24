@@ -121,7 +121,7 @@ Plain old pencil sketching is my go-to medium, but I also paint with acrylic and
 
 <h5 class="mt-4">Durga</h5>
 
-During grad school, I painted one Durga each autumn, around Durga Puja. The series is grounded in how Bengal imagines the goddess: not only as a fierce, many-armed protector, but also as a mother, a daughter, and a woman much like the ones around us.
+During grad school, I worked on one painting each fall, around Durga Puja. The series is grounded in how Bengal imagines the goddess: not only as a fierce, many-armed protector, but also as a mother, a daughter, and a woman much like the ones around us.
 
 <div class="art-strip">
   {% for art in page.durga_series %}
