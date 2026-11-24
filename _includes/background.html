@@ -25,6 +25,13 @@
     font-size: 0.92rem;
     line-height: 1.4;
   }
+  /* Several degrees from one university: one line per degree, university named once at the end. */
+  .background-list li.background-multi {
+    display: grid;
+    grid-template-columns: 5.2rem 1fr;
+    column-gap: 0.75rem;
+    row-gap: 0.1rem;
+  }
   .background-years {
     flex: 0 0 5.2rem;
     white-space: nowrap;
@@ -81,27 +88,18 @@
   <div class="col-md-6">
     <h5>Education</h5>
     <ul class="background-list">
-      <li>
+      <li class="background-multi">
         <span class="background-years">2024</span>
         <span>
-          <strong>PhD</strong>, Information Science<br />
-          <a href="https://www.colorado.edu/">University of Colorado Boulder</a>
+          <strong>PhD</strong>, Information Science
           <span class="background-note">with <a href="https://www.colorado.edu/faculty/semaan/">Dr. Bryan Semaan</a></span>
         </span>
-      </li>
-      <li>
         <span class="background-years">2023</span>
-        <span>
-          <strong>MS</strong>, Information Science<br />
-          <a href="https://www.colorado.edu/">University of Colorado Boulder</a>
-        </span>
-      </li>
-      <li>
+        <span><strong>MS</strong>, Information Science</span>
         <span class="background-years">2023</span>
-        <span>
-          <strong>Graduate Certificate</strong>, Digital Humanities<br />
-          <a href="https://www.colorado.edu/">University of Colorado Boulder</a>
-        </span>
+        <span><strong>Graduate Certificate</strong>, Digital Humanities</span>
+        <span class="background-years"></span>
+        <a href="https://www.colorado.edu/">University of Colorado Boulder</a>
       </li>
       <li>
         <span class="background-years">2019</span>
