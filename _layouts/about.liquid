@@ -60,6 +60,8 @@ layout: default
             <a href="{{ site.data.contact.cv_pdf | relative_url }}">CV</a>
             <span aria-hidden="true">|</span>
             <a href="{{ site.data.contact.resume_pdf | relative_url }}">Resume</a>
+            <span aria-hidden="true">|</span>
+            <a href="{{ '/bio/' | relative_url }}" id="bio-link">Bio</a>
           </div>
           Email: <a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a>
           <div class="contact-note">
@@ -72,6 +74,8 @@ layout: default
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
+
+    {% include bio_modal.html %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}

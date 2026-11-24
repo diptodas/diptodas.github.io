@@ -1,0 +1,109 @@
+<!-- "Bio" pop-up opened from the CV | Resume | Bio links on the homepage. Text comes from _data/bio.yml. -->
+<style>
+  .bio-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.25);
+  }
+  .bio-modal[hidden] {
+    display: none;
+  }
+  .bio-modal-card {
+    position: relative;
+    width: 100%;
+    max-width: 680px;
+    max-height: 85vh;
+    overflow-y: auto;
+    padding: 1.5rem 1.5rem 1rem;
+    background: var(--global-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  }
+  .bio-modal-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.75rem;
+    border: 0;
+    background: none;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--global-text-color-light);
+    cursor: pointer;
+  }
+  .bio-section {
+    margin-bottom: 1.25rem;
+  }
+  .bio-section-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+  }
+  .bio-section-head h5 {
+    margin: 0;
+    font-weight: 700;
+  }
+  .bio-section p {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+</style>
+<div class="bio-modal" id="bio-modal" role="dialog" aria-modal="true" aria-labelledby="bio-modal-title" hidden>
+  <div class="bio-modal-card">
+    <button type="button" class="bio-modal-close" aria-label="Close">&times;</button>
+    <h4 id="bio-modal-title" class="mb-3">Bio</h4>
+    <div class="bio-section">
+      <div class="bio-section-head">
+        <h5>Short bio</h5>
+        <button type="button" class="btn btn-sm btn-outline-primary bio-copy" data-target="bio-modal-short">Copy</button>
+      </div>
+      <p id="bio-modal-short">{{ site.data.bio.short }}</p>
+    </div>
+    <div class="bio-section">
+      <div class="bio-section-head">
+        <h5>Long bio</h5>
+        <button type="button" class="btn btn-sm btn-outline-primary bio-copy" data-target="bio-modal-long">Copy</button>
+      </div>
+      <p id="bio-modal-long">{{ site.data.bio.long }}</p>
+    </div>
+  </div>
+</div>
+<script>
+  (function () {
+    var modal = document.getElementById("bio-modal");
+    var link = document.getElementById("bio-link");
+    if (!modal || !link) return;
+    function open(e) {
+      e.preventDefault();
+      modal.hidden = false;
+    }
+    function close() {
+      modal.hidden = true;
+    }
+    link.addEventListener("click", open);
+    modal.addEventListener("click", function (e) {
+      if (e.target === modal) close();
+    });
+    modal.querySelector(".bio-modal-close").addEventListener("click", close);
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !modal.hidden) close();
+    });
+    modal.querySelectorAll(".bio-copy").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var text = document.getElementById(btn.dataset.target).textContent.trim();
+        navigator.clipboard.writeText(text).then(function () {
+          btn.textContent = "Copied";
+          setTimeout(function () {
+            btn.textContent = "Copy";
+          }, 1500);
+        });
+      });
+    });
+  })();
+</script>
