@@ -91,14 +91,14 @@ _styles: |
   }
 ---
 
-Plain old pencil sketching is my go-to medium, but I also paint with acrylic and watercolor, depending on the subject. My drawings often feature human figures, using abstraction to connect them with social and cultural sentiments. Most of them depict Hindu deities, with the occasional Greek one. During grad school, I worked on a series of five paintings titled "Durga," one each autumn from 2019 to 2023, depicting the different ways divine feminine energy is culturally conceptualized in Bengal.
+## art
 
-<blockquote class="personal-epigraph">
-  "...the gods are the dreams of men."
-  <span>Carl Sagan, <em>Cosmos</em></span>
-</blockquote>
+Plain old pencil sketching is my go-to medium, but I also paint with acrylic and watercolor, depending on the subject. Many of my drawings feature deities and icons. However, I approach them less as objects of faith and more as cultural figures: they show how people imagine power, care, and belonging in their own image.
 
-<h5>Durga, 2019–2023</h5>
+<h5 class="mt-4">Durga (2019–2023)</h5>
+
+During grad school, I painted one Durga each autumn, around Durga Puja. The series is grounded in how Bengal imagines the goddess: not only as a fierce, many-armed protector, but also as a mother, a daughter, and a woman much like the ones around us.
+
 <div class="art-strip">
   {% for art in page.durga_series %}
     {% assign art_path = 'assets/img/personal/' | append: art.file %}
@@ -106,7 +106,15 @@ Plain old pencil sketching is my go-to medium, but I also paint with acrylic and
   {% endfor %}
 </div>
 
-<h5>Sketches</h5>
+<h5 class="mt-4">Gods, old and new</h5>
+
+<blockquote class="personal-epigraph">
+  "...the gods are the dreams of men."
+  <span>Carl Sagan, <em>Cosmos</em></span>
+</blockquote>
+
+My sketches play with this idea. Krishna, Shiva, and Zeus share the page with Messi and Ronaldo, whom many football fans would happily call gods of the game.
+
 <div class="art-strip">
   {% for art in page.sketches %}
     {% assign art_path = 'assets/img/personal/' | append: art.file %}
@@ -114,7 +122,9 @@ Plain old pencil sketching is my go-to medium, but I also paint with acrylic and
   {% endfor %}
 </div>
 
-Besides sketching, I love traveling to new places, be it relaxing on the beach at St. Martin's Island under a full moon or hiking high-altitude trails in Colorado.
+## travel
+
+I love traveling to new places, be it relaxing on the beach at St. Martin's Island under a full moon or hiking high-altitude trails in Colorado.
 
 <div class="row">
   <div class="col-sm-6 mt-3">
@@ -125,7 +135,9 @@ Besides sketching, I love traveling to new places, be it relaxing on the beach a
   </div>
 </div>
 
-<div class="row mt-4">
+## music and stories
+
+<div class="row">
   <div class="col-md-7">
     <p>
       Wherever I go, I am usually humming my favorite classical Bengali or American country songs. You can listen to some of them on my
