@@ -168,3 +168,16 @@ During grad school, I worked on one painting each fall, around Durga Puja. The s
     {% include figure.liquid path="assets/img/personal/singing.jpg" class="img-fluid rounded z-depth-1" alt="Dipto singing with friends, one of them playing a guitar." zoomable=true %}
   </div>
 </div>
+
+<script>
+  // Zoom images on this page to about 70% of the screen height instead of filling it, so the images stay sharp.
+  window.addEventListener("load", function () {
+    if (typeof mediumZoom === "undefined" || typeof medium_zoom === "undefined") return;
+    var art = document.querySelectorAll("img[data-zoomable]");
+    medium_zoom.detach(art);
+    mediumZoom(art, {
+      background: getComputedStyle(document.documentElement).getPropertyValue("--global-bg-color") + "ee",
+      margin: Math.round(window.innerHeight * 0.15),
+    });
+  });
+</script>
