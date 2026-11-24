@@ -130,10 +130,9 @@ During grad school, I painted one Durga each autumn, around Durga Puja. The seri
   {% endfor %}
 </div>
 
-<h5 class="mt-4">Gods, old and new</h5>
-
-<div class="row">
+<div class="row mt-4">
   <div class="col-md-6 order-md-2">
+    <h5>Gods, old and new</h5>
     <blockquote class="personal-epigraph">
       "...the gods are the dreams of men."
       <span>Carl Sagan, <em>Cosmos</em></span>
