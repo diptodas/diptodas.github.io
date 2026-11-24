@@ -2,7 +2,7 @@
 layout: page
 permalink: /personal/
 title: personal
-description: Art, travel, music, and stories.
+description: Art, music, and stories.
 nav: true
 nav_order: 6
 durga_series:
@@ -122,19 +122,6 @@ My sketches play with this idea. Krishna, Shiva, and Zeus share the page with Me
   {% endfor %}
 </div>
 
-## travel
-
-I love traveling to new places, be it relaxing on the beach at St. Martin's Island under a full moon or hiking high-altitude trails in Colorado.
-
-<div class="row">
-  <div class="col-sm-6 mt-3">
-    {% include figure.liquid path="assets/img/personal/naf-river-2016.jpg" class="img-fluid rounded z-depth-1" alt="Two fishing boats on the Naf River." caption="Fishing boats on the Naf River, on the way to Cox's Bazar (2016)." zoomable=true %}
-  </div>
-  <div class="col-sm-6 mt-3">
-    {% include figure.liquid path="assets/img/personal/maroon-bells-2021.jpg" class="img-fluid rounded z-depth-1" alt="The Maroon Bells and Maroon Lake in Aspen, Colorado, with wildflowers in the foreground." caption="The Maroon Bells in Aspen, Colorado (2021)." zoomable=true %}
-  </div>
-</div>
-
 ## music and stories
 
 <div class="row">
@@ -149,6 +136,6 @@ I love traveling to new places, be it relaxing on the beach at St. Martin's Isla
     </p>
   </div>
   <div class="col-md-5">
-    {% include figure.liquid path="assets/img/personal/singing.jpg" class="img-fluid rounded z-depth-1" alt="Dipto singing with friends, one of them playing a guitar." caption="Singing with friends." zoomable=true %}
+    {% include figure.liquid path="assets/img/personal/singing.jpg" class="img-fluid rounded z-depth-1" alt="Dipto singing with friends, one of them playing a guitar." zoomable=true %}
   </div>
 </div>
