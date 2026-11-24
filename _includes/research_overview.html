@@ -58,6 +58,22 @@
   .ro-current {
     background: var(--ro-fill);
   }
+  a.ro-current {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    transition: box-shadow 0.15s ease;
+  }
+  a.ro-current:hover,
+  a.ro-current:focus {
+    color: inherit;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+  }
+  a.ro-current strong::after {
+    content: " \2192";
+    color: var(--ro-accent);
+  }
   .ro-future {
     background: var(--ro-card);
     border-width: 1.5px;
@@ -157,11 +173,11 @@
     <div class="ro-arrow ro-c1 ro-r2" style="order: 2" aria-hidden="true">
       <svg width="10" height="14" viewBox="0 0 10 14"><path d="M5 0v10M1 8l4 6 4-6" fill="none" stroke="currentColor" stroke-width="1.4" /></svg>
     </div>
-    <div class="ro-box ro-current ro-c1 ro-r3" style="order: 3">
+    <a class="ro-box ro-current ro-c1 ro-r3" style="order: 3" href="{{ '/projects/public_ai.html' | relative_url }}">
       <span class="ro-eyebrow">Current program</span>
       <strong>Governments and Public Institutions</strong>
       AI registers, impact assessments, and bureaucratic processes in public services
-    </div>
+    </a>
     <div class="ro-arrow ro-c1 ro-r4" style="order: 4" aria-hidden="true">
       <svg width="10" height="14" viewBox="0 0 10 14"><path d="M5 0v10M1 8l4 6 4-6" fill="none" stroke="currentColor" stroke-width="1.4" /></svg>
     </div>
@@ -178,11 +194,11 @@
     <div class="ro-arrow ro-c2 ro-r2" style="order: 7" aria-hidden="true">
       <svg width="10" height="14" viewBox="0 0 10 14"><path d="M5 0v10M1 8l4 6 4-6" fill="none" stroke="currentColor" stroke-width="1.4" /></svg>
     </div>
-    <div class="ro-box ro-current ro-c2 ro-r3" style="order: 8">
+    <a class="ro-box ro-current ro-c2 ro-r3" style="order: 8" href="{{ '/projects/AI_fairness.html' | relative_url }}">
       <span class="ro-eyebrow">Current program</span>
       <strong>Evaluation and Alignment</strong>
       bias audits in low-resource languages and community-centered repair of/with generative AI
-    </div>
+    </a>
     <div class="ro-arrow ro-c2 ro-r4" style="order: 9" aria-hidden="true">
       <svg width="10" height="14" viewBox="0 0 10 14"><path d="M5 0v10M1 8l4 6 4-6" fill="none" stroke="currentColor" stroke-width="1.4" /></svg>
     </div>
@@ -198,11 +214,11 @@
     <div class="ro-arrow ro-c3 ro-r2" style="order: 12" aria-hidden="true">
       <svg width="10" height="14" viewBox="0 0 10 14"><path d="M5 0v10M1 8l4 6 4-6" fill="none" stroke="currentColor" stroke-width="1.4" /></svg>
     </div>
-    <div class="ro-box ro-current ro-c3 ro-r3" style="order: 13">
+    <a class="ro-box ro-current ro-c3 ro-r3" style="order: 13" href="{{ '/projects/immigrants.html' | relative_url }}">
       <span class="ro-eyebrow">Current program</span>
       <strong>Platforms and Diasporas</strong>
       how communities share information, participate in political discourse, and manage risk online
-    </div>
+    </a>
     <div class="ro-arrow ro-c3 ro-r4" style="order: 14" aria-hidden="true">
       <svg width="10" height="14" viewBox="0 0 10 14"><path d="M5 0v10M1 8l4 6 4-6" fill="none" stroke="currentColor" stroke-width="1.4" /></svg>
     </div>
