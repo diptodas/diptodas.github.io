@@ -113,7 +113,7 @@ _styles: |
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--global-bg-color);
+    background: transparent;
     cursor: zoom-out;
   }
 
@@ -217,8 +217,6 @@ During grad school, I worked on one painting each fall, around Durga Puja. The s
       img.addEventListener("click", function () {
         big.src = img.getAttribute("src");
         big.alt = img.alt;
-        // Same semi-transparent background as the site's usual image zoom.
-        box.style.background = getComputedStyle(document.documentElement).getPropertyValue("--global-bg-color").trim() + "ee";
         box.hidden = false;
       });
     });
