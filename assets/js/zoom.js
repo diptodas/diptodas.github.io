@@ -10,7 +10,7 @@
       " justify-content: center; background: transparent; cursor: zoom-out; }" +
       ".image-lightbox[hidden] { display: none; }" +
       ".image-lightbox img { max-width: 90vw; max-height: 85vh; width: auto; height: auto;" +
-      " border-radius: 4px; box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35); }";
+      " background: #fff; border-radius: 4px; box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35); }";
     document.head.appendChild(style);
 
     var box = document.createElement("div");
