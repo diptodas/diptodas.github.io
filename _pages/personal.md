@@ -119,7 +119,7 @@ _styles: |
 
 Plain old pencil sketching is my go-to medium, but I also paint with acrylic and watercolor, depending on the subject. Many of my drawings feature deities and icons. However, I approach them less as objects of faith and more as cultural figures: they show how people imagine power, care, and belonging in their own image.
 
-<h5 class="mt-4">Durga (2019–2023)</h5>
+<h5 class="mt-4">Durga</h5>
 
 During grad school, I painted one Durga each autumn, around Durga Puja. The series is grounded in how Bengal imagines the goddess: not only as a fierce, many-armed protector, but also as a mother, a daughter, and a woman much like the ones around us.
 
