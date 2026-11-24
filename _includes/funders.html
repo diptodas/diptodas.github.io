@@ -27,9 +27,24 @@
     height: 44px;
     width: auto;
   }
+  .funders-label-secondary {
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid #e9ecef;
+  }
+  .funders-logos-secondary {
+    justify-content: center;
+    gap: 0.75rem 2rem;
+  }
+  .funders-logos-secondary img {
+    height: 30px;
+  }
   @media (max-width: 576px) {
     .funders-logos img {
       height: 32px;
+    }
+    .funders-logos-secondary img {
+      height: 24px;
     }
   }
 </style>
@@ -38,5 +53,10 @@
   <div class="funders-logos">
     <img src="{{ '/assets/img/funders/cornell-global-ai.png' | relative_url }}" alt="Cornell Global AI Initiative" />
     <img src="{{ '/assets/img/funders/ihep.png' | relative_url }}" alt="Institute of Health Emergencies and Pandemics" />
+    <img src="{{ '/assets/img/funders/fsc.png' | relative_url }}" alt="Future Skills Centre" />
+  </div>
+  <div class="funders-label funders-label-secondary">Travel and training support</div>
+  <div class="funders-logos funders-logos-secondary">
+    <img src="{{ '/assets/img/funders/nsf.png' | relative_url }}" alt="National Science Foundation" />
   </div>
 </div>
