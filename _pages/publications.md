@@ -34,18 +34,20 @@ scholar:
       <label for="filterMethods" class="form-label mb-1">Methods/Domains</label>
       <select id="filterMethods" class="form-control">
         <option value="">All methods</option>
-        <option value="abm">Agent-Based Modeling</option>
         <option value="audit">Audit</option>
         <option value="cv">Computer Vision</option>
         <option value="dataset">Dataset</option>
         <option value="design">Design</option>
+        <option value="document">Document Analysis</option>
         <option value="ethnography">Ethnography</option>
+        <option value="genai">Generative AI</option>
         <option value="interview">Interview</option>
         <option value="mldl">Machine Learning/Deep Learning</option>
         <option value="nlp">Natural Language Processing</option>
         <option value="online">Online Platforms</option>
         <option value="qual">Qualitative Empirical</option>
         <option value="quant">Quantitative Empirical</option>
+        <option value="abm">Simulation</option>
         <option value="survey">Survey</option>
         <option value="theory">Theory / Conceptual</option>
         <option value="tool">Tool Development</option>
