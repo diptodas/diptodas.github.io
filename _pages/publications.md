@@ -77,27 +77,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const pubs = Array.from(document.querySelectorAll(".pub-entry"));
 
+  // Hide a year's heading and list when none of its papers match; show one message if nothing matches at all
   function updateYearMessages() {
     if (!publicationsContainer) return;
 
-    // remove old messages first
     publicationsContainer.querySelectorAll(".no-match-message").forEach(el => el.remove());
 
-    // al-folio usually renders each year as an <h2> followed by an <ol class="bibliography">
-    const yearLists = publicationsContainer.querySelectorAll("ol.bibliography");
-
-    yearLists.forEach(list => {
-      const visiblePubs = Array.from(list.querySelectorAll(".pub-entry")).filter(pub => {
-        return pub.style.display !== "none";
-      });
-
-      if (visiblePubs.length === 0) {
-        const msg = document.createElement("div");
-        msg.className = "no-match-message text-muted fst-italic mt-2 mb-3";
-        msg.textContent = "No papers this year match the search criteria.";
-        list.insertAdjacentElement("afterend", msg);
-      }
+    // al-folio renders each year as an <h2 class="bibliography"> followed by an <ol class="bibliography">
+    let anyVisible = false;
+    publicationsContainer.querySelectorAll("ol.bibliography").forEach(list => {
+      const hasVisible = Array.from(list.querySelectorAll(".pub-entry")).some(pub => pub.style.display !== "none");
+      anyVisible = anyVisible || hasVisible;
+      list.style.display = hasVisible ? "" : "none";
+      const heading = list.previousElementSibling;
+      if (heading && heading.tagName === "H2") heading.style.display = hasVisible ? "" : "none";
     });
+
+    if (!anyVisible) {
+      const msg = document.createElement("div");
+      msg.className = "no-match-message text-muted fst-italic mt-2 mb-3";
+      msg.textContent = "No papers match these filters.";
+      publicationsContainer.prepend(msg);
+    }
   }
 
   function applyFilters() {
