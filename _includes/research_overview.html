@@ -90,6 +90,16 @@
     font-size: 0.78rem;
     text-align: center;
   }
+  .ro-methods a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px dotted var(--global-text-color-light);
+  }
+  .ro-methods a:hover,
+  .ro-methods a:focus {
+    color: var(--global-theme-color);
+    border-bottom-color: currentColor;
+  }
   .ro-eyebrow {
     display: none;
   }
@@ -231,9 +241,20 @@
       </ul>
     </div>
     <div class="ro-methods ro-r6" style="order: 16">
-      audits &middot; computer vision &middot; datasets &middot; generative AI &middot; machine learning &middot; natural language processing &middot;
-      simulation &middot; tool development<br />
-      design &middot; document analysis &middot; ethnography &middot; interviews &middot; surveys &middot; theory
+      <a href="{{ '/publications/' | relative_url }}?method=audit">audits</a> &middot;
+      <a href="{{ '/publications/' | relative_url }}?method=cv">computer vision</a> &middot;
+      <a href="{{ '/publications/' | relative_url }}?method=dataset">datasets</a> &middot;
+      <a href="{{ '/publications/' | relative_url }}?method=genai">generative AI</a> &middot;
+      <a href="{{ '/publications/' | relative_url }}?method=mldl">machine learning</a> &middot;
+      <a href="{{ '/publications/' | relative_url }}?method=nlp">natural language processing</a> &middot;
+      <a href="{{ '/publications/' | relative_url }}?method=abm">simulation</a> &middot;
+      <a href="{{ '/publications/' | relative_url }}?method=tool">tool development</a><br />
+      <a href="{{ '/publications/' | relative_url }}?method=design">design</a> &middot;
+      <a href="{{ '/publications/' | relative_url }}?method=document">document analysis</a> &middot;
+      <a href="{{ '/publications/' | relative_url }}?method=ethnography">ethnography</a> &middot;
+      <a href="{{ '/publications/' | relative_url }}?method=interview">interviews</a> &middot;
+      <a href="{{ '/publications/' | relative_url }}?method=survey">surveys</a> &middot;
+      <a href="{{ '/publications/' | relative_url }}?method=theory">theory</a>
     </div>
   </div>
 </figure>

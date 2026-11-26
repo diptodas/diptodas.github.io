@@ -130,14 +130,34 @@ document.addEventListener("DOMContentLoaded", function () {
     updateYearMessages();
   }
 
-  if (typeFilter) typeFilter.addEventListener("change", applyFilters);
-  if (methodsFilter) methodsFilter.addEventListener("change", applyFilters);
+  // Preselect filters from the URL (e.g., /publications/?method=audit), as linked from the homepage
+  const params = new URLSearchParams(window.location.search);
+  [
+    [typeFilter, "type"],
+    [methodsFilter, "method"],
+  ].forEach(([select, key]) => {
+    const val = (params.get(key) || "").toLowerCase();
+    if (select && val && Array.from(select.options).some(o => o.value === val)) select.value = val;
+  });
+
+  // Keep the URL in step with the filters so a filtered view can be shared
+  function syncUrl() {
+    const p = new URLSearchParams();
+    if (typeFilter?.value) p.set("type", typeFilter.value);
+    if (methodsFilter?.value) p.set("method", methodsFilter.value);
+    const qs = p.toString();
+    history.replaceState(null, "", window.location.pathname + (qs ? "?" + qs : "") + window.location.hash);
+  }
+
+  if (typeFilter) typeFilter.addEventListener("change", () => { applyFilters(); syncUrl(); });
+  if (methodsFilter) methodsFilter.addEventListener("change", () => { applyFilters(); syncUrl(); });
 
   if (clearBtn) {
     clearBtn.addEventListener("click", function () {
       if (typeFilter) typeFilter.value = "";
       if (methodsFilter) methodsFilter.value = "";
       applyFilters();
+      syncUrl();
     });
   }
 
